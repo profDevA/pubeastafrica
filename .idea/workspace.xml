@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1dec11be-8d7c-46b1-abd1-b25b57c154a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/thevoux-wp-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/thevoux-wp-child/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/thevoux-wp/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/thevoux-wp/archive.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/thevoux-wp/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1105">
+            <state relative-caret-position="110">
               <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
@@ -185,7 +183,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568854629512</updated>
       <workItem from="1568854631198" duration="6529000" />
-      <workItem from="1568902011455" duration="946000" />
+      <workItem from="1568902011455" duration="1865000" />
+      <workItem from="1568917986660" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="style.css modified">
       <created>1568855931149</created>
@@ -208,18 +207,25 @@
       <option name="project" value="LOCAL" />
       <updated>1568870387721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update project 09.20 12.23">
+      <created>1568903000344</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568903000344</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7475000" />
+    <option name="totallyTimeSpent" value="8994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4989059" visible="true" weight="0.14552239" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4989059" visible="true" weight="0.14712153" />
       <window_info id="Structure" order="2" sideWeight="0.5010941" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -266,7 +272,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="style.css modified" />
     <MESSAGE value="Update project 09.19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project 09.19" />
+    <MESSAGE value="Update project 09.20 12.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project 09.20 12.23" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/thevoux-wp-child/screenshot.png">
@@ -278,23 +285,6 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/thevoux-wp/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1105">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/thevoux-wp/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/thevoux-wp/inc/templates/header/archive-title.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -334,6 +324,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/thevoux-wp/inc/templates/header/archive-title.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/thevoux-wp/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/thevoux-wp/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
