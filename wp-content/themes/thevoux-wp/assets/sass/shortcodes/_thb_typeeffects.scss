@@ -1,0 +1,77 @@
+/* Typed */
+.thb-autotype {
+	.thb-autotype-entry {
+		display: inline;
+		color: $color2;
+		will-change: contents;
+	}
+	.typed-cursor {
+		font-weight: 400;
+		display: inline-block;
+	  @include animation(blink 0.7s infinite);
+	}
+	@keyframes blink{
+	    0% { opacity:1; }
+	    50% { opacity:0; }
+	    100% { opacity:1; }
+	}
+	@-webkit-keyframes blink{
+	    0% { opacity:1; }
+	    50% { opacity:0; }
+	    100% { opacity:1; }
+	}
+	@-moz-keyframes blink{
+	    0% { opacity:1; }
+	    50% { opacity:0; }
+	    100% { opacity:1; }
+	}
+}
+/* Fade Type */
+.thb-fadetype {
+	visibility: hidden;
+	perspective: 2000px;
+	.thb-fadetype-entry {
+		display: inline-block;
+		will-change: contents;
+		div {
+			transform-origin: 0 100%;
+			transform-style: preserve-3d;
+			will-change: opacity;
+		}
+	}
+}
+/* Gradient Type */
+.thb-gradienttype {
+	& * {
+		-moz-background-clip: text !important;
+    -o-background-clip: text !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+
+    -moz-text-fill-color: transparent !important;
+    -o-text-fill-color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+    text-fill-color: transparent !important;
+	}
+}
+/* Slide Type */
+.thb-slidetype {
+	visibility: hidden;
+	.thb-slidetype-entry {
+		display: block;
+		will-change: contents;
+		overflow: hidden;
+		.lines {
+			display: block;
+		}
+	}
+}
+/* Stroke Type */
+.thb-stroketype {
+	* {
+	  color: $color1;
+	  @include text-fill-color(transparent);
+	  @include text-stroke-width(1px);
+	  @include text-stroke-color($color1);
+	}
+}

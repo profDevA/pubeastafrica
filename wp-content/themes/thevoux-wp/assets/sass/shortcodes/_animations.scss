@@ -1,0 +1,52 @@
+.animation {
+	will-change: opacity, transform;
+	opacity: 0;
+	@include animation(none);
+	
+	&.bottom-to-top {
+		@include animation(none);
+		@include translateY(30px);
+	}
+	&.top-to-bottom {
+		@include animation(none);
+		@include translateY(-30px);
+	}
+	&.left-to-right {
+		@include animation(none);
+		@include translateX(-30px);
+	}
+	&.right-to-left {
+		@include animation(none);
+		@include translateX(30px);
+	}
+	&.left-to-right-3d {
+		@include animation(none);
+		transform-origin: 100% 100%;
+		transform-style: preserve-3d;
+		@include transform(rotateX(-25deg) rotateY(-15deg) translate3d(-60px,-10px,0));
+	}
+	&.right-to-left-3d {
+		@include animation(none);
+		transform-origin: 0% 100%;
+		transform-style: preserve-3d;
+		@include transform(rotateX(-25deg) rotateY(15deg) translate3d(60px,-10px,0));
+	}
+	&.bottom-to-top-3d {
+		@include animation(none);
+		transform-style: preserve-3d;
+		@include transform(rotateX(-45deg) translateY(120px));
+	}
+	&.top-to-bottom-3d {
+		@include animation(none);
+		transform-style: preserve-3d;
+		@include transform(rotateX(45deg) translateY(-120px));
+	}
+	&.scale {
+		@include animation(none);
+		@include scale(0.8);
+	}
+	.vc_editor & {
+		opacity: 1;
+		@include transform(none);
+	}
+}

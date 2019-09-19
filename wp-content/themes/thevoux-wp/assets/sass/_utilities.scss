@@ -1,0 +1,247 @@
+@mixin min-break($size) {
+	@media only screen and (min-width: $size) { @content; }
+}
+@mixin max-break($size) {
+	@media only screen and (max-width: $size) { @content; }
+}
+@mixin input-placeholder {
+	&:-moz-placeholder { @content; }
+	&::-moz-placeholder { @content; }
+	&:-ms-input-placeholder { @content; }
+	&::-webkit-input-placeholder { @content; }
+}
+@mixin ie11() {
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { @content; }
+}
+@mixin firefox() {
+	@-moz-document url-prefix() { @content; }
+}
+@mixin clip-path($clip) {
+  -webkit-clip-path: $clip;
+  -moz-clip-path: $clip;
+  -ms-clip-path: $clip;
+  clip-path: $clip;
+}
+@mixin text-fill-color($value) {
+	-webkit-text-fill-color: $value;
+  -moz-text-fill-color: $value;
+  -o-text-fill-color: $value;
+  -ms-text-fill-color: $value;
+  text-fill-color: $value;
+}
+
+@mixin text-stroke-color($value) {
+	-webkit-text-stroke-color: $value;
+  -moz-text-stroke-color: $value;
+  -o-text-stroke-color: $value;
+  -ms-text-stroke-color: $value;
+  text-stroke-color: $value;
+}
+@mixin text-stroke-width($value) {
+	-webkit-text-stroke-width: $value;
+  -moz-text-stroke-width: $value;
+  -o-text-stroke-width: $value;
+  -ms-text-stroke-width: $value;
+  text-stroke-width: $value;
+}
+
+.mont {
+	font-family: "Playfair Display", sans-serif;
+}
+.reset {
+	margin: 0;
+	padding: 0;
+}
+.cf {
+	&:before,
+	&:after {
+	    content: " ";
+	    display: table;
+	}
+	&:after {
+	    clear: both;
+	}
+}
+.visually-hidden {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.endcolumn {
+	[class*="column"] + [class*="column"]:last-child {
+		float: left;
+	}
+}
+/* 5 Columns */
+// 1/5
+.small-1\/5 {
+	-webkit-flex: 0 0 20%;
+	-ms-flex: 0 0 20%;
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+.thb-5,
+.medium-1\/5 {
+	@include min-break($break-medium) {
+    -webkit-flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+	}
+}
+.large-1\/5 {
+	@include min-break($break-large) {
+    -webkit-flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+	}
+}
+// 2/5
+.small-2\/5 {
+	-webkit-flex: 0 0 40%;
+	-ms-flex: 0 0 40%;
+	flex: 0 0 40%;
+	max-width: 40%;
+}
+.thb-5-2,
+.medium-2\/5 {
+	@include min-break($break-medium) {
+    -webkit-flex: 0 0 40%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+	}
+}
+.large-2\/5 {
+	@include min-break($break-large) {
+    -webkit-flex: 0 0 40%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+	}
+}
+// 3/5
+.small-3\/5 {
+	-webkit-flex: 0 0 60%;
+	-ms-flex: 0 0 60%;
+	flex: 0 0 60%;
+	max-width: 60%;
+}
+.thb-5-3,
+.medium-3\/5 {
+	@include min-break($break-medium) {
+    -webkit-flex: 0 0 60%;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+	}
+}
+.large-3\/5 {
+	@include min-break($break-large) {
+    -webkit-flex: 0 0 60%;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+	}
+}
+.transition {
+	@include transition(all 1s $transition);
+}
+.quick-transition {
+	@include transition(all .25s $transition);
+}
+.mid-transition {
+	@include transition(all .5s $transition);
+}
+.linear-transition {
+	@include transition(all 1s linear);
+}
+.linear-quick-transition {
+	@include transition(all .25s linear);
+}
+.admin-style {
+	.admin-bar & {
+		top: 46px;
+
+		@media screen and (min-width: 783px){
+		  top: 32px;
+		}
+	}
+}
+.custom_scroll {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+.row:not(.cf) {
+	&:before,
+	&:after {
+		display: none !important;
+	}
+}
+.columns {
+	.vc_editor.compose-mode .vc_element> & {
+		width: 100%;
+		max-width: 100%;
+	}
+	.vc_column-inner {
+		width: 100%;
+	}
+	&:not(.full-height) {
+		.vc_column-inner:not(.fixed-me) {
+			height: 100%;
+		}
+	}
+}
+.cover-bg {
+	background-size: cover;
+	background-position: center;
+}
+.flex-video {
+	margin: 0;
+}
+.thb-five {
+	@include min-break($break-large) {
+    -webkit-flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+	}
+}
+.thb-five-2 {
+	@include min-break($break-large) {
+    -webkit-flex: 0 0 40%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+	}
+}
+/* Fixed */
+.fixed-me {
+	will-change: top;
+	@include translateZ(0);
+}
+
+/* Table Layout */
+.table {
+	display: table;
+	&>div {
+		display:table-cell;
+		vertical-align: middle;
+	}
+}
+/* Instagram */
+.instagram-media {
+	position: static !important;
+}
+/* Lazy Load */
+.lazyload,
+.lazyloading {
+	opacity: 0.3;
+	@include filter(blur(5px));
+}
+.lazyloaded {
+	opacity: 1;
+	@include transition(opacity .25s $transition);
+}

@@ -1,0 +1,291 @@
+.mobile-toggle {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	position: relative;
+	div {
+		width: 30px;
+		height: 30px;
+		position: relative;
+	}
+	span {
+		display: block;
+		position: absolute;
+		width: 22px;
+		height: 3px;
+		background: $color1;
+		content: " ";
+		left: 4px;
+		border-radius: 2px;
+		&:nth-child(1) {
+			top: 8px;
+		}
+		&:nth-child(2) {
+			top: 13px;
+		}
+		&:nth-child(3) {
+			top: 18px;
+		}
+	}
+	&.small {
+		span {
+			width: 18px;
+			height: 2px;
+
+			&:nth-child(1) {
+				top: 9px;
+			}
+			&:nth-child(2) {
+				top: 14px;
+			}
+			&:nth-child(3) {
+				top: 19px;
+			}
+		}
+	}
+	@include single-transition(none);
+}
+
+#mobile-menu {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	z-index: 99;
+	padding: 20px 10px 20px 20px;
+	width: 320px;
+	background: #fff;
+	overflow: hidden;
+	left:0;
+	@include translate3d(-320px, 0, 0);
+	@include min-break($break-small) {
+		padding: 30px 20px 30px 30px;
+	}
+
+	.rtl & {
+		left: auto;
+		right: 0;
+		@include translate3d(320px, 0, 0);
+	}
+	.touch & {
+		overflow-x: hidden !important;
+		overflow-y: scroll !important;
+		-ms-overflow-style: -ms-autohiding-scrollbar !important;
+		-webkit-overflow-scrolling: touch !important;
+	}
+	@extend .linear-quick-transition;
+
+	@media only screen and (max-width: $break-small) {
+		width: 280px;
+		left: 0;
+		@include translate3d(-280px, 0, 0);
+
+		.rtl & {
+			left: auto;
+			right: 0;
+			@include translate3d(280px, 0, 0);
+		}
+	}
+	.custom_scroll {
+		padding-right: 10px;
+
+		.rtl & {
+			padding-right: 0;
+			padding-left: 10px;
+		}
+	}
+	.open-menu & {
+		visibility: visible;
+		@include translate3d(0, 0, 0);
+
+	}
+
+	.close {
+		position: absolute;
+		top: 0;
+		right: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		background: $color1;
+		color: #fff;
+
+		svg {
+			width: 16px;
+			display: block;
+			position: relative;
+			top: 1px;
+			g {
+				stroke: #fff;
+			}
+		}
+
+		.rtl & {
+			right: auto;
+			left: 10px;
+		}
+		@include min-break($break-small) {
+			width: 24px;
+			height: 24px;
+
+			svg {
+				width: 24px;
+			}
+		}
+	}
+	.logolink {
+		display: block;
+	}
+	.logoimg {
+		max-height: 45px;
+		margin-bottom: 30px;
+	}
+	&.dark {
+		background: $color1;
+
+		.close {
+			background: #fff;
+
+			svg {
+				g {
+					stroke: $color1;
+				}
+			}
+		}
+		.thb-mobile-menu {
+			li {
+				border-color: rgba(#fff,0.3);
+				margin: 0;
+				a {
+					color: #fff;
+				}
+				span {
+					border-color: rgba(#fff,0.3);
+					color: rgba(#fff,0.5);
+				}
+			}
+			.sub-menu {
+				border-color: rgba(#fff,0.3);
+			}
+		}
+		.thb-mobile-menu-secondary li a:not(:hover) {
+			color: rgba(#fff,0.8);
+		}
+		.menu-footer {
+			a {
+				color: #fff;
+			}
+		}
+	} // .dark
+
+	@extend .admin-style;
+}
+
+/* Mobile Menu */
+.thb-mobile-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 30px;
+	clear: left;
+	position: relative;
+	li {
+		border-bottom: 1px solid #e7e7e7;
+		margin: 0;
+		&.menu-item-has-children {
+			position: relative;
+		}
+		span {
+			display: block;
+			position: absolute;
+			width: 23px;
+			height: 23px;
+			text-align: center;
+			line-height: 21px;
+			font-size: 14px;
+			border: 1px solid #e7e7e7;
+			cursor: pointer;
+			right: 0;
+			top: 10px;
+			@extend .linear-quick-transition;
+
+			.rtl & {
+				right: auto;
+				left: 0;
+			}
+		}
+		a {
+			display: block;
+			line-height: 44px;
+			font-size: 16px;
+			font-weight: 600;
+			color: $color1;
+			position: relative;
+			@extend .transition;
+			&.active {
+				color: $color3;
+
+				& + span {
+					@include rotate(180deg);
+				}
+			}
+		}
+		&:last-child {
+			border: 0;
+		}
+	}
+
+	.sub-menu {
+		display: none;
+		list-style: none;
+		margin: 0;
+		border-top: 1px solid #e7e7e7;
+		padding: 5px 0 5px 20px;
+		li {
+			a {
+				font-size: 12px;
+				line-height: 35px;
+				color: #595959;
+			}
+		}
+		span {
+			width: 21px;
+	    height: 21px;
+	    line-height: 19px;
+	    top: 7px;
+		}
+		.rtl & {
+			padding: 5px 20px 5px 0;
+		}
+	}
+}
+.thb-mobile-menu-secondary {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 30px;
+	clear: left;
+	position: relative;
+	li {
+		a {
+			display: block;
+			line-height: 24px;
+			font-size: 14px;
+			font-weight: 400;
+			color: rgba($color1,0.8);
+			position: relative;
+			@extend .transition;
+
+			&:hover {
+				color: $color3;
+			}
+		}
+	}
+}
+.menu-footer {
+	p {
+		font-size: 11px;
+		line-break: 16px;
+		color: #767676;
+	}
+}

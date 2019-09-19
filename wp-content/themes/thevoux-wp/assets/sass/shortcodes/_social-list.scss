@@ -1,0 +1,283 @@
+.thb-social-links-container {
+  font-size: 10px;
+
+  .thb-social-link-wrap {
+    display: block;
+    line-height: 1;
+  }
+  .thb-social-link {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    text-transform: uppercase;
+    color: $black;
+    .thb-social-label-container {
+      display: inline-flex;
+      align-items: center;
+    }
+    .thb-social-icon-container {
+      display: inline-flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 16px;
+      @extend .mid-transition;
+    }
+    .thb-social-count {
+      opacity: 0.8;
+    }
+  }
+
+  /* Layout */
+  &.thb-social-vertical {
+    display: flex;
+    flex-direction: column;
+
+    .thb-social-link-wrap {
+      &:last-child {
+        .thb-social-link {
+          margin: 0;
+        }
+      }
+    }
+    .thb-social-link {
+      justify-content: space-between;
+      margin-bottom: 12px;
+      .thb-social-label-container {
+        font-weight: 600;
+      }
+      .thb-social-icon-container {
+        min-width: 15px;
+        margin-right: 15px;
+
+        .rtl & {
+          margin-right: 0;
+          margin-left: 15px;
+        }
+      }
+    }
+    &.border-mono,
+    &.border-color,
+    &.fill-color {
+      .thb-social-link {
+        padding: 10px 15px;
+        margin-bottom: 6px;
+      }
+    }
+    &.circle-mono,
+    &.circle-color,
+    &.circle-fill {
+      .thb-social-icon-container {
+        font-size: 14px;
+      }
+    }
+
+  }
+  &.thb-social-horizontal {
+    .thb-social-link-wrap {
+      display: inline-flex;
+      padding: 0 8px;
+      margin-bottom: 20px;
+      .thb-social-link {
+        flex-direction: column;
+        min-width: 30px;
+      }
+      .thb-social-count {
+        margin-top: 12px;
+        opacity: 1;
+      }
+    }
+    .thb-social-label {
+      display: none;
+    }
+    &.border-mono,
+    &.border-color,
+    &.fill-color {
+      .thb-social-link-wrap {
+        padding: 0 3px;
+        margin-bottom: 8px;
+      }
+      .thb-social-link {
+        padding: 20px;
+        min-width: 65px
+      }
+    }
+  }
+
+  /* Style */
+  &.mono-icons {
+    .thb-social-link {
+      @each $profile, $color in $social {
+        &.social-link-#{$profile} {
+          &:hover {
+            .thb-social-label-container,
+            .thb-social-icon-container {
+              color: $color;
+            }
+          }
+        }
+      }
+    }
+  } // .mono-icons
+  &.mono-icons-horizontal {
+    .thb-social-link-wrap {
+      padding-left: 0;
+      margin-bottom: 0;
+      &:last-child {
+        padding-right: 0;
+      }
+      .thb-social-count {
+        margin: 0 0 0 8px;
+      }
+    }
+    .thb-social-link {
+      flex-direction: row !important;
+      min-width: 0 !important;
+      @each $profile, $color in $social {
+        &.social-link-#{$profile} {
+          &:hover {
+            .thb-social-label-container,
+            .thb-social-icon-container {
+              color: $color;
+            }
+          }
+        }
+      }
+    }
+  } // .mono-icons-horizontal
+  &.color-icons {
+    .thb-social-link {
+      @each $profile, $color in $social {
+        &.social-link-#{$profile} {
+          .thb-social-icon-container {
+            color: $color;
+          }
+          &:hover {
+            .thb-social-label-container,
+            .thb-social-icon-container {
+              color: $color;
+            }
+          }
+        }
+      }
+    }
+  } // .color-icons
+  &.border-mono {
+    .thb-social-link {
+      border: 1px solid $border;
+      border-radius: 3px;
+      &:hover {
+        color: #fff;
+      }
+      @each $profile, $color in $social {
+        &.social-link-#{$profile} {
+          &:hover {
+            background: $color;
+            border-color: $color;
+          }
+        }
+      }
+      .thb-social-icon-container {
+        transition-duration: 0s;
+      }
+    }
+  } // .border-mono
+  &.border-color {
+    .thb-social-link {
+      border: 1px solid $border;
+      border-radius: 3px;
+      @each $profile, $color in $social {
+        &.social-link-#{$profile} {
+          .thb-social-icon-container {
+            color: $color;
+          }
+          &:hover {
+            background: rgba($color,0.07);
+            border-color: $color;
+          }
+        }
+      }
+    }
+  } // .border-color
+  &.fill-color {
+    .thb-social-link {
+      color: #fff;
+      border-radius: 3px;
+      @each $profile, $color in $social {
+        &.social-link-#{$profile} {
+          background: $color;
+          &:hover {
+            background: darken($color, 10%);
+          }
+        }
+      }
+    }
+  } // .border-color
+  &.circle-mono {
+    .thb-social-link {
+      .thb-social-icon-container {
+        width: 30px;
+        height: 30px;
+        background: #f1f1f1;
+        align-items: center;
+        border-radius: 50%;
+      }
+      @each $profile, $color in $social {
+        &.social-link-#{$profile} {
+          &:hover {
+            .thb-social-icon-container {
+              color: $color;
+            }
+          }
+
+        }
+      }
+    }
+  } // .circle-mono
+  &.circle-color {
+    .thb-social-link {
+      .thb-social-icon-container {
+        width: 30px;
+        height: 30px;
+        background: #f1f1f1;
+        align-items: center;
+        border-radius: 50%;
+      }
+      @each $profile, $color in $social {
+        &.social-link-#{$profile} {
+          .thb-social-icon-container {
+            color: $color;
+          }
+          &:hover {
+            .thb-social-icon-container {
+              background: $color;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  } // .circle-color
+  &.circle-fill {
+    .thb-social-link {
+      .thb-social-icon-container {
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        border-radius: 50%;
+        color: #fff;
+      }
+      @each $profile, $color in $social {
+        &.social-link-#{$profile} {
+          .thb-social-icon-container {
+            background: $color;
+          }
+          &:hover {
+            .thb-social-icon-container {
+              background: darken($color, 10%);
+            }
+          }
+        }
+      }
+    }
+  } // .circle-fill
+}

@@ -1,0 +1,276 @@
+@import "compass/css3";
+@import 'compass/css3/filter';
+@import "compass/css3/user-interface";
+
+$break-small: 40.063em;
+$break-medium: 64.063em;
+$break-large: 75em;
+$break-xlarge: 90.063em;
+
+$black: #222; // black
+$color1: #222; // black
+$color2: rgba(0,0,0,0.1); // light-grey
+$color3: #ef2673; // pink
+$accent: #ef2673;
+$color4: #eaeaea; // light border
+$border: #eaeaea;
+
+$transition: cubic-bezier(.165, .840, .440, 1);
+
+$social: (
+	facebook: #3b5998,
+	google: #dd4b39,
+	google-plus: #dd4b39,
+	linkedin: #007bb6,
+	vkontakte: #45668e,
+	pinterest: #bd081c,
+	whatsapp: #25d366,
+	twitter: #00aced,
+	instagram: #3f729b,
+	vk: #45668e,
+	tumblr: #35465c,
+	xing: #cfdc00,
+	soundcloud: #f80,
+	dribbble: #ea4c89,
+	youtube: #e52d27,
+	spotify: #7ab800,
+	behance: #1769ff,
+	deviantart: #4e6252,
+	snapchat: #fffc00,
+	medium: #00ab6c,
+	vimeo: #1ab7ea,
+	email: #9b9b9b,
+	reddit: #ff4500
+);
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+0. Foundation
+1. General
+2. Re-usable Styles
+3. Body
+4. Header
+6. Magnific Popup
+7. Custom Checkbox + Radio
+8. Post Syling
+9. Overlay
+10. Sidebar & Widgets
+11. Pagination
+12. Carousel
+13. Snap To Scroll
+14. Custom Scrollbar
+15. Form Styling
+16. Revolution Slider
+17. Contact Page
+18. 404 Page
+19. WP-Specific
+20. Mobile Menu
+22. Comments
+24. Shortcodes
+25. Animations
+26. Style Switcher
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+Foundation
+*/
+@import "foundation.scss";
+
+/*------------------------------------------------------------------
+General
+*/
+html {
+	min-height: 100vh;
+	overflow-y: scroll !important;
+}
+body {
+	color: #222;
+	background: #fff;
+	position: static;
+	min-height: 100%;
+	scroll-behavior: smooth;
+	div, dl, dt, dd, ul, ol, li, pre, form, p, blockquote, th, td {
+		font-size: inherit;
+		font-family: inherit;
+	}
+	p {
+		font-style: normal;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.8;
+		margin-bottom: 0.65rem;
+	}
+	strong {
+		font-weight: 600;
+	}
+}
+figure {
+	margin: 0;
+}
+
+a {
+	color: $color3;
+	outline: 0;
+	@extend .quick-transition;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	&:hover {
+		color: $color1;
+	}
+}
+
+
+/*------------------------------------------------------------------
+Re-usable Styles
+*/
+@import "utilities.scss";
+
+/*------------------------------------------------------------------
+Body
+*/
+@import "structure.scss";
+
+/*------------------------------------------------------------------
+Typography
+*/
+@import "typography.scss";
+
+/*------------------------------------------------------------------
+Page Transition
+*/
+@import "plugins/plugin-animsition.scss";
+
+/*------------------------------------------------------------------
+Custom Scroll
+*/
+@import "plugins/plugin-ps.scss";
+
+/*------------------------------------------------------------------
+Header
+*/
+@import "header.scss";
+
+/*------------------------------------------------------------------
+Post Syling
+*/
+@import "postlayouts.scss";
+
+/*------------------------------------------------------------------
+Archive / Category / Search Results Syling
+*/
+@import "archive.scss";
+
+/*------------------------------------------------------------------
+Sidebar & Widgets
+*/
+@import "sidebar.scss";
+
+/*------------------------------------------------------------------
+Carousel
+*/
+@import "plugins/plugin-slick.scss";
+
+/*------------------------------------------------------------------
+Flickity
+*/
+@import "plugins/plugin-flickity.scss";
+
+/*------------------------------------------------------------------
+Hotspots
+*/
+@import "plugins/plugin-hotspots.scss";
+
+/*------------------------------------------------------------------
+Form Styling
+*/
+@import "forms.scss";
+
+/*------------------------------------------------------------------
+WP-Specific
+*/
+@import "wpspecific.scss";
+
+/*------------------------------------------------------------------
+Author Page
+*/
+@import "authorpage.scss";
+
+/*------------------------------------------------------------------
+Post Gallery
+*/
+@import "postgallery.scss";
+
+/*------------------------------------------------------------------
+Mobile Menu
+*/
+@import "mobilemenu.scss";
+
+/*------------------------------------------------------------------
+Footer
+*/
+@import "footer.scss";
+
+/*------------------------------------------------------------------
+Comments
+*/
+@import "comments.scss";
+
+/*------------------------------------------------------------------
+Shortcodes
+*/
+@import "shortcodes.scss";
+@import "shortcodes/animations.scss";
+@import "shortcodes/pricing_table.scss";
+@import "shortcodes/blockgrid.scss";
+@import "shortcodes/tabs.scss";
+@import "shortcodes/thb_3dimage.scss";
+@import "shortcodes/notification.scss";
+@import "shortcodes/subscription.scss";
+@import "shortcodes/sponsored.scss";
+@import "shortcodes/thb_pinit.scss";
+@import "shortcodes/thb_hotspot.scss";
+@import "shortcodes/counter.scss";
+@import "shortcodes/cascading.scss";
+@import "shortcodes/thb_typeeffects.scss";
+@import "shortcodes/social-list.scss";
+
+/*------------------------------------------------------------------
+404 Page
+*/
+@import "404.scss";
+
+/*------------------------------------------------------------------
+Shop
+*/
+@import "woocommerce/woocommerce-general.scss";
+@import "woocommerce/woocommerce-cart.scss";
+@import "woocommerce/woocommerce-checkout.scss";
+@import "woocommerce/woocommerce-myaccount.scss";
+@import "woocommerce/woocommerce-single-product.scss";
+
+/*------------------------------------------------------------------
+Pagination
+*/
+@import "pagination.scss";
+
+/*------------------------------------------------------------------
+Selection Share
+*/
+@import "selectionshare.scss";
+
+/*------------------------------------------------------------------
+Magnific Popup
+*/
+@import "plugins/plugin-mfp.scss";
+
+
+/*------------------------------------------------------------------
+Plyr
+*/
+@import "plugins/plugin-plyr.scss";
+
+/*------------------------------------------------------------------
+Cookie Bar
+*/
+@import "cookiebar.scss";

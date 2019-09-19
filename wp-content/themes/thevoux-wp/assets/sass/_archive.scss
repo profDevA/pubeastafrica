@@ -1,0 +1,92 @@
+.archive-page-container {
+	padding-bottom: 40px;
+}
+#category-title {
+	width: 100%;
+	padding: 15px 0 17px;
+	text-align: center;
+	margin-bottom: 40px;
+	background-image: url('../img/archive-title.jpg');
+	background-position: center center;
+	
+	@include min-break($break-small) {
+		padding: 25px 0 27px;
+	}
+	@include min-break($break-medium) {
+		padding: 35px 0 37px;
+	}
+	h1 {
+		color: #fff;
+		font-size: 30px;
+		line-height: 1;
+		letter-spacing: -0.05em;
+		margin: 0;
+		
+		@include min-break($break-small) {
+			font-size: 40px;
+		}
+		@include min-break($break-medium) {
+			font-size: 50px;
+		}
+		@include min-break($break-large) {
+			font-size: 60px;
+		}
+		& + p {
+			color: #fff;
+			margin: 20px 0 0;	
+		}
+	}
+	h2 {
+		color: #fff;
+		font-size: 40px;
+		line-height: 1;
+		letter-spacing: -0.05em;
+		margin: 0;
+	}
+}
+#archive-title {
+	width: 100%;
+	padding: 15px 0 17px;
+	text-align: center;
+	margin-bottom: 40px;
+	background: $color3;
+	@include min-break($break-small) {
+		padding: 25px 0 27px;
+	}
+	@include min-break($break-medium) {
+		padding: 35px 0 37px;
+	}
+	h1 {
+		font-size: 25px;
+		line-height: 1;
+		letter-spacing: -0.05em;
+		margin: 0;
+		color: #fff;
+		@include min-break($break-small) {
+			font-size: 30px;
+		}
+		@include min-break($break-medium) {
+			font-size: 35px;
+		}
+		@include min-break($break-large) {
+			font-size: 40px;
+		}
+		
+		span {
+			font-weight: 600;
+			text-transform: uppercase;
+			color: $color3;
+			display: block;
+			margin-top: 10px;
+			
+			@include min-break($break-small) {
+				display: inline;
+				margin: 0;
+			}
+		}
+		& + p {
+			color: #fff;
+			margin: 20px 0 0;	
+		}
+	}
+}

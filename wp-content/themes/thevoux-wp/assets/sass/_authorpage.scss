@@ -1,0 +1,153 @@
+.authorpage {
+	padding: 40px 0;
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 50px;
+	max-width: 770px;
+	@extend .cf;
+
+	&.author_grid {
+		padding: 0 20px;
+		border: 0;
+		.avatar {
+			display: block;
+			margin: 0 auto 30px auto;
+			@include min-break($break-small) {
+				float: none;
+				margin: 0 auto 30px auto;
+			}
+		}
+		.author-content {
+			padding: 0;
+			text-align: center;
+			@include min-break($break-small) {
+				padding-left: 0;
+			}
+			@include min-break($break-medium) {
+				padding-left: 0;
+			}
+			@include min-break($break-large) {
+				padding-left: 0;
+			}
+
+			h5 {
+				font-size: 20px;
+			}
+			h4 {
+				font-size: 16px;
+			}
+			p {
+				font-size: 11px;
+				line-height: 14px;
+			}
+		}
+	}
+	.author-information & {
+		border: 0;
+		padding: 0;
+		margin: 0;
+
+		.author-content {
+			@include min-break($break-small) {
+				padding-left: 84px;
+				text-align: left;
+			}
+			@include min-break($break-medium) {
+				padding-left: 104px;
+			}
+			@include min-break($break-large) {
+				padding-left: 144px;
+			}
+			h5 {
+				font-size: 18px;
+				margin-bottom: 3px;
+			}
+			h4 {
+				font-size: 14px;
+			}
+			p {
+				font-size: 11px;
+				margin-bottom: 10px;
+			}
+		}
+		.avatar {
+			width: 54px;
+			border-radius: 27px;
+			@include min-break($break-small) {
+				float: left;
+				margin: 0;
+			}
+			@include min-break($break-medium) {
+				width: 74px;
+				border-radius: 37px;
+			}
+			@include min-break($break-large) {
+				width: 114px;
+				border-radius: 57px;
+			}
+		}
+	}
+	.author-content {
+		padding: 0;
+		text-align: center;
+		@include min-break($break-small) {
+			padding-left: 104px;
+			text-align: left;
+		}
+		@include min-break($break-medium) {
+			padding-left: 144px;
+		}
+		@include min-break($break-large) {
+			padding-left: 204px;
+		}
+
+		h5 {
+			font-size: 48px;
+			line-height: 1;
+			margin: 3px 0 0 0;
+			color: $color1;
+			font-weight: 600;
+			text-transform: uppercase;
+
+			a {
+				color: $color1;
+			}
+		}
+		h4 {
+			font-size: 24px;
+			line-height: 1;
+			font-weight: 400;
+			color: #767676;
+			margin: 0 0 10px;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 12px;
+			line-height: 18px;
+			color: #767676;
+			text-transform: uppercase;
+		}
+		.boxed-icon {
+			width: 32px;
+			height: 28px;
+			line-height: 28px;
+		}
+	}
+	.avatar {
+		display: block;
+		width: 84px;
+		margin: 0 auto 30px auto;
+		border-radius: 42px;
+		@include min-break($break-small) {
+			float: left;
+			margin: 0;
+		}
+		@include min-break($break-medium) {
+			width: 114px;
+			border-radius: 57px;
+		}
+		@include min-break($break-large) {
+			width: 164px;
+			border-radius: 82px;
+		}
+	}
+}

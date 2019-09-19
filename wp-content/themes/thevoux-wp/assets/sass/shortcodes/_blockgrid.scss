@@ -1,0 +1,129 @@
+.thb-block-grid {
+	.row.thb-grid-parent-row {
+		margin: 0;
+		
+		&>.columns {
+			padding: 0;
+			>.post {
+				margin-bottom: 1px;
+			}
+		}
+		.thb-grid-children-row {
+			margin: 0;
+			&>.columns {
+				padding: 0;
+				@include min-break($break-small) {
+					padding-left: 1px;
+				}
+				.post {
+					margin-bottom: 1px;
+				}
+			}
+		}
+		.post.post-blockgrid-style1 {
+			height: 0;
+			padding-bottom: 80%;
+			.post-gallery {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				
+				img {
+					object-fit: cover;
+					height: 100%;
+					width: 100%;
+				}
+			}
+		}
+	}
+	&.thb-block-grid-style1 {
+		.post.post-blockgrid-style1 {
+			h3 {
+				font-size: 20px;
+				
+				@include min-break($break-small) {
+					font-size: 30px;
+				}
+			}
+		}
+		.thb-grid-children-row {
+			.columns:nth-child(3),
+			.columns:nth-child(4) {
+				.post.post-blockgrid-style1 {
+					padding-bottom: calc( 80% + 1px );
+				}
+			}
+			.post.post-blockgrid-style1 {
+				h3 {
+					@include min-break($break-small) {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	} // .thb-block-grid-style1
+}
+
+
+/* Post Styles */
+.post {
+	&.post-blockgrid-style1 {
+		position: relative;
+		.post-date {
+			margin-bottom: 15px;
+		}
+		.post-gallery {
+			background: #000;
+			@include min-break($break-small) {
+				margin-bottom: 0px;
+			}
+			>a {
+				height: 100%;
+				opacity: 1;
+				@extend .mid-transition;
+				&:before {
+					content: '';
+					display: block;
+					position: absolute;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					z-index: 1;
+					border: 0;
+					margin: 0;
+					width: 100%;
+					height: 100%;
+					border-radius: 0;
+					opacity: 0.8;
+					@extend .mid-transition;
+					@include scale(1);
+					@include background-image(linear-gradient(rgba(0,0,0,0) 20%, rgba(0,0,0,0.8)));
+					background-size: auto;
+				}
+				
+			}
+		}
+		.featured-title {
+			position: absolute;
+			top: auto;
+			bottom: 40px;
+			left: 40px;
+			z-index: 10;
+			color: #fff;	
+			max-width: 70%;
+			text-align: left;
+		}
+		&:hover {
+			.post-gallery { 
+				>a {
+					
+					&:before {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	} // .post-blockgrid-style1
+}

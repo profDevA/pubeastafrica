@@ -1,0 +1,24 @@
+/* Cascading Image */
+.thb_cascading_images {
+	position: relative;
+	.cascading_image {
+		display: block;
+		width: 100%;
+
+		&:not(:first-child) {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			@include translate3d(-50%, -50%, 0)
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			@include backface-visibility(hidden);
+			@include translateZ(0);
+		}
+		.thb_box_shadow {
+			@include box-shadow(0 4px 25px rgba(#000,0.2));
+		}
+	}
+}

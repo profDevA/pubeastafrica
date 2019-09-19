@@ -1,0 +1,88 @@
+@keyframes selectionSharerPopover-animation {
+  0%{
+	  transform:matrix(0.97,0,0,1,0,12);
+	  filter:alpha(opacity=0);
+	  opacity:0
+  }
+  20%{
+	  transform:matrix(0.99,0,0,1,0,2);
+	  filter:alpha(opacity=70);
+	  opacity:.7
+  }
+  40%{
+	  transform:matrix(1,0,0,1,0,-1);
+	  filter:alpha(opacity=100);
+	  opacity:1
+  }
+  70%{
+	  transform:matrix(1,0,0,1,0,0);
+	  filter:alpha(opacity=100);
+	  opacity:1
+  }
+  100%{
+	  transform:matrix(1,0,0,1,0,0);
+	  filter:alpha(opacity=100);
+	  opacity:1
+  }
+}
+
+.thb-selectionSharer {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  background: #222;
+  @include transition(transform 0.6s ease-in-out);
+}
+
+.thb-selectionSharer:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  margin-left: -4px;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #222;
+}
+
+.thb-selectionSharer.anim {
+  transition: top .075s ease-out;
+  animation: selectionSharerPopover-animation 180ms forwards linear;
+  -webkit-animation: selectionSharerPopover-animation 180ms forwards linear;
+}
+
+#thnb-selectionSharerPopover-inner {
+  position:relative;
+  overflow: hidden;
+  border-radius: 0;
+  border: 0;
+}
+
+.thb-selectionSharer ul {
+  margin: 0;
+  display: block;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.thb-selectionSharer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+}
+
+.thb-selectionSharer a {
+  display:block;
+  width: 30px;
+  height: 44px;
+  line-height: 44px;
+  border: none;
+  color: #fff !important;
+  font-size: 14px;
+  &.email:hover {
+  	color: $color3;
+  }
+}

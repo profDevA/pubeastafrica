@@ -1,0 +1,87 @@
+/* Subscription Form */
+
+.thb_subscribe {
+	h3 {
+		margin: 0 0 15px;
+		& + p {
+			color: $color1;
+			font-size: 16px;
+		}
+	}
+
+	.newsletter-form {
+		margin: 0 auto;
+		display: flex;
+		max-width: 450px;
+
+		.widget_subscribe {
+			flex: 1;
+			margin-bottom: 0;
+			margin-right: 5px;
+		}
+	}
+
+	&.style1 {
+		text-align: center;
+
+		p {
+			margin-bottom: 30px;
+		}
+
+		.widget_subscribe {
+			height: 58px;
+			padding: 0 25px;
+		}
+		.newsletter-form {
+			max-width: 530px;
+		}
+	}
+
+	&.style2 {
+		padding: 24px 0;
+		text-align: left;
+		h3 {
+			font-size: 14px;
+			line-height: 1;
+			font-weight: 600;
+		}
+
+		p {
+			font-size: 14px;
+		}
+
+		.newsletter-form {
+			@include min-break($break-small) {
+				margin-left: auto;
+				margin-right: 0;
+			}
+		}
+	}
+	&.style3 {
+		display: flex;
+		flex-direction: 	column;
+		justify-content: center;
+		align-items: center;
+		@include min-break($break-small) {
+			flex-direction: row;
+		}
+		.subscribe_content {
+      @include min-break($break-small) {
+      	margin-right: 40px;
+      }
+    }
+
+    .newsletter-form {
+			margin: 0;
+			display: inline-flex;
+			max-width: 100%;
+			width: 400px;
+		}
+	}
+	&.style2,
+	&.style3 {
+		.thb-custom-checkbox {
+			padding-top: 10px;
+		}
+	}
+}

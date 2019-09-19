@@ -1,0 +1,71 @@
+/* Notices */
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+	background: #478df7;
+	border: none;  
+	position: fixed;
+	bottom: 0;
+	left: 0; 	
+	width: 100%;
+	min-height: 70px;
+	display: flex;
+	margin: 0;
+	padding: 15px;
+	z-index: 9999; 
+	overflow: hidden;
+	transform: translateY(100%);
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+	animation: thb-slide-in, thb-slide-out;
+	animation-duration: 1.5s, 1.5s;
+	animation-delay: 0.5s, 5s;
+	animation-fill-mode: forwards; 
+	animation-timing-function: ease;
+	@include min-break($break-small) {
+		padding: 25px 45px;	
+	}
+	.button {
+		display: none;
+	}
+	a {
+		display: inline-flex;
+		margin-left: 10px;
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+.woocommerce-info {
+	background: #feb04b;
+}
+.woocommerce-error {
+	background: #fc5f5f;
+	list-style: none;
+	flex-direction: column;
+	li {
+		display: block;	
+		
+		&:last-of-type {
+			margin: 0;	
+		}
+	}
+} 
+@keyframes thb-slide-in {
+	0% {
+		transform: translateY(100%);
+	}
+
+	100% {
+		transform: translateY(0%);
+	}
+}
+@keyframes thb-slide-out {
+	0% {
+		transform: translateY(0%);
+	}
+
+	100% {
+		transform: translateY(1000%);
+	}
+}

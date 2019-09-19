@@ -1,0 +1,27 @@
+.thb-pin-it-container {
+  position: relative;
+  max-width: 100%;
+  .thb-pin-it {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color:#fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: map-get($social, pinterest);
+    @extend .quick-transition;
+    &:hover {
+      background: darken(map-get($social, pinterest), 10%);
+    }
+  }
+  &:hover {
+    .thb-pin-it {
+      opacity: 1;
+    }
+  }
+}

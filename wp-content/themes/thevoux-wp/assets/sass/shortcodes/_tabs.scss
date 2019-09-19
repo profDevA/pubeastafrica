@@ -1,0 +1,57 @@
+.thb_tabs {
+	.tabs {
+		display: flex;
+		
+		h6 {
+			font-size: 12px;
+			font-weight: 600;
+			text-transform: uppercase;
+			position: relative;
+			
+			a {
+				display: block;
+				color: rgba(#000,0.4);
+				
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					left: 0;
+					bottom: -2px;
+					height: 1px;
+					width: 100%;
+					background: $color3;
+					@include scale(0,1);
+					@extend .quick-transition;
+				}
+				&:hover {
+					color: $color3;
+				}
+			}
+		}
+		dd {
+			margin-right: 20px;
+			&.active {
+				h6 {
+					a {
+						color: $color3;
+						
+						&:after {
+							@include scale(1,1);
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.tabs-content {
+		> li {
+			display: none;
+			
+			&.active {
+				display: block;
+			}
+		}
+	}
+}

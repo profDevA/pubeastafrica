@@ -1,0 +1,81 @@
+
+---Downloaded files---
+The import files for: FashionMe Now were successfully downloaded!
+Initial max execution time = 600
+Files info:
+Site URL = http://localhost:7004
+Data file = H:\phpwork\publicista/wp-content/uploads/2019/09/demo-content-import-file_2019-09-18__23-55-17.xml
+Widget file = H:\phpwork\publicista/wp-content/uploads/2019/09/demo-widgets-import-file_2019-09-18__23-55-17.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Home 1 : 
+
+Fuel Themes - Most Shared Posts with Images - Most Shared - Imported
+thb_socialcounter_widget - No Title - Site does not support widget
+Fuel Themes - Post Slider - Category - Imported
+
+Home 2 : 
+
+Fuel Themes - Posts with Excerpts - Latest Posts - Imported
+
+Home 4 : 
+
+Fuel Themes - Featured Video - Featured Video - Imported
+Fuel Themes - Flickr - Flickr - Imported
+
+Home 5 : 
+
+Text - No Title - Imported
+Fuel Themes - Subscribe Widget - Mailing List - Imported
+
+Blog Sidebar : 
+
+Tag Cloud - Tag Cloud - Widget already exists
+
+Article Sidebar : 
+
+Text - No Title - Widget already exists
+
+Article Ajax Sidebar : 
+
+Text - No Title - Widget already exists
+
+Author Sidebar : 
+
+Fuel Themes - Posts with Images - Latest Posts - Widget already exists
+
+Archive Sidebar : 
+
+Text - No Title - Widget already exists
+
+Category Sidebar : 
+
+Text - No Title - Widget already exists
+
+Footer Column 1 : 
+
+Navigation Menu - No Title - Widget already exists
+
+Footer Column 2 : 
+
+Text - No Title - Widget already exists
+
+Footer Column 3 : 
+
+Text - No Title - Widget already exists
+
+shop : Sidebar does not exist in theme (moving widget to Inactive)
+
+woocommerce_price_filter - Filter by price - Site does not support widget
+woocommerce_products - On Sale Right Now - Site does not support widget
+
+
+
+---pt-ocdi/after_import---
+

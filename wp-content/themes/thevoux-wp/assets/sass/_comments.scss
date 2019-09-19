@@ -1,0 +1,377 @@
+#comments {
+	width: 100%;
+	clear: left;
+
+	&.expanded-comments-on {
+		.commentlist_parent .commentlist_container {
+			height: auto;
+			max-height: none;
+		}
+		.comment-button {
+			&:after {
+				display: none;
+			}
+		}
+	}
+	ol.commentlist {
+		list-style: none;
+		margin: 15px;
+		display: block;
+		width: calc(100% - 30px);
+
+		@include min-break($break-small) {
+			margin: 30px;
+			width: calc(100% - 60px);
+		}
+		.woocommerce-Reviews & {
+			margin: 30px 0;
+			width: 100%;
+		}
+		.comment {
+			.comment-respond {
+				padding: 0;
+				margin-top: 20px;
+				line-height: 1;
+			}
+			.comment-body,
+			.comment_container {
+				position: relative;
+				min-height: 56px;
+				padding-left: 76px;
+				padding-bottom: 22px;
+				border-bottom: 1px solid #f2f2f2;
+				margin-bottom: 22px;
+				&:hover {
+					.reply {
+						opacity: 1;
+					}
+				}
+				.star-rating {
+					float: right;
+				}
+			}
+			.comment-meta {
+				line-height: 1;
+
+				p {
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+			.comment-metadata {
+				position: absolute;
+				bottom: 12px;
+				left: 76px;
+				font-size: 9px;
+				color: #767676;
+				text-transform: uppercase;
+				font-weight: 400;
+
+				a {
+					color: #767676;
+				}
+			}
+			.vcard {
+				border: 0;
+				@extend .reset;
+
+				.fn {
+					font-size: 12px;
+					font-weight: 600;
+					color: $color1;
+					text-transform: uppercase;
+				}
+				.says {
+					text-transform: uppercase;
+					font-size: 12px;
+					font-weight: 400;
+					color: #767676;
+				}
+
+			}
+			.avatar {
+				width: 56px;
+				height: 56px;
+				float: left;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.meta {
+				strong {
+					font-size: 12px;
+					font-weight: 600;
+					color: $color1;
+					text-transform: uppercase;
+				}
+				time {
+					.comment-metadata {
+						position: absolute;
+						bottom: 12px;
+						left: 76px;
+						font-size: 9px;
+						color: #767676;
+						text-transform: uppercase;
+						font-weight: 400;
+
+						a {
+							color: #767676;
+						}
+					}
+				}
+			}
+			.comment-content,
+			.description {
+				padding-top: 7px;
+				p {
+					font-size: 13px;
+					line-height: 18px;
+					word-break: break-word;
+				}
+			}
+			.reply {
+				position: absolute;
+				top: 0;
+				right: 0;
+				opacity: 0;
+				font-size: 11px;
+				text-transform: uppercase;
+				font-weight: 600;
+				@extend .linear-quick-transition;
+			}
+			&:last-child {
+				.comment-body {
+					border: 0;
+					margin: 0;
+				}
+			}
+			.children {
+				list-style: none;
+				margin-left: 10px;
+				border-bottom: 1px solid #f2f2f2;
+				margin-bottom: 22px;
+				@include min-break($break-small) {
+					margin-left: 76px;
+				}
+			}
+		}
+	}
+}
+.comment-respond {
+	display: block;
+	padding: 15px;
+	@extend .cf;
+
+	@include min-break($break-small) {
+		padding: 30px;
+	}
+	#reviews & {
+		padding: 0;
+		margin-top: 30px;
+	}
+	input:not([type='checkbox']),
+	textarea {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.comment-form-rating {
+		margin-bottom: 20px;
+	}
+
+	.comment-reply-title {
+		font-weight: 600;
+
+		small {
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: 14px;
+			margin-left: 10px;
+		}
+	}
+	.comment-notes,
+	.form-allowed-tags,
+	.logged-in-as {
+		font-size: 14px;
+		color: #595959;
+		margin-bottom: 18px;
+
+		code {
+			display: block;
+			font-size: 12px;
+			color: #595959;
+			font-weight: 400;
+		}
+	}
+	.form-submit,
+	.form-submit input {
+		margin: 0;
+	}
+	.row {
+		margin-left: -5px;
+		margin-right: -5px;
+
+		.columns {
+			padding: 0 5px;
+		}
+	}
+}
+.commentlist_parent {
+	border: 1px solid #f2f2f2;
+	.comment-button {
+		display: block;
+		width: 100%;
+		font-size: 12px;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: $color1;
+		border-bottom: 1px solid #f2f2f2;
+		line-height: 48px;
+		padding: 0 35px 0 50px;
+		position: relative;
+
+		&:after {
+			opacity: 0.6;
+			@extend .linear-quick-transition;
+		}
+		&:hover {
+			&:after {
+				opacity: 1;
+			}
+		}
+		svg {
+			position: absolute;
+			top: 17px;
+			left: 20px;
+		}
+		&:after {
+			content: '';
+			display: block;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 6px 5px 0 5px;
+			border-color: #222 transparent transparent transparent;
+			position: absolute;
+			top: 22px;
+			right: 20px;
+		}
+		&.toggled {
+			&:after {
+				border-width: 0 5px 6px 5px;
+				border-color: transparent transparent #222 transparent;
+			}
+			& + .commentlist_container {
+				max-height: 9999px;
+				border-bottom-color: #f2f2f2;
+			}
+		}
+		&.disabled {
+			&:after {
+				display: none;
+			}
+		}
+	}
+	.commentlist_container {
+		display: block;
+		height: auto;
+		max-height: 0;
+		overflow: hidden;
+		border-bottom: 1px solid transparent;
+		@extend .cf;
+		@extend .quick-transition;
+	}
+	.nocomments {
+		display: block;
+		margin: 0;
+		padding: 20px;
+		text-align: center;
+	}
+	.comment-subscription-form {
+		label {
+			width: auto;
+			float: none;
+		}
+	}
+}
+
+/* Star Rating */
+.star-rating {
+	display: inline-block;
+	position: relative;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	font-family: FontAwesome;
+	color: #dcdcdc;
+	&:before {
+		font-family: FontAwesome;
+		content: "\f005 \f005 \f005 \f005 \f005";
+	}
+	&>span {
+		display: block;
+		top: 0;
+		left: 0;
+		position: absolute;
+		height: 18px;
+		line-height: 18px;
+		overflow: hidden;
+		&:before {
+			color: #ffc200;
+			content: "\f005 \f005 \f005 \f005 \f005";
+		}
+		strong {
+			display: none;
+		}
+	}
+	& + .write_first {
+		display: inline-block;
+		font-size: 13px;
+		font-weight: 300;
+		color: $color1;
+		margin-left: 20px;
+		line-height: 18px;
+		vertical-align: text-top;
+	}
+}
+.comment-form-rating {
+	.stars {
+		display: block;
+		@extend .star-rating;
+
+		&:before {
+			opacity: 0;
+		}
+		&>span {
+			&:before {
+				content: none;
+			}
+
+		}
+		a {
+			position: relative;
+			color: #dcdcdc;
+			display: inline-block;
+			text-indent: -999em;
+			width: 15px;
+			&:before {
+				position: absolute;
+				display: block;
+				width: 15px;
+				text-indent: 0;
+				content: "\f005"
+			}
+			&:hover {
+				& ~ a {
+					color: #dcdcdc;
+				}
+			}
+			&.active ~ a {
+				color: #dcdcdc;
+			}
+		}
+		&:hover a,
+		&.selected a {
+			color: #ffc200;
+		}
+	}
+}

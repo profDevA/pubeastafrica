@@ -1,0 +1,43 @@
+.thb-article-sponsors {
+  .thb-sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid $color4;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    a {
+      display: block;
+    }
+    .thb-sponsor-text {
+      display: block;
+      text-align: center;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 15px;
+      margin-bottom: 0;
+    }
+    .sponsored-by {
+      margin-right: 20px;
+      font-size: 14px;
+      font-weight: 300;
+    }
+    .thb-sponsor-x2 {
+      height: 48px;
+    }
+    .thb-sponsor-logo {
+      img {
+        display: block;
+        height: 32px;
+        width: auto;
+        @include min-break($break-small) {
+          height: 48px;
+        }
+      }
+    }
+  }
+}

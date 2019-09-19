@@ -1,0 +1,154 @@
+/* My Account - Login */
+#customer_login {
+	position: relative;
+	padding-top: 60px;
+	width: 100%;
+	@include transition(all 0.2s linear);
+	&>div {
+		padding: 0 0 120px;	
+		@include transition(all 0.2s linear);
+	}
+	p {
+		color: $color1;
+	}
+	.button {
+		margin: 30px 0;
+	}
+	form {
+		margin-bottom: 30px;
+		
+		@include min-break($break-small) {
+			margin-bottom: 35px;
+		}
+		@include min-break($break-medium) {
+			margin-bottom: 40px;
+		}
+		@include min-break($break-large) {
+			margin-bottom: 45px;
+		}
+		@media only screen and (min-width: $break-xlarge) {
+			margin-bottom: 55px;
+		}	
+	}
+	.logoimg {
+		margin-bottom: 30px;
+		
+		@include min-break($break-small) {
+			margin-bottom: 40px;
+		}
+		@include min-break($break-medium) {
+			margin-bottom: 50px;
+		}
+		@include min-break($break-large) {
+			margin-bottom: 60px;
+		}
+	}
+	.register-container {
+		display: none;
+	}
+	.login-container {
+		p {
+			margin-bottom: 15px;	
+			
+			@include min-break($break-small) {
+				margin-bottom: 25px;
+			}
+			@include min-break($break-medium) {
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+
+/* My Account */
+.woocommerce-MyAccount-navigation {
+	margin-bottom: 30px;
+	@include min-break($break-small) {
+		padding-right: 15%;
+	}
+	ul {
+		list-style: none;
+		padding: 0;	
+		margin: 0;
+		
+		li {
+			a {
+				display: flex;
+				font-weight: 600;
+				text-transform: uppercase;
+				font-size: 12px;
+				border-top: 1px solid rgba(0,0,0,0.1);
+				border-left: 1px solid rgba(0,0,0,0.1);
+				border-right: 1px solid rgba(0,0,0,0.1);
+				height: 40px;
+				padding: 0 20px;
+				align-items: center;
+				@extend .quick-transition;
+			}	
+			
+			&:last-child {
+				a {
+					border-bottom: 1px solid rgba(0,0,0,0.1);
+				}	
+			}
+			&:hover,
+			&.is-active {
+				a {
+					background: $color3;
+					color: #fff;
+					border-color: $color3;
+				}	
+				& + li a {
+					border-top-color: $color3;	
+				}
+			}
+		}
+	}
+}
+
+/* My Account Content */
+.woocommerce-order-details {
+	margin-top: 30px;
+}
+.woocommerce-customer-details {
+	margin-top: 30px;
+}
+
+.woocommerce-MyAccount-content legend {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+/* Addreses */
+.addresses {
+	margin: 0 -15px;
+	margin-top: 30px;
+	@extend .cf;
+	.col-1,
+	.col-2 {
+		float: left;
+		width: 100%;
+		padding: 0 15px;
+		@include min-break($break-small) {
+			width: 50%;	
+		}
+	}
+	.woocommerce-Address-title h3,
+	.woocommerce-column__title {
+		display: inline-block;
+		margin-bottom: 10px;
+		margin-right: 10px;
+	}
+	address {
+		font-style: normal;
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+}
+
+/* Lost Password */
+.woocommerce-lost-password {
+	.woocommerce {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+}

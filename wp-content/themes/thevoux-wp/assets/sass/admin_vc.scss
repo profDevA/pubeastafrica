@@ -1,0 +1,233 @@
+@import "compass/css3";
+@import 'compass/css3/filter';
+@import "compass/css3/user-interface";
+$color1: #23282d;
+
+/* Template Library */
+[data-tab="thb_templates"].vc_row {
+	display: flex;
+	background: #f1f1f1;
+	margin: -18px;
+	padding: 0;
+	flex-direction: row-reverse;
+}
+.thb_template_warning {
+  background: #fff;
+  border-left: 4px solid #dc3232;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+  margin: 0 0 18px 0;
+  padding: 1px 0 1px 12px;
+  font-size: 13px;
+  line-height: 20px;
+
+  p {
+    padding: 2px;
+    margin: 7px 0;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+}
+.thb_library_categories {
+	width: 235px;
+	min-height: 100%;
+  z-index: 100;
+  padding: 18px;
+  background: #fff;
+  ul {
+  	margin: 0;
+
+  	li {
+  		display: flex;
+  		justify-content: space-between;
+  		color: #777;
+  		margin-bottom: 10px;
+  		line-height: 20px;
+  		cursor: pointer;
+
+  		&:not(.active):hover {
+  			color: $color1;
+
+  			span {
+  				color: $color1;
+  			}
+  		}
+  		span {
+  			display: inline-block;
+  			background: #f5f5f5;
+  			border: 1px solid #ddd;
+  			font-size: 10px;
+  			font-weight: 600;
+  			height: 18px;
+  			line-height: 18px;
+  			padding: 0 5px;
+  			border-radius: 5px;
+  			color: #777;
+  		}
+  		&.active {
+  			color: #0473aa;
+
+  			span {
+  				border-color: #0473aa;
+  				background-color: #0473aa;
+  				color: #fff;
+  			}
+  		}
+  	}
+  }
+}
+.thb_templates_container {
+	flex: 1;
+	padding: 18px;
+
+	.theme-browser {
+		width: calc(100% + 15px);
+
+		.thb_template.theme {
+			margin: 0 15px 15px 0;
+			width: calc(33.3% - 15px);
+		}
+	}
+
+	.thb_template.theme {
+
+		.theme-name {
+			font-size: 12px;
+		}
+		.theme-actions {
+			top: auto;
+			transform: translateY(0);
+			bottom: 0;
+		}
+	}
+}
+/* Label */
+.thb-row-heading {
+	color: #999;
+  display: block;
+  line-height: 20px;
+  margin-top: 8px;
+  clear: both;
+  font-weight: 400;
+}
+.vc_edit_form_elements .vc_column[data-vc-shortcode-param-name="column_2_align"],
+.vc_edit_form_elements .vc_column[data-vc-shortcode-param-name="column_3_align"],
+.vc_edit_form_elements .vc_column[data-vc-shortcode-param-name="column_4_align"] {
+	margin-top: 18px;
+}
+
+/* Small VC fixes */
+.wpb_thb_slidetype {
+	.vc_admin_label {
+		display: block;
+		max-width: 100%;
+		overflow: hidden;
+	}
+}
+/* Element Styles */
+.vc_wrapper-param-type-thb_radio_image {
+	.thb-radio-images-list {
+		display: block;
+
+		li {
+			width: 137px;
+			display: inline-block;
+			margin: 0 10px 10px 0px;
+
+			.thb_radio_image_val {
+				display: none;
+			}
+			.thb_radio_image {
+				background: #fff;
+		    border: 1px solid #ccc;
+		    cursor: pointer;
+		    opacity: 0.8;
+		    padding: 5px;
+		    border-radius: 2px;
+		    line-height: 1;
+		    img {
+		    	max-width: 100%;
+		    }
+			}
+			.thb_radio_image_val:checked + .thb_radio_image {
+				border-color: #464646;
+		    opacity: 1;
+		    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+			}
+		}
+	}
+}
+
+/* HotSpots */
+.thb-hotspot-param-container {
+	.thb-hotspot-image-holder {
+		max-width: 90%;
+		position: relative;
+		img {
+			width: 100%;
+		}
+		&:not(.no-img) {
+			cursor: copy;
+		}
+		&.no-img {
+			width: 90%;
+    	height: 250px;
+			background: #f5f5f5;
+    	border: 1px solid #dfdfdf;
+		}
+		.HotspotPlugin_Overlay {
+			position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+
+			p {
+				display: none;
+			}
+		}
+		.thb_hotspot {
+			background: #0473aa;
+			height: 22px;
+	    width: 22px;
+			font-size: 12px;
+			font-weight: 600;
+			line-height: 22px;
+	    border-radius: 11px;
+	    cursor: move;
+	    position: absolute;
+	    z-index: 100;
+	    text-align: center;
+	    color: #fff;
+			.thb-hotspot-content {
+				.thb-hotspot-param {
+					display: none;
+				}
+				.delete-item {
+					position: absolute;
+					top: -3px;
+					right: -3px;
+					width: 12px;
+					height: 12px;
+					border-radius: 6px;
+					background: red;
+					color: #fff;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 9px;
+				}
+			}
+
+		}
+	}
+}
+.vc_ui-panel.thb-hotspot-popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	border-radius: 5px;
+	@include box-shadow(0 30px 60px 0 rgba(0, 0, 0, 0.2));
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: 999999;
+}

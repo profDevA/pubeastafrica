@@ -1,0 +1,82 @@
+/* Pricing Table */
+.thb-pricing-table {
+	.thb-pricing-column {
+		display: flex;
+		flex-direction: column;
+		.pricing-container {
+			background: #fff;
+			display: flex;
+			height: 100%;
+			flex-direction: column;
+			border: 1px solid #e6e6e6;
+			text-align: center;
+			padding: 15px;
+			
+			@include min-break($break-small) {
+				padding: 40px;	
+			}
+			img {
+				display: block;
+				border-radius: 3px;
+				margin: 0 auto 40px;
+				flex-shrink: 0;
+			}
+			.thb_pricing_head {
+				
+				h4 {
+					font-size: 20px;
+					font-weight: 400;	
+					margin-bottom: 15px;
+					line-height: 1;
+				}
+				h3 {
+					font-size: 30px;	
+					font-weight: 600;
+					line-height: 1;
+					margin-bottom: 25px;
+					font-feature-settings: "tnum";
+					font-variant-numeric: tabular-nums;
+				}
+				.pricing_sub_title {
+					font-size: 13px;
+					margin-bottom: 39px;
+					opacity: 0.4;
+				}
+			}
+			&.has-button {
+				border-radius: 3px 3px 0 0;
+				border-bottom: 0;
+			}
+			.pricing-description {
+				border-top: 1px solid rgba(0,0,0,0.07);
+				padding-top: 40px;
+				text-align: left;
+				font-size: 14px;
+				color: $color1;
+				
+				p {
+					font-size: inherit;
+					color: inherit;
+				}
+			}
+		}
+		.btn {
+			width: 100%;
+			height: 60px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-weight: 600;
+			padding: 0;
+		}
+		&.highlight-true {
+			.pricing-container {
+				background: #fff6f6;
+				border-color: $color3;	
+			}
+		}
+	}
+	.btn {
+		border-radius: 0 0 3px 3px;
+	}
+}

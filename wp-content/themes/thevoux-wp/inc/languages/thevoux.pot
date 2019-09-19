@@ -1,0 +1,3714 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'thevoux'\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-10 16:39+0300\n"
+"PO-Revision-Date: 2017-09-13 22:43+0300\n"
+"Last-Translator: Ant Ekşiler <anteksiler@gmail.com>\n"
+"Language-Team: Fuel Themes <support@fuelthemes.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_attr__;esc_html_e;esc_attr_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: inc/admin\n"
+
+#: 404.php:6
+msgid ""
+"We are sorry. But the page you are looking for cannot be found. You might "
+"try searching our site."
+msgstr ""
+
+#: 404.php:8
+msgid "Back To Home"
+msgstr ""
+
+#: comments.php:27
+msgid "No Comments Yet"
+msgstr ""
+
+#: comments.php:27 inc/templates/postbits/post-links-style2.php:5
+#: inc/templates/postbits/post-shares-comments.php:11
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:27 inc/templates/postbits/post-links-style2.php:5
+#: inc/templates/postbits/post-shares-comments.php:11
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:66 woocommerce/single-product-reviews.php:70
+msgid "Name"
+msgstr ""
+
+#: comments.php:68 woocommerce/single-product-reviews.php:72
+msgid "Email"
+msgstr ""
+
+#: comments.php:70
+msgid "Website"
+msgstr ""
+
+#: comments.php:72
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:74
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:76
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:78
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:82
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:83
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:84
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:85
+msgid "Submit Comment"
+msgstr ""
+
+#: inc/ajax.php:145
+msgid "Please accept the terms of our newsletter."
+msgstr ""
+
+#: inc/ajax.php:161
+msgid "<strong>Oh snap!</strong> That email address is already subscribed!"
+msgstr ""
+
+#: inc/ajax.php:170
+msgid "<strong>Well done!</strong> Your address has been added."
+msgstr ""
+
+#: inc/ajax.php:174
+msgid "<strong>Oh snap!</strong> Please enter a valid email address."
+msgstr ""
+
+#: inc/ajax.php:210
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_subscribe.php:16
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_subscribe.php:31
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_subscribe.php:47
+#: inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:44
+msgid "Your E-Mail"
+msgstr ""
+
+#: inc/ajax.php:211 inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:45
+msgid "SUBSCRIBE NOW"
+msgstr ""
+
+#: inc/framework/thb-category-settings.php:10
+#: inc/woocommerce-category-image.php:9
+msgid "The Voux Settings"
+msgstr ""
+
+#: inc/framework/thb-category-settings.php:15
+msgid "Category Layout"
+msgstr ""
+
+#: inc/framework/thb-instagram.php:155 inc/framework/thb-instagram.php:187
+msgid "Instagram html data cannot be retrieved."
+msgstr ""
+
+#: inc/framework/thb-instagram.php:164
+msgid "Instagram data is not set, please check the ID."
+msgstr ""
+
+#: inc/framework/thb-instagram.php:170 inc/framework/thb-instagram.php:176
+msgid "There are no images in your account or the account is private."
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links-list.php:7
+msgid "Facebook"
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links-list.php:12
+msgid "Twitter"
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links-list.php:17
+#: inc/framework/visualcomposer/visualcomposer-extend.php:973
+msgid "Instagram"
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links-list.php:22
+msgid "Pinterest"
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links-list.php:27
+msgid "Youtube"
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links-list.php:35
+msgid "Medium"
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links-list.php:40
+msgid "Vimeo"
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links.php:405
+msgid "Data not found. Please check your user ID."
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links.php:448
+msgid "Instagram data is not set. Please check your Instagram Access Token."
+msgstr ""
+
+#: inc/framework/thb-social-links/social-links.php:478
+#: inc/framework/thb-social-links/social-links.php:481
+msgid "Please check your username."
+msgstr ""
+
+#: inc/framework/thb-social-shares/social-share-count.php:15
+#: inc/framework/thb-social-shares/social-share-count.php:21
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/framework/thb-social-shares/social-share-count.php:66
+msgid "Total Shares"
+msgstr ""
+
+#: inc/framework/thb-twitter-helper.php:125
+msgid "ago"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-carousel.php:5
+msgid "Carousel - 01"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-carousel.php:14
+msgid "Carousel - 02"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-carousel.php:21
+msgid "Carousel - 03"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-carousel.php:30
+msgid "Carousel - 04"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-carousel.php:37
+msgid "Carousel - 05"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-carousel.php:46
+msgid "Carousel - 06"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-carousel.php:55
+msgid "Carousel - 07"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-carousel.php:64
+msgid "Carousel - 08"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:5
+msgid "General - 01"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:12
+msgid "General - 02"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:21
+msgid "General - 03"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:28
+msgid "General - 04"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:35
+msgid "General - 05"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:44
+msgid "General - 06"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:53
+msgid "General - 07"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:62
+msgid "General - 08"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:69
+msgid "General - 09"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:82
+msgid "General - 10"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:91
+msgid "General - 11"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:100
+msgid "General - 12"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:107
+msgid "General - 13"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-general.php:114
+msgid "General - 14"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:5
+msgid "Hero - 01"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:12
+msgid "Hero - 02"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:19
+msgid "Hero - 03"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:26
+msgid "Hero - 04"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:33
+msgid "Hero - 05"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:44
+msgid "Hero - 06"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:51
+msgid "Hero - 07"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:58
+msgid "Hero - 08"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:65
+msgid "Hero - 09"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:72
+msgid "Hero - 10"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:79
+msgid "Hero - 11"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:86
+msgid "Hero - 12"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:93
+msgid "Hero - 13"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-hero.php:100
+msgid "Hero - 14"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:5
+msgid "The Voux - 01"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:16
+msgid "The Voux - 02"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:29
+msgid "The Voux - 03"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:36
+msgid "The Voux - 04"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:43
+msgid "The Voux - 05"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:50
+msgid "AdventureLove"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:71
+msgid "The Foodies"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:80
+msgid "FashionMe Now"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:113
+msgid "Avantgarde"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:123
+msgid "Madison"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:139
+msgid "Boheme"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:146
+msgid "Catherine"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:159
+msgid "Chloe"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:170
+msgid "Bold & Beautiful"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:180
+msgid "Anna"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-homepage.php:189
+msgid "Vicki"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:5
+msgid "Listing - 01"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:12
+msgid "Listing - 02"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:19
+msgid "Listing - 03"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:26
+msgid "Listing - 04"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:33
+msgid "Listing - 06"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:40
+msgid "Listing - 07"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:47
+msgid "Listing - 08"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:60
+msgid "Listing - 09"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:67
+msgid "Listing - 10"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:74
+msgid "Listing - 11"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:81
+msgid "Listing - 12"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:90
+msgid "Listing - 13"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:102
+msgid "Listing - 14"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:109
+msgid "Listing - 15"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:116
+msgid "Listing - 16"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:123
+msgid "Listing - 17"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:132
+msgid "Listing - 18"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:139
+msgid "Listing - 19"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:148
+msgid "Listing - 20"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:155
+msgid "Listing - 21"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:162
+msgid "Listing - 22"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:171
+msgid "Listing - 23"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-listing.php:178
+msgid "Listing - 24"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-page.php:5
+msgid "Contact - 01"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-page.php:18
+msgid "Contact - 02"
+msgstr ""
+
+#: inc/framework/visualcomposer/templates/thb-page.php:34
+#: inc/framework/visualcomposer/visualcomposer-extend.php:202
+msgid "Author List"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:4
+msgid "Animation"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:64
+msgid "Gradient Direction"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:67
+msgid "You can change the gradient direction here."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:82
+msgid "Background Gradient Color 1"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:85
+msgid ""
+"Choose a first (top) color for the background gradient. Leave blank to "
+"disable."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:94
+msgid "Background Gradient Color 2"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:97
+msgid "Choose a second (bottom) color for the background gradient."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:109
+#: inc/framework/visualcomposer/visualcomposer-extend.php:119
+msgid "Enable Fixed Content"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:112
+#: inc/framework/visualcomposer/visualcomposer-extend.php:122
+#: inc/framework/visualcomposer/visualcomposer-extend.php:152
+#: inc/framework/visualcomposer/visualcomposer-extend.php:162
+#: inc/framework/visualcomposer/visualcomposer-extend.php:172
+#: inc/framework/visualcomposer/visualcomposer-extend.php:182
+#: inc/framework/visualcomposer/visualcomposer-extend.php:500
+#: inc/framework/visualcomposer/visualcomposer-extend.php:809
+#: inc/framework/visualcomposer/visualcomposer-extend.php:897
+#: inc/framework/visualcomposer/visualcomposer-extend.php:925
+#: inc/framework/visualcomposer/visualcomposer-extend.php:934
+#: inc/framework/visualcomposer/visualcomposer-extend.php:957
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1027
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1036
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1045
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1091
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1167
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1177
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1246
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1256
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1265
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1274
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1304
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1355
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1443
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1498
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1507
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1516
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1573
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1588
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1835
+msgid "Yes"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:115
+#: inc/framework/visualcomposer/visualcomposer-extend.php:125
+msgid "If you enable this, this column will be fixed."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:138
+msgid "Mobile Height"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:143
+msgid "You can change the height in mobile devices"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:149
+#: inc/framework/visualcomposer/visualcomposer-extend.php:169
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1033
+msgid "Disable Column Padding"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:155
+#: inc/framework/visualcomposer/visualcomposer-extend.php:175
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1038
+msgid "You can have columns without spaces using this option"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:159
+msgid "Enable Full Width"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:165
+msgid "If you enable this, this row fill the full-screen in large screens"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:179
+msgid "Enable Max Width"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:185
+msgid "If you enable this, this row will not fill the container."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:206
+#: inc/framework/visualcomposer/visualcomposer-extend.php:237
+#: inc/framework/visualcomposer/visualcomposer-extend.php:271
+#: inc/framework/visualcomposer/visualcomposer-extend.php:300
+#: inc/framework/visualcomposer/visualcomposer-extend.php:351
+#: inc/framework/visualcomposer/visualcomposer-extend.php:362
+#: inc/framework/visualcomposer/visualcomposer-extend.php:425
+#: inc/framework/visualcomposer/visualcomposer-extend.php:485
+#: inc/framework/visualcomposer/visualcomposer-extend.php:540
+#: inc/framework/visualcomposer/visualcomposer-extend.php:590
+#: inc/framework/visualcomposer/visualcomposer-extend.php:687
+#: inc/framework/visualcomposer/visualcomposer-extend.php:713
+#: inc/framework/visualcomposer/visualcomposer-extend.php:742
+#: inc/framework/visualcomposer/visualcomposer-extend.php:761
+#: inc/framework/visualcomposer/visualcomposer-extend.php:797
+#: inc/framework/visualcomposer/visualcomposer-extend.php:838
+#: inc/framework/visualcomposer/visualcomposer-extend.php:913
+#: inc/framework/visualcomposer/visualcomposer-extend.php:977
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1059
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1192
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1328
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1398
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1457
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1540
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1635
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1679
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1719
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1767
+msgid "by Fuel Themes"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:210
+#: inc/framework/visualcomposer/visualcomposer-extend.php:596
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1012
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1118
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1217
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1416
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1545
+msgid "Columns"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:219
+msgid "Select the layout of the authors."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:223
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1818
+msgid "Author IDs"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:225
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1820
+msgid "Enter the Author IDs you would like to display seperated by comma"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:228
+msgid "Display your blog authors in a grid"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:233
+msgid "Block Grid"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:241
+#: inc/framework/visualcomposer/visualcomposer-extend.php:278
+#: inc/framework/visualcomposer/visualcomposer-extend.php:981
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1063
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1196
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1332
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1402
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1651
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1723
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1771
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:130
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:63
+msgid "Style"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:247
+msgid "This changes the layouts of the grids"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:251
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1132
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1231
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1428
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1483
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1782
+msgid "Post Source"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:253
+msgid ""
+"Set your post source here. Block Grids have fixed post counts, so it will be "
+"omitted inside source setting."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:257
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1138
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1237
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1384
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1434
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1489
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1825
+msgid "Offset"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:259
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1140
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1239
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1386
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1436
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1491
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1827
+msgid ""
+"You can offset your post with the number of posts entered in this setting"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:262
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1183
+msgid "Display your posts in different grid layouts."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:267
+msgid "Border Container"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:286
+msgid "This changes the style of the background"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:290
+msgid "Stylish Border Container that you can place elements in"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:296
+msgid "Button"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:304
+msgid "Button Link & Text"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:306
+msgid "Set your button link & text here."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:310
+msgid "Size"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:322
+msgid "Color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:331
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1755
+msgid "This changes the color of the button"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:336
+#: inc/framework/visualcomposer/visualcomposer-extend.php:672
+#: inc/framework/visualcomposer/visualcomposer-extend.php:702
+#: inc/framework/visualcomposer/visualcomposer-extend.php:728
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1668
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1706
+msgid "Extra Class Name"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:340
+msgid "Add an animated button"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:345
+msgid "Cascading Images"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:353
+msgid "Insert a cascading Image"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:358
+msgid "Single Image"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:367
+#: inc/framework/visualcomposer/visualcomposer-extend.php:801
+#: inc/framework/visualcomposer/visualcomposer-extend.php:842
+#: inc/framework/visualcomposer/visualcomposer-extend.php:917
+msgid "Select Image"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:369
+msgid "Select Image for the layer"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:373
+msgid "Offset X"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:380
+msgid "Offset Y"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:387
+#: inc/framework/visualcomposer/visualcomposer-extend.php:922
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1585
+msgid "Retina Size?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:392
+#: inc/framework/visualcomposer/visualcomposer-extend.php:927
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1590
+msgid ""
+"If selected, the image will be display half-size, so it looks crisps on "
+"retina screens. Full Width setting will override this."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:397
+msgid "Add Border Radius?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:400
+msgid "You can add Border Radius in px value."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:404
+msgid "Add Box Shadow?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:410
+msgid "You can add a Box Shadow to your image."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:420
+msgid "Contact Map Parent"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:430
+msgid "Map Height"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:434
+#, php-format
+msgid ""
+"Enter height of the map in vh (0-100). For example, 50 will be 50% of "
+"viewport height and 100 will be full height. Make sure you have filled in "
+"your Google Maps API inside Appearance > Theme Options."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:438
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:441
+msgid "Set map zoom level. Leave 0 to automatically fit to bounds."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:445
+msgid "Map Controls"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:449
+msgid "Pan Control"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:450
+msgid "Zoom Control"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:451
+msgid "Map Type Control"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:452
+msgid "Scale Control"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:453
+msgid "Street View Control"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:455
+msgid "Toggle map options."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:459
+msgid "Map Type"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:463
+msgid "Roadmap"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:464
+msgid "Satellite"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:465
+msgid "Hybrid"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:467
+msgid "Choose map style."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:471
+msgid "Map Style"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:473
+msgid "Paste the style code here. Browse map styles in https://snazzymaps.com"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:476
+msgid "Insert your Contact Map"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:481
+msgid "Contact Map Location"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:490
+msgid "Marker Image"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:492
+msgid "Add your Custom marker image or use default one."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:496
+msgid "Retina Marker"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:502
+msgid ""
+"Enabling this option will reduce the size of marker for 50%, example if "
+"marker is 32x32 it will be 16x16."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:506
+msgid "Latitude"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:509
+msgid ""
+"Enter latitude coordinate. To select map coordinates <a href=\"http://www."
+"latlong.net/convert-address-to-lat-long.html\" target=\"_blank\">click here</"
+"a>."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:513
+msgid "Longitude"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:516
+msgid "Enter longitude coordinate."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:520
+msgid "Marker Title"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:525
+msgid "Marker Description"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:536
+msgid "Content Box"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:544
+msgid "Top Image"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:546
+msgid "The image to show at the top."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:550
+msgid "Link Content Box?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:552
+msgid "Enter url if you want this content box to have link."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:556
+msgid "Heading"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:562
+msgid "Heading Color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:564
+msgid "You can change the heading color from here"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:568
+#: inc/framework/visualcomposer/visualcomposer-extend.php:693
+#: inc/framework/visualcomposer/visualcomposer-extend.php:719
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1641
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1685
+msgid "Content"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:574
+msgid "Content Color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:580
+msgid "Content boxes with images"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:585
+msgid "Content Carousel"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:607
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1227
+msgid "Select the layout."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:611
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1253
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1495
+msgid "Pagination"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:621
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1262
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1504
+msgid "Navigation Arrows"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:631
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1301
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1513
+msgid "Auto Play"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:636
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1307
+msgid "If enabled, the carousel will autoplay."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:640
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1312
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1523
+msgid "Speed of the AutoPlay"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:643
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1315
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1526
+msgid "Speed of the autoplay, default 4000 (4 seconds)"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:648
+msgid "Margins between items"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:658
+msgid "This will change the margins between items"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:662
+msgid "Overflow Visible?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:677
+msgid "Display your content in a carousel"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:685
+msgid "Fade Type"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:686
+msgid "Faded letter typing"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:711
+msgid "Gradient Type"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:712
+msgid "Text with Gradient Color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:738
+msgid "Gap"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:746
+msgid "Gap Height"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:749
+msgid "Enter height of the gap in px."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:752
+msgid "Add a gap to seperate elements"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:757
+msgid "Icon List"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:765
+msgid "Icon"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:772
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:776
+msgid "Icon color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:782
+msgid "List Items"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:785
+msgid "Every new line will be treated as a list item"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:788
+msgid "Add lists with icons"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:793
+msgid "3D Hover Image"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:806
+#: inc/framework/visualcomposer/visualcomposer-extend.php:931
+msgid "Full Width?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:811
+#: inc/framework/visualcomposer/visualcomposer-extend.php:936
+msgid "If selected, the image will always fill its container"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:815
+#: inc/framework/visualcomposer/visualcomposer-extend.php:947
+msgid "Image alignment"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:818
+#: inc/framework/visualcomposer/visualcomposer-extend.php:950
+msgid "Select image alignment."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:822
+#: inc/framework/visualcomposer/visualcomposer-extend.php:962
+msgid "Image link"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:824
+msgid "Set Image Link here"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:828
+msgid "Add a 3D animated image"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:833
+msgid "Image Hot Spots"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:844
+msgid ""
+"After selecting your image, you can then click on the image in the preview "
+"area to add your hotspots on the desired locations."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:848
+msgid "Image Preview"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:851
+msgid "Click to add a hotspot - Drag to move it"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:856
+msgid "Tooltip Functionality"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:863
+#: inc/framework/visualcomposer/visualcomposer-extend.php:875
+#: inc/framework/visualcomposer/visualcomposer-extend.php:890
+#: inc/framework/visualcomposer/visualcomposer-extend.php:901
+msgid "Styling"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:868
+msgid "Pin Color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:879
+msgid "Pin Animation"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:894
+msgid "Enable Pulsate Effect"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:900
+msgid "Shows a pulsate around the pin."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:904
+msgid "Add an image with hotspots"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:909
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1579
+#: inc/woocommerce-category-image.php:46
+msgid "Image"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:941
+msgid "Image size"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:943
+msgid ""
+"Enter image size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height). Leave empty to use 'thumbnail' size."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:954
+msgid "Link to Full-Width Image?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:964
+msgid "Enter url if you want this image to have link."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:968
+msgid "Add an animated image"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:988
+msgid "This changes the layouts of the photos"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:992
+msgid "Instagram Username"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:995
+msgid "Instagram username to retrieve photos from."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:999
+msgid "Instagram Access Token"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1001
+msgid "Instagram Access Token."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1005
+msgid "Number of Photos"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1008
+msgid "Number of Instagram Photos to retrieve"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1024
+msgid "Link Photos to Instagram?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1029
+msgid "Do you want to link the Instagram photos to instagram.com website?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1042
+msgid "Low Column Padding"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1047
+msgid ""
+"You can have columns with smaller spacing. Does not work together with "
+"'Disable Column Padding'"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1050
+msgid "Add Instagram Photos"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1055
+msgid "Posts Grid"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1084
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1213
+msgid "This changes the style of the posts"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1088
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1271
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1352
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1832
+msgid "Add Title?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1093
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1276
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1837
+msgid "If enabled, this will allow you to add a title above the posts"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1097
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1280
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1362
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1841
+msgid "Title Style"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1106
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1289
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1372
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1850
+msgid "This changes the style of the category titles"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1111
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1294
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1594
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1735
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1855
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:95
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:102
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:106
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:125
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:49
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:93
+msgid "Title"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1113
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1296
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1857
+msgid "Add your own title here"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1127
+msgid "Select the layout of the posts."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1134
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1233
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1430
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1485
+msgid "Set your post source here"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1144
+msgid "Featured Posts (Enlarged Post Image)"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1146
+msgid ""
+"Enter the number for which posts to show as Featured (For ex, entering 1,3,5 "
+"will make those posts appear larger, these are not post IDs, just the number "
+"in which they appear)"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1151
+msgid "Ajax Pagination"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1160
+msgid ""
+"If enabled, this will show pagination underneath. Offset setting does not "
+"work."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1164
+msgid "Disable Post Excrepts"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1169
+msgid "You can hide the post excerpts here"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1174
+msgid "Disable Post Meta"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1179
+msgid "You can hide the post meta here"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1188
+msgid "Posts Carousel"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1243
+msgid "Centered Slides?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1249
+msgid "When enabled shows the next and previous slides on the sides."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1258
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1500
+msgid "If enabled, this will show pagination circles underneath"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1267
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1509
+msgid "If enabled, this will show navigation arrows on the side"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1319
+msgid "Display Posts from your blog in a Carousel"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1324
+msgid "Posts Category"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1348
+msgid "This changes the style of the category posts"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1358
+msgid "If enabled, this will add the category title on top."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1377
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1796
+msgid "Post Categories"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1380
+msgid "Which category would you like to show?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1389
+msgid "Display a Category with posts"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1394
+msgid "Posts Masonry"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1412
+msgid "Select the style of the masonry."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1424
+msgid "Select the layout of the masonry."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1440
+msgid "Add Load More Button?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1445
+msgid "Add Load More button at the bottom"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1448
+msgid "Show your posts in a masonry grid"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1453
+msgid "Posts Slider"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1461
+msgid "Type"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1479
+msgid "Select the slider style."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1519
+msgid "If enabled, the slider will autoplay."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1530
+msgid "Display Posts from your blog in a Slider"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1535
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1557
+msgid "Pricing Table"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1562
+msgid "Pricing Table Column"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1570
+msgid "Highlight?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1575
+msgid "If enabled, this column will be hightlighted."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1581
+msgid "Select an image if you would like to display one on top."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1597
+msgid "Title of this pricing column"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1601
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:93
+msgid "Price"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1603
+msgid "Price of this pricing column."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1607
+msgid "Sub Title"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1609
+msgid "Some information under the price."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1613
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1741
+#: inc/wp3menu.php:228
+msgid "Description"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1615
+msgid ""
+"Include a small description for this box, this text area supports HTML too."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1619
+msgid "Pricing CTA Button"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1621
+msgid "Button at the end of the pricing table."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1624
+msgid "Add a pricing table"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1633
+msgid "Slide Type"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1634
+msgid "Animated text scrolling"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1662
+msgid "Animated Text Color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1664
+msgid "Uses the accent color by default"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1677
+msgid "Stroke Type"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1678
+msgid "Text with Stroke style"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1693
+msgid "Text Color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1695
+msgid "Select text color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1699
+msgid "Stroke Width"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1702
+msgid "Enter the value for the stroke width. "
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1715
+msgid "Subscription Form"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1731
+msgid "This changes the style of the subscribe form"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1746
+msgid "Button Color"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1758
+msgid "Add a subscription form"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1763
+msgid "Video Playlist"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1778
+msgid "This changes the style of the playlist"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1792
+msgid "Select the source of the posts you'd like to show."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1799
+msgid "Which categories would you like to show?"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1804
+msgid "Number of posts"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1807
+msgid "The number of posts to show."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1811
+msgid "Tag slugs"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1813
+msgid "Enter the tag slugs you would like to display seperated by comma"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-extend.php:1861
+msgid "Display your videos in a playlist"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-templates.php:19
+msgid ""
+"These templates append the Page Builder elements to your page. The added "
+"elements still need to be configured from their settings for your content "
+"such as images, post sources, etc."
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-templates.php:29
+msgid "Add"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer-templates.php:62
+msgid "Homepage layouts used inside the demos"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer.php:132
+msgid "Hotspot Tooltip Content"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer.php:132
+msgid "Save changes"
+msgstr ""
+
+#: inc/framework/visualcomposer/visualcomposer.php:132 inc/script-calls.php:118
+msgid "Close"
+msgstr ""
+
+#: inc/misc.php:44
+msgid "Position"
+msgstr ""
+
+#: inc/misc.php:46
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/misc.php:48
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/misc.php:50
+msgid "Instagram Profile URL"
+msgstr ""
+
+#: inc/misc.php:500
+msgid "This is a protected area. Please enter your password:"
+msgstr ""
+
+#: inc/misc.php:501 woocommerce/myaccount/form-login.php:35
+#: woocommerce/myaccount/form-login.php:68
+msgid "Password"
+msgstr ""
+
+#: inc/misc.php:501
+msgid "Submit"
+msgstr ""
+
+#: inc/misc.php:532
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: inc/misc.php:622
+msgid "by"
+msgstr ""
+
+#: inc/misc.php:641
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/misc.php:654
+msgid "Share this selection on Twitter"
+msgstr ""
+
+#: inc/misc.php:657
+msgid "Share this selection on Facebook"
+msgstr ""
+
+#: inc/misc.php:660
+msgid "Share this selection by Email"
+msgstr ""
+
+#: inc/misc.php:743
+msgid "I would like to receive news and special offers."
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:9
+msgid "Sponsor URL:"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:11
+msgid "The URL that sponsor links to."
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:14
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:46
+msgid "Sponsor Logo"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:20
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:56
+#: inc/woocommerce-category-image.php:21
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:21
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:57
+#: inc/woocommerce-category-image.php:22
+msgid "Remove image"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:23
+msgid "Upload your logo for the sponsor here."
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:40
+msgid "Sponsor URL"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-fields.php:42
+msgid "You can link Sponsor logo to this url."
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:8
+msgid "Search Sponsors"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:9
+msgid "All Sponsors"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:10
+msgid "Popular Sponsors"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:11
+msgid "Edit Sponsor"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:12
+msgid "Update Sponsor"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:13
+msgid "Add New Sponsor"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:14
+msgid "New Sponsor Name"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:15
+msgid "Separate sponsors with commas"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:16
+msgid "Add or remove sponsors"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:17
+msgid "Choose from the most used sponsors"
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:18
+msgid "No sponsors found."
+msgstr ""
+
+#: inc/plugins/thb-sponsors-plugin/sponsor-taxonomy.php:19
+msgid "Sponsors"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:6
+msgid "General"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:10
+msgid "Featured Image Credit"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:13
+msgid ""
+"Featured Image Credit, enter the copyright information for your featured "
+"image if needed."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:17
+msgid "Via Source"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:20
+msgid "You can add via sources for your articles here"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:23
+msgid "Via Source URL"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:25
+msgid "Enter a URL for your via source here"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:31
+msgid "Source"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:34
+msgid "You can add sources for your articles here"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:37
+msgid "Source URL"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:39
+msgid "Enter a URL for your source here"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:49
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:55
+msgid "Post Gallery"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/metaboxes/post-metabox.php:58
+msgid "The image captions will be used as image information on the right side."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/CustomizerImporter.php:37
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/CustomizerImporter.php:45
+msgid "Importing customizer settings"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/CustomizerImporter.php:43
+msgid "Customizer settings import finished!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/CustomizerImporter.php:73
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/CustomizerImporter.php:93
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/CustomizerImporter.php:99
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Downloader.php:58
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Downloader.php:76
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:219
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:262
+#, php-format
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %s%s."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:296
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:319
+#, php-format
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory "
+"of your site. You can change this setting with these instructions: %s."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:330
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:131
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:15
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:331
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:132
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:105
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:117
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:343
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:351
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:391
+msgid "One Click Demo Import - "
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:425
+#, php-format
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import demo "
+"data.%s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:471
+#, php-format
+msgid "Content file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:475
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:492
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:509
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:520
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:540
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:548
+msgid "Upload files"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:488
+#, php-format
+msgid "Widget file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:505
+#, php-format
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:518
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:536
+#, php-format
+msgid "Redux file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:546
+msgid "The import files were successfully uploaded!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:572
+#, php-format
+msgid "Initial max execution time = %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:576
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s"
+"%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:579
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:580
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:581
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Helpers.php:582
+msgid "not defined!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/Importer.php:172
+msgid "New AJAX call!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:183
+msgid "No preview image defined for this import."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:184
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:185
+#: inc/wp3menu.php:282
+msgid "Cancel"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:186
+msgid "Yes, import!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:187
+msgid "Selected demo import:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:232
+msgid "Manually uploaded files"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:246
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:257
+msgid "Downloaded files"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:253
+#, php-format
+msgid "The import files for: %s were successfully downloaded!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:262
+msgid "No import files specified!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:383
+msgid ""
+"Just used One Click Demo Import plugin and it was awesome! Thanks "
+"@ProteusThemes! #OCDI https://www.proteusthemes.com/"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:386
+#, php-format
+msgid ""
+"%1$s%6$sWasn't this a great One Click Demo Import experience?%7$s Created "
+"and maintained by %3$sProteusThemes%4$s. %2$s%5$sClick to Tweet!%4$s%8$s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:399
+#, php-format
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please "
+"check your page and make sure that everything has imported correctly. If it "
+"did, you can deactivate the %3$sOne Click Demo Import%4$s plugin, because it "
+"has done its job.%5$s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/OneClickDemoImport.php:410
+#, php-format
+msgid ""
+"%1$sThe demo import has finished, but there were some import errors.%2$sMore "
+"details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/ReduxImporter.php:23
+msgid "The Redux plugin is not activated, so the Redux import was skipped!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/ReduxImporter.php:32
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/ReduxImporter.php:53
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/ReduxImporter.php:66
+msgid "Importing Redux settings"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/ReduxImporter.php:51
+#, php-format
+msgid "Redux settings import for: %s finished successfully!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/ReduxImporter.php:57
+#, php-format
+msgid ""
+"The Redux option name: %s, was not found in this WP site, so it was not "
+"imported!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:34
+msgid "There are no predefined demo imports for currently active theme!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:37
+msgid "Here are the predefined demo imports:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:71
+msgid ""
+"At least one of the possible options should be set! Check them with --help"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:122
+msgid ""
+"The \"predefined\" parameter should be a number (an index of the OCDI "
+"predefined demo import)!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:128
+msgid ""
+"The supplied predefined index does not exist! Please take a look at the "
+"available predefined demo imports:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:135
+msgid "Predefined demo import started! All other parameters will be ignored!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:140
+#, php-format
+msgid "Selected predefined demo import: %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:143
+msgid "Preparing the demo import files..."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:148
+msgid "Demo import files could not be retrieved!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:151
+msgid "Demo import files retrieved successfully!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:153
+msgid "Importing..."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:173
+msgid "Predefined import finished!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:185
+msgid "Content import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:194
+msgid "Importing content (this might take a while)..."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:196
+msgid "Importing content"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:201
+msgid "Content import finished!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:204
+msgid "There were some issues while importing the content!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:223
+msgid "Widgets import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:227
+msgid "Importing widgets..."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:232
+msgid "Widgets imported successfully!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:235
+msgid "There were some issues while importing widgets!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:254
+msgid "Customizer import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:258
+msgid "Importing customizer settings..."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:263
+msgid "Customizer settings imported successfully!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:266
+msgid "There were some issues while importing customizer settings!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WPCLICommands.php:286
+#, php-format
+msgid "Executing action: %s ..."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:40
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:52
+msgid "Importing widgets"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:88
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:118
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:157
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:178
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:211
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:269
+msgid "Imported"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:273
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:279
+msgid "No Title"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/inc/WidgetImporter.php:326
+msgid "No results for widget import!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/one-click-demo-import.php:57
+#, php-format
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: "
+"%2$s%1$s%3$s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:131
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:167
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:283
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:356
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:505
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:565
+msgid "Invalid author mapping"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:666
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:754
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:764
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:842
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:856
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:888
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1771
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:893
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:933
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1074
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1557
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1578
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1582
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1732
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1776
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1834
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1843
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1894
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1907
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1912
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1918
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1943
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1956
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1961
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1975
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1980
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2006
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2017
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2062
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2067
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2089
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2093
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2107
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2111
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2128
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2157
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2167
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2178
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2186
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2200
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2219
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2229
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:25
+#, php-format
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might "
+"experience server timeout errors.%s"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:38
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:43
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:44
+msgid ""
+"It will allow you to quickly edit everything instead of creating content "
+"from scratch."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:49
+msgid "When you import the data, the following things might happen:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:52
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:53
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get "
+"imported."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:54
+msgid ""
+"Please click on the Import button only once and wait, it can take a couple "
+"of minutes."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:71
+msgid ""
+"There are no predefined import files available in this theme. Please upload "
+"the import files manually!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:75
+msgid "Manual demo files upload"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:78
+msgid "Choose a XML file for content import:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:83
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:88
+msgid "Choose a DAT file for customizer import:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:94
+msgid "Choose a JSON file for Redux import:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:97
+msgid "Enter the Redux option name:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:132
+msgid "All"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:139
+msgid "Search demos..."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:160
+msgid "No preview image."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:165
+msgid "Import"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:167
+msgid "Preview"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/one-click-demo-import/views/plugin-page.php:180
+msgid "Importing, please wait!"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_contactmap.php:15
+msgid "Please fill out Google Maps Api key inside Theme Options"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_hotspots.php:45
+msgid "Product Not Found"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_instagram.php:27
+msgid "Please check your Instagram username."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_postgrid.php:51
+msgid "&larr;"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_postgrid.php:52
+msgid "&rarr;"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_postgrid.php:67
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_postmasonry.php:34
+msgid "Load More"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_subscribe.php:17
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_subscribe.php:32
+#: inc/plugins/thevoux-plugin/inc/vc_templates/thb_subscribe.php:48
+msgid "SIGN UP"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/about.php:7
+msgid "Display your information"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/about.php:12
+msgid "Fuel Themes - About Me"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/about.php:50
+msgid "Select an Image"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/about.php:51
+msgid "Insert Into Widget"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/about.php:66
+#: inc/plugins/thevoux-plugin/inc/widgets/discussed-posts-images.php:69
+#: inc/plugins/thevoux-plugin/inc/widgets/featured-video.php:54
+#: inc/plugins/thevoux-plugin/inc/widgets/flickr.php:105
+#: inc/plugins/thevoux-plugin/inc/widgets/pinterest.php:147
+#: inc/plugins/thevoux-plugin/inc/widgets/shared-posts-images.php:71
+#: inc/plugins/thevoux-plugin/inc/widgets/social-icons.php:86
+#: inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:70
+msgid "Widget Title:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/about.php:70
+msgid "Image:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/about.php:76
+#: inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:75
+msgid "Short Description:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/discussed-posts-images.php:7
+msgid "Display most discussed posts with images"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/discussed-posts-images.php:12
+msgid "Fuel Themes - Most Discussed Posts"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/discussed-posts-images.php:74
+#: inc/plugins/thevoux-plugin/inc/widgets/discussed-shared-posts-images.php:107
+#: inc/plugins/thevoux-plugin/inc/widgets/shared-posts-images.php:86
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/discussed-shared-posts-images.php:7
+msgid "Display most discussed & shared posts with images"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/discussed-shared-posts-images.php:12
+msgid "Fuel Themes - Discussed & Shared Posts"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/discussed-shared-posts-images.php:30
+msgid "Most Discussed"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/discussed-shared-posts-images.php:33
+msgid "Most Shared"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/featured-video.php:7
+msgid "Display an embeded video on your sidebar"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/featured-video.php:12
+msgid "Fuel Themes - Featured Video"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/featured-video.php:58
+msgid "Video Title:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/featured-video.php:62
+msgid "Video URL:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/flickr.php:7
+msgid "Display Your Flickr Images"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/flickr.php:12
+msgid "Fuel Themes - Flickr"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/flickr.php:114
+#: inc/plugins/thevoux-plugin/inc/widgets/pinterest.php:155
+msgid "Number of Images:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:7
+msgid "Display Your Instagram Feed"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:12
+msgid "The Issue - Instagram"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:67
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:67
+msgid "Followers"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:68
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:66
+msgid "Following"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:99
+#: inc/plugins/thevoux-plugin/inc/widgets/pinterest.php:151
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:106
+msgid "Username:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:103
+msgid "Access Token:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:108
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:54
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:98
+msgid "Layout"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:110
+msgid "Thumbnails"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:111
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:101
+msgid "Slider"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:117
+msgid "Columns:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:119
+msgid "1 Column"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:120
+msgid "2 Columns"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:121
+msgid "3 Columns"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:122
+msgid "4 Columns"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/instagram.php:126
+msgid "Number of Photos:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/pinterest.php:35
+msgid "Follow Me on Pinterest"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/pinterest.php:104
+msgid "Adds a Pinterest Pinboard widget to your sidebar"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/pinterest.php:109
+msgid "Fuel Themes - Pinterest"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:7
+msgid "Display Posts with images"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:12
+msgid "Fuel Themes - Posts with Images"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:106
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:110
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:138
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:111
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:115
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:143
+msgid "Order by"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:113
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:117
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:145
+msgid "Date"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:114
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:118
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:146
+#: inc/templates/postbits/post-just-shares.php:5
+#: inc/templates/postbits/post-links-style2.php:8
+#: inc/templates/postbits/post-links.php:8
+#: inc/templates/postbits/post-shares-comments.php:6
+msgid "Shares"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:115
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:119
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:147
+msgid "Random"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:121
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:125
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:153
+msgid "Order"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:123
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:127
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:155
+msgid "Descending"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:124
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:128
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:156
+msgid "Ascending"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:129
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:133
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:161
+msgid "Time Frame"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:130
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:134
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:162
+msgid "6 months"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-images.php:134
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:138
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:166
+msgid "Category"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:7
+msgid "Display posts with excerpts"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-list.php:12
+msgid "Fuel Themes - Posts with Excerpts"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:7
+msgid "Display Posts in a slider"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:12
+msgid "Fuel Themes - Post Slider"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:132
+msgid "Style - 1"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/posts-slider.php:133
+msgid "Style - 2"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/shared-posts-images.php:7
+msgid "Display most shared posts with images"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/shared-posts-images.php:12
+msgid "Fuel Themes - Most Shared Posts with Images"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:7
+msgid "Display Your Social Links"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:12
+msgid "Fuel Themes - Social Links"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:56
+msgid "Horizontal"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:57
+msgid "Vertical"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:65
+msgid "Icons Black"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:66
+msgid "Icons Color"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:67
+msgid "Icons Black with Border"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:68
+msgid "Icons Color with Border"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:69
+msgid "Color Background"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:70
+msgid "Icons Black within Circle"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:71
+msgid "Icons Color within Circle"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:72
+msgid "Icons within Circle Color"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-counters.php:79
+msgid "Counts"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-icons.php:8
+msgid "Display Social Icons"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/social-icons.php:13
+msgid "Fuel Themes - Social Icons"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:8
+msgid "A widget that gathers email addresses."
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:13
+msgid "Fuel Themes - Subscribe Widget"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:79
+msgid "Background Image:"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:86
+msgid "Dark Text"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:89
+msgid "Light Text"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/subscribe.php:94
+msgid "Download Emails"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:7
+msgid "Display Your Twitter Feed"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:12
+msgid "Fuel Themes - Twitter"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:100
+msgid "List"
+msgstr ""
+
+#: inc/plugins/thevoux-plugin/inc/widgets/twitter.php:110
+msgid "Number of Tweets:"
+msgstr ""
+
+#: inc/post-reviews.php:59
+msgid "The Good"
+msgstr ""
+
+#: inc/post-reviews.php:73
+msgid "The Bad"
+msgstr ""
+
+#: inc/post-social.php:28 inc/post-social.php:54 inc/post-social.php:63
+#: inc/post-social.php:79 inc/post-social.php:87
+msgid "Share"
+msgstr ""
+
+#: inc/post-social.php:37
+msgid "Tweet"
+msgstr ""
+
+#: inc/post-social.php:45
+msgid "Pin"
+msgstr ""
+
+#: inc/post-social.php:71
+msgid "Like"
+msgstr ""
+
+#: inc/script-calls.php:116
+msgid "Loading ..."
+msgstr ""
+
+#: inc/script-calls.php:117
+msgid "No More Posts"
+msgstr ""
+
+#: inc/script-calls.php:119
+msgid "Prev"
+msgstr ""
+
+#: inc/script-calls.php:120
+msgid "Next"
+msgstr ""
+
+#: inc/script-calls.php:121
+msgid "Adding to Cart"
+msgstr ""
+
+#: inc/script-calls.php:122
+msgid "PIN IT"
+msgstr ""
+
+#: inc/sidebar.php:6
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:6
+msgid "The sidebar that shows up in your blog"
+msgstr ""
+
+#: inc/sidebar.php:8
+msgid "Article Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:8
+msgid "The sidebar next to articles"
+msgstr ""
+
+#: inc/sidebar.php:10
+msgid "Article Ajax Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:10
+msgid "The sidebar next to articles loaded via Ajax"
+msgstr ""
+
+#: inc/sidebar.php:12
+msgid "Author Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:12
+msgid "The sidebar on author pages"
+msgstr ""
+
+#: inc/sidebar.php:14
+msgid "Archive Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:14
+msgid "The sidebar on archive pages"
+msgstr ""
+
+#: inc/sidebar.php:16
+msgid "Category Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:16
+msgid "The sidebar on category pages"
+msgstr ""
+
+#: inc/sidebar.php:18
+msgid "Footer Column 1"
+msgstr ""
+
+#: inc/sidebar.php:18
+msgid "Footer - first column"
+msgstr ""
+
+#: inc/sidebar.php:20
+msgid "Footer Column 2"
+msgstr ""
+
+#: inc/sidebar.php:20
+msgid "Footer - second column"
+msgstr ""
+
+#: inc/sidebar.php:22
+msgid "Footer Column 3"
+msgstr ""
+
+#: inc/sidebar.php:22
+msgid "Footer - third column"
+msgstr ""
+
+#: inc/sidebar.php:24
+msgid "Footer Column 4"
+msgstr ""
+
+#: inc/sidebar.php:24
+msgid "Footer - forth column"
+msgstr ""
+
+#: inc/sidebar.php:26
+msgid "Footer Column 5"
+msgstr ""
+
+#: inc/sidebar.php:26
+msgid "Footer - fifth column"
+msgstr ""
+
+#: inc/sidebar.php:28
+msgid "Footer Column 6"
+msgstr ""
+
+#: inc/sidebar.php:28
+msgid "Footer - sixth column"
+msgstr ""
+
+#: inc/sidebar.php:31
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:31
+msgid "Sidebar for the Shop page"
+msgstr ""
+
+#: inc/templates/header/archive-title.php:24
+#: inc/templates/header/archive-title.php:32
+msgid "Search Results for: "
+msgstr ""
+
+#: inc/templates/header/cookie-bar.php:6
+msgid "ACCEPT"
+msgstr ""
+
+#: inc/templates/loop/notfound.php:3
+msgid "Sorry, no posts found for your query."
+msgstr ""
+
+#: inc/templates/loop/post-carousel/style1.php:15
+msgid "Read More &rarr;"
+msgstr ""
+
+#: inc/templates/loop/post-nav.php:4
+msgid "Older Posts"
+msgstr ""
+
+#: inc/templates/loop/post-nav.php:7
+msgid "Newer Posts"
+msgstr ""
+
+#: inc/templates/loop/post-slider/post-slider-left.php:7
+msgid "READ MORE"
+msgstr ""
+
+#: inc/templates/loop/style12.php:22 inc/templates/loop/style16.php:17
+msgid "Read More"
+msgstr ""
+
+#: inc/templates/password-protected.php:4
+msgid "PROTECTED AREA"
+msgstr ""
+
+#: inc/templates/postbits/gallery.php:21
+msgid "View Gallery"
+msgstr ""
+
+#: inc/templates/postbits/gallery.php:22
+msgid "Photos"
+msgstr ""
+
+#: inc/templates/postbits/gallery.php:26
+msgid "Please Add Photos <br> to your Gallery"
+msgstr ""
+
+#: inc/templates/postbits/gallery.php:33 inc/templates/postbits/image.php:16
+msgid "Please select a featured image for your post"
+msgstr ""
+
+#: inc/templates/postbits/post-gallery-lightbox.php:42
+#: inc/templates/postbits/post-gallery-lightbox.php:43
+#: inc/templates/postbits/post-gallery-lightbox.php:60
+#: inc/templates/postbits/post-gallery-lightbox.php:61
+msgid "Close (Esc)"
+msgstr ""
+
+#: inc/templates/postbits/post-gallery-lightbox.php:86
+msgid "of"
+msgstr ""
+
+#: inc/templates/postbits/post-gallery-lightbox.php:100
+#: inc/templates/postbits/tags.php:19
+msgid "Source:"
+msgstr ""
+
+#: inc/templates/postbits/post-links-style2.php:5
+#: inc/templates/postbits/post-shares-comments.php:11
+msgid "0 Comments"
+msgstr ""
+
+#: inc/templates/postbits/post-nav.php:21
+msgid "Previous Article"
+msgstr ""
+
+#: inc/templates/postbits/post-nav.php:27
+msgid "No Older Articles"
+msgstr ""
+
+#: inc/templates/postbits/post-nav.php:41
+msgid "Next Article"
+msgstr ""
+
+#: inc/templates/postbits/post-nav.php:48
+msgid "No Newer Articles"
+msgstr ""
+
+#: inc/templates/postbits/post-related.php:21
+msgid "You May Also Like"
+msgstr ""
+
+#: inc/templates/postbits/post-shopthelook-small.php:22
+#: inc/templates/postbits/post-shopthelook.php:22
+msgid "Shop The Look"
+msgstr ""
+
+#: inc/templates/postbits/sponsored.php:14
+msgid "Sponsored by"
+msgstr ""
+
+#: inc/templates/postbits/tags.php:11
+msgid "Via:"
+msgstr ""
+
+#: inc/templates/postbits/tags.php:26
+msgid "Tags:"
+msgstr ""
+
+#: inc/templates/single/style1.php:43 inc/templates/single/style2.php:50
+#: inc/templates/single/style3.php:52 inc/templates/single/style4.php:44
+#: inc/templates/single/style5.php:46
+msgid "Pages:"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:12 inc/woocommerce-category-image.php:47
+msgid "Header"
+msgstr ""
+
+#: inc/woocommerce.php:31
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/woocommerce.php:43
+msgid "Out of Stock"
+msgstr ""
+
+#: inc/woocommerce.php:66
+msgid "Sale"
+msgstr ""
+
+#: inc/woocommerce.php:73
+msgid "Just Arrived"
+msgstr ""
+
+#: inc/woocommerce.php:101
+msgid "Explore Now"
+msgstr ""
+
+#: inc/woocommerce.php:211
+msgid "PREV"
+msgstr ""
+
+#: inc/woocommerce.php:212
+msgid "NEXT"
+msgstr ""
+
+#: inc/wp3menu.php:8
+msgid "Navigation Menu"
+msgstr ""
+
+#: inc/wp3menu.php:9
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/wp3menu.php:10
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/wp3menu.php:11
+msgid "Secondary Mobile Menu"
+msgstr ""
+
+#: inc/wp3menu.php:12
+msgid "Sub-Header Menu"
+msgstr ""
+
+#: inc/wp3menu.php:137
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/wp3menu.php:141
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/wp3menu.php:165
+msgid "Move up"
+msgstr ""
+
+#: inc/wp3menu.php:178
+msgid "Move down"
+msgstr ""
+
+#: inc/wp3menu.php:180
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/wp3menu.php:182
+msgid "Edit"
+msgstr ""
+
+#: inc/wp3menu.php:191
+msgid "URL"
+msgstr ""
+
+#: inc/wp3menu.php:198
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/wp3menu.php:204
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/wp3menu.php:211
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/wp3menu.php:216
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/wp3menu.php:222
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/wp3menu.php:230
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/wp3menu.php:236
+msgid "Fuel Themes Menu Options"
+msgstr ""
+
+#: inc/wp3menu.php:238
+msgid "Menu Item Icon"
+msgstr ""
+
+#: inc/wp3menu.php:248
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/wp3menu.php:252
+msgid "Enable"
+msgstr ""
+
+#: inc/wp3menu.php:257
+msgid "Move"
+msgstr ""
+
+#: inc/wp3menu.php:258
+msgid "Up one"
+msgstr ""
+
+#: inc/wp3menu.php:259
+msgid "Down one"
+msgstr ""
+
+#: inc/wp3menu.php:262
+msgid "To the top"
+msgstr ""
+
+#: inc/wp3menu.php:268
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/wp3menu.php:281
+msgid "Remove"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:26
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Shopping Bag Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:24 woocommerce/cart/cart-totals.php:25
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:46 woocommerce/cart/cart-totals.php:47
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:62
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:83 woocommerce/cart/cart-totals.php:84
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:117
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:79
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:99
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:60
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:89
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:135 woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:135
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:24
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:44
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:36
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:37
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:39
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:45 woocommerce/checkout/thankyou.php:87
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:50
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:61
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:67
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:73
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/content-product-hotspots.php:20
+msgid "BUY NOW"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:14
+msgid "No products found which match your selection."
+msgstr ""
+
+#: woocommerce/loop/orderby.php:26
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:30
+#: woocommerce/myaccount/form-login.php:79
+msgid "I'm an existing customer and would like to login."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:33
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:43
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:48
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:52
+#: woocommerce/myaccount/form-login.php:59
+msgid "I'm a new customer and would like to register."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:53
+msgid "Create a New Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:63
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:66
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:75
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:80
+msgid "Login to Existing Account"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:54
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:34
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:53
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:31
+msgid "Write the first review"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Product Description"
+msgstr ""
