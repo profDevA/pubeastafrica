@@ -1,0 +1,143 @@
+
+---Downloaded files---
+The import files for: FashionMe Now were successfully downloaded!
+Initial max execution time = 600
+Files info:
+Site URL = http://localhost:7004
+Data file = H:\phpwork\publicista/wp-content/uploads/2019/09/demo-content-import-file_2019-09-19__06-26-57.xml
+Widget file = H:\phpwork\publicista/wp-content/uploads/2019/09/demo-widgets-import-file_2019-09-19__06-26-57.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag bevel
+[WARNING] Failed to import product_tag body
+[WARNING] Failed to import product_tag bra
+[WARNING] Failed to import product_tag clip
+[WARNING] Failed to import product_tag cream
+[WARNING] Failed to import product_tag cuff
+[WARNING] Failed to import product_tag finn
+[WARNING] Failed to import product_tag freja
+[WARNING] Failed to import product_tag gel
+[WARNING] Failed to import product_tag green
+[WARNING] Failed to import product_tag guide
+[WARNING] Failed to import product_tag hair
+[WARNING] Failed to import product_tag lip
+[WARNING] Failed to import product_tag mascara
+[WARNING] Failed to import product_tag monarch
+[WARNING] Failed to import product_tag nashville
+[WARNING] Failed to import product_tag necklace
+[WARNING] Failed to import product_tag pearl
+[WARNING] Failed to import product_tag pin
+[WARNING] Failed to import product_tag pink
+[WARNING] Failed to import product_tag rgb
+[WARNING] Failed to import product_tag shine
+[WARNING] Failed to import product_tag soft
+[WARNING] Failed to import product_tag sun
+[WARNING] Failed to import product_tag tassel
+[WARNING] Failed to import product_tag wallet
+[WARNING] Failed to import product_cat Accessories
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag bevel
+[WARNING] Failed to import product_tag body
+[WARNING] Failed to import product_tag bra
+[WARNING] Failed to import product_tag clip
+[WARNING] Failed to import product_tag cream
+[WARNING] Failed to import product_tag cuff
+[WARNING] Failed to import product_tag finn
+[WARNING] Failed to import product_tag freja
+[WARNING] Failed to import product_tag gel
+[WARNING] Failed to import product_tag green
+[WARNING] Failed to import product_tag guide
+[WARNING] Failed to import product_tag hair
+[WARNING] Failed to import product_tag lip
+[WARNING] Failed to import product_tag mascara
+[WARNING] Failed to import product_tag monarch
+[WARNING] Failed to import product_tag nashville
+[WARNING] Failed to import product_tag necklace
+[WARNING] Failed to import product_tag pearl
+[WARNING] Failed to import product_tag pin
+[WARNING] Failed to import product_tag pink
+[WARNING] Failed to import product_tag rgb
+[WARNING] Failed to import product_tag shine
+[WARNING] Failed to import product_tag soft
+[WARNING] Failed to import product_tag sun
+[WARNING] Failed to import product_tag tassel
+[WARNING] Failed to import product_tag wallet
+[WARNING] Failed to import product_cat Accessories
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Home 1 : 
+
+Fuel Themes - Most Shared Posts with Images - Most Shared - Widget already exists
+thb_socialcounter_widget - No Title - Site does not support widget
+Fuel Themes - Post Slider - Category - Widget already exists
+
+Home 2 : 
+
+Fuel Themes - Posts with Excerpts - Latest Posts - Widget already exists
+
+Home 4 : 
+
+Fuel Themes - Featured Video - Featured Video - Widget already exists
+Fuel Themes - Flickr - Flickr - Widget already exists
+
+Home 5 : 
+
+Text - No Title - Widget already exists
+Fuel Themes - Subscribe Widget - Mailing List - Widget already exists
+
+Blog Sidebar : 
+
+Tag Cloud - Tag Cloud - Widget already exists
+
+Article Sidebar : 
+
+Text - No Title - Widget already exists
+
+Article Ajax Sidebar : 
+
+Text - No Title - Widget already exists
+
+Author Sidebar : 
+
+Fuel Themes - Posts with Images - Latest Posts - Widget already exists
+
+Archive Sidebar : 
+
+Text - No Title - Widget already exists
+
+Category Sidebar : 
+
+Text - No Title - Widget already exists
+
+Footer Column 1 : 
+
+Navigation Menu - No Title - Widget already exists
+
+Footer Column 2 : 
+
+Text - No Title - Widget already exists
+
+Footer Column 3 : 
+
+Text - No Title - Widget already exists
+
+shop : Sidebar does not exist in theme (moving widget to Inactive)
+
+woocommerce_price_filter - Filter by price - Site does not support widget
+woocommerce_products - On Sale Right Now - Site does not support widget
+
+
+
+---pt-ocdi/after_import---
+
