@@ -8,3 +8,23 @@
 	Text Domain: thevoux-wp
 	Domain Path: /inc/languages
 */
+.fa {
+    font-size: 18px;
+}
+#footer.style3 .footer-copyright {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media ( max-width: 414px ) {
+    .thb_subscribe .newsletter-form {
+        display: block;
+    }
+    .thb_subscribe .newsletter-form .widget_subscribe {
+        margin: 0 auto 10px;
+    }
+    .thb_subscribe .newsletter-form .thb-rounded-forms-on .btn {
+        margin: 0 auto 10px;
+    }
+}
+
