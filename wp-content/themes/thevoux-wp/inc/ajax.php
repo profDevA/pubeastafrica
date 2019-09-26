@@ -206,13 +206,11 @@ function thb_newsletter() {
 					<?php if ( $newsletter_text ) { ?>
 						<?php echo wp_kses_post( wpautop( $newsletter_text ) ); ?>
 					<?php } ?>
-		      <form class="newsletter-form" action="#" method="post" data-security="<?php echo esc_attr( wp_create_nonce( 'thb_subscription' ) ); ?>">
-		      	<input placeholder="<?php esc_attr_e( 'Your E-Mail','thevoux' ); ?>" type="text" name="widget_subscribe" class="widget_subscribe">
-						<button type="submit" name="submit" class="btn small <?php echo esc_attr($btn_color); ?>"><?php esc_html_e( 'SUBSCRIBE NOW', 'thevoux' ); ?></button>
-						<?php do_action('thb_after_newsletter_submit'); ?>
-		      </form>
+
+                    <?php echo do_shortcode('[mc4wp_form id="819"]'); ?>
+
 					<?php do_action('thb_after_newsletter_form'); ?>
-	      </div>
+	            </div>
 			</div>
 		</aside>
 		<?php
