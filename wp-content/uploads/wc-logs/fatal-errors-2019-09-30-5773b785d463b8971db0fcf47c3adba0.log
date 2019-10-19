@@ -1,0 +1,17 @@
+2019-09-30T17:27:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::prepare(), 1 passed in H:\phpwork\publicista\wp-content\themes\thevoux-wp-child\register.php on line 11 and exactly 2 expected in H:\phpwork\publicista\wp-includes\wp-db.php:1295
+Stack trace:
+#0 H:\phpwork\publicista\wp-content\themes\thevoux-wp-child\register.php(11): wpdb->prepare('admin')
+#1 H:\phpwork\publicista\wp-includes\template-loader.php(78): include('H:\\phpwork\\publ...')
+#2 H:\phpwork\publicista\wp-blog-header.php(19): require_once('H:\\phpwork\\publ...')
+#3 H:\phpwork\publicista\index.php(17): require('H:\\phpwork\\publ...')
+#4 {main}
+  thrown in H:\phpwork\publicista\wp-includes\wp-db.php on line 1295
+
+2019-09-30T17:47:32+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::esc_sql() in H:\phpwork\publicista\wp-content\themes\thevoux-wp-child\register.php:11
+Stack trace:
+#0 H:\phpwork\publicista\wp-includes\template-loader.php(78): include()
+#1 H:\phpwork\publicista\wp-blog-header.php(19): require_once('H:\\phpwork\\publ...')
+#2 H:\phpwork\publicista\index.php(17): require('H:\\phpwork\\publ...')
+#3 {main}
+  thrown in H:\phpwork\publicista\wp-content\themes\thevoux-wp-child\register.php on line 11
+

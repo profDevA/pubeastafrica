@@ -64,13 +64,13 @@ function thb_register_required_plugins() {
 	);
 	$config = array(
 		'id'              => 'thb',
-		'domain'       		=> 'thevoux',         	// Text domain - likely want to be the same as your theme.
-		'default_path' 		=> '',                         	// Default absolute path to pre-packaged plugins
+		'domain'       		=> 'thevoux',         	    // Text domain - likely want to be the same as your theme.
+		'default_path' 		=> '',                      // Default absolute path to pre-packaged plugins
 		'parent_slug'     => 'themes.php',
 		'menu'         		=> 'install-required-plugins', 	// Menu slug
 		'has_notices'     => true,                       	// Show admin notices or not
 		'is_automatic'    => false,					   	// Automatically activate plugins after installation or not
-		'message' 				=> '',							// Message to output right before the plugins table
+		'message' 				=> '',					// Message to output right before the plugins table
 		'strings'      		=> array(
 			'return'       	=> esc_html__( 'Return to Theme Plugins', 'thevoux' )
 		)

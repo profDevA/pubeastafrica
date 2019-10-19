@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Rye);
+
+.ppview input[type=number], .ppview input[type=text], .ppview select, .ppview textarea {
+    width: 500px
+}
+
+input.shortcode-in-list-table {
+    width: 100% !important;
+    border: none
+}
+
+input[readonly] {
+    background-color: #eee;
+    margin: 1px
+}
+
+.ppview .column-date {
+    width: 30%
+}
+
+.pp-button-icon::before {
+    background: url(../images/dashicon.png);
+    font: 400 18px/1 dashicons;
+    margin: 0 2px;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    vertical-align: top
+}

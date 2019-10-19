@@ -11,11 +11,49 @@
 .fa {
     font-size: 18px;
 }
+.header.style2 .logo .logoimg {
+    max-height: 50px !important;
+    height: 50px;
+    width: 182px;
+}
+
+
 #footer.style3 .footer-copyright {
     font-size: 16px;
     margin-top: 10px;
 }
 
+#footer.style2 .logolink, #footer.style3 .logolink, #footer.style4 .logolink, #footer.style5 .logolink {
+    margin-bottom: 20px;
+}
+
+#footer.style2 .logolink img, #footer.style3 .logolink img, #footer.style4 .logolink img, #footer.style5 .logolink img {
+    display: inline-block;
+    max-height: 50px;
+}
+#footer.style4 .footer-mail-link {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#footer.style4 .footer-mail-link:hover {
+    color: #ffffff;
+}
+
+#subfooter p {
+    font-size: 16px;
+}
+
+/**menu*/
+@media screen and (max-width: 1670px){
+    .header.style2 .logo .full-menu-container {
+        display: none;
+    }
+    .header .social-holder .social_header {
+        display: none;
+    }
+}
 @media ( max-width: 414px ) {
     .thb_subscribe .newsletter-form {
         display: block;
@@ -32,5 +70,47 @@
 }
 .mc4wp-form-basic button.publicisteast-subscribe-button {
     margin: 0 auto 15px;
+}
+
+.site-sign-up, .site-login {
+    margin-left: 6px;
+    color: #222222;
+    font-weight: bold;
+}
+
+.site-sign-up:hover, .site-login:hover {
+    color:#ef2673;
+}
+
+@media screen and (max-width:992px) {
+    .site-sign-up, .site-login {
+        display: none;
+    }
+}
+form .fzbuk-login-form-wrap {
+    margin-top: 65px;
+    margin-bottom: 60px;
+    background: radial-gradient(ellipse at center, #ef2673 0%, #b90449 100%);
+    border: 1px solid #b90449;
+}
+
+.fzbuk-login-form input[type="text"], .fzbuk-login-form input[type="password"], .fzbuk-login-form input[type="email"] {
+    border:1px solid #ef2673 !important;
+    color: #222222 !important;
+}
+
+
+/** single post page*/
+.post-detail .post-title-container {
+    margin-bottom: 20px;
+}
+
+.post-view-count {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.post-view-count .fa {
+    font-size: 13px;
 }
 

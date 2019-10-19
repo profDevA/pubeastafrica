@@ -36,21 +36,17 @@ class thb_subscribe_widget extends WP_Widget {
 			<?php if ($image) { ?>
 			 <div class="parallax_bg" style="background-image: url(<?php echo esc_attr( $image ); ?>);"
 						data-top-bottom="transform: translate3d(0px, 5%, 0px);"
-						data-bottom-top="transform: translate3d(0px, -5%, 0px);">
-             </div>
+						data-bottom-top="transform: translate3d(0px, -5%, 0px);"></div>
 			<?php } ?>
 			<div class="newsletter-form-container">
-
-	        <p><?php echo esc_html($desc); ?></p>
-
-	        <form class="newsletter-form" action="#" method="post" data-security="<?php echo esc_attr( wp_create_nonce( 'thb_subscription' ) ); ?>">
-
-                <input placeholder="<?php esc_attr_e("Your E-Mail",'thevoux' ); ?>" type="text" name="widget_subscribe" class="widget_subscribe">
+	      <p><?php echo esc_html($desc); ?></p>
+	      <form class="newsletter-form" action="#" method="post" data-security="<?php echo esc_attr( wp_create_nonce( 'thb_subscription' ) ); ?>">
+	      	<input placeholder="<?php esc_attr_e("Your E-Mail",'thevoux' ); ?>" type="text" name="widget_subscribe" class="widget_subscribe">
 					<button type="submit" name="submit" class="btn small <?php echo esc_attr($btn_color); ?>"><?php esc_html_e( 'SUBSCRIBE NOW', 'thevoux' ); ?></button>
 					<?php do_action('thb_after_newsletter_submit'); ?>
-	        </form>
+	      </form>
 				<?php do_action('thb_after_newsletter_form'); ?>
-          </div>
+      </div>
 		</div>
 		<?php
 

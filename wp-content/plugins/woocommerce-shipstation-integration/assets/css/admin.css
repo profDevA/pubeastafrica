@@ -1,0 +1,11 @@
+.shipstation-logo {
+	width: 180px;
+	margin: 0 0 -16px -16px;
+}
+
+.shipstation-external-link:after {
+	font-family: "dashicons";
+	content: "\f504";
+	display: inline-block;
+	vertical-align: bottom;
+}

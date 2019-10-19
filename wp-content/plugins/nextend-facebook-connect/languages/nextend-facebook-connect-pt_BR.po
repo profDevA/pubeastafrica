@@ -1,0 +1,3517 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ss3\n"
+"POT-Creation-Date: 2019-04-23 12:34+0200\n"
+"PO-Revision-Date: 2019-04-23 12:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: renato@modernstuff.com.br\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_x:1,2c;esc_html_e\n"
+"X-Poedit-SearchPath-0: nextend-social-login-pro\n"
+"X-Poedit-SearchPath-1: nextend-facebook-connect\n"
+"X-Poedit-SearchPathExcluded-0: nextend-facebook-connect/providers/twitter/"
+"compat\n"
+"X-Poedit-SearchPathExcluded-1: nextend-facebook-connect/providers/google/"
+"compat\n"
+"X-Poedit-SearchPathExcluded-2: nextend-facebook-connect/providers/facebook/"
+"compat\n"
+
+#: nextend-facebook-connect/NSL/GDPR.php:32
+msgid "What personal data we collect and why we collect it"
+msgstr "Quais dados pessoais coletamos e por que os coletamos"
+
+#: nextend-facebook-connect/NSL/GDPR.php:33
+#, php-format
+msgid ""
+"%1$s collects data when a visitor register, login or link the account with "
+"with any of the enabled social provider. It collects the following data: "
+"email address, name, social provider identifier and access token. Also it "
+"can collect profile picture and more fields with the Pro Addon's sync data "
+"feature."
+msgstr ""
+"%1$s coleta dados quando um visitante registra, faz login ou vincula a conta "
+"com qualquer um dos provedores sociais ativados. Coleta os seguintes dados: "
+"endereço de e-mail, nome, identificador de provedor social e token de "
+"acesso. Também pode coletar fotos de perfil e mais campos com o recurso de "
+"dados de sincronização do complemento pro."
+
+#: nextend-facebook-connect/NSL/GDPR.php:35
+msgid "Who we share your data with"
+msgstr "Com quem compartilhamos seus dados"
+
+#: nextend-facebook-connect/NSL/GDPR.php:36
+#, php-format
+msgid ""
+"%1$s stores the personal data on your site and does not share it with anyone "
+"except the access token which used for the authenticated communication with "
+"the social providers."
+msgstr ""
+"%1$s Armazena os dados pessoais em seu site e não os compartilha com "
+"ninguém, exceto o token de acesso usado para a comunicação autenticada com "
+"os provedores sociais."
+
+#: nextend-facebook-connect/NSL/GDPR.php:38
+msgid "Does the plugin share personal data with third parties"
+msgstr "O plugin compartilha dados pessoais com terceiros?"
+
+#: nextend-facebook-connect/NSL/GDPR.php:39
+#, php-format
+msgid ""
+"%1$s use the access token what the social provider gave to communicate with "
+"the providers to verify account and securely access personal data."
+msgstr ""
+"%1$s Usa o token de acesso que o provedor social deu para se comunicar com "
+"os provedores para verificar a conta e acessar com segurança os dados "
+"pessoais."
+
+#: nextend-facebook-connect/NSL/GDPR.php:41
+msgid "How long we retain your data"
+msgstr "Por quanto tempo retemos seus dados"
+
+#: nextend-facebook-connect/NSL/GDPR.php:42
+#, php-format
+msgid ""
+"%1$s removes the collected personal data when the user deleted from "
+"WordPress."
+msgstr ""
+"%1$s Remove os dados pessoais coletados quando o usuário é excluído do "
+"WordPress."
+
+#: nextend-facebook-connect/NSL/GDPR.php:44
+msgid "Does the plugin use personal data collected by others?"
+msgstr "O plugin usa dados pessoais coletados por outras pessoas?"
+
+#: nextend-facebook-connect/NSL/GDPR.php:45
+#, php-format
+msgid ""
+"%1$s use the personal data collected by the social providers to create "
+"account on your site when the visitor authorize it."
+msgstr ""
+"%1$s Usa os dados pessoais coletados pelos provedores sociais para criar uma "
+"conta em seu site quando o visitante autorizá-lo."
+
+#: nextend-facebook-connect/NSL/GDPR.php:47
+msgid "Does the plugin store things in the browser?"
+msgstr "O plugin armazena coisas no navegador?"
+
+#: nextend-facebook-connect/NSL/GDPR.php:48
+#, php-format
+msgid ""
+"Yes, %1$s must create a cookie for visitors who use the social login "
+"authorization flow. This cookie required for every provider to secure the "
+"communication and to redirect the user back to the last location."
+msgstr ""
+"Sim, %1$s deve criar um cookie para visitantes que usam o fluxo de "
+"autorização de login social. Esse cookie exigia que cada provedor protegesse "
+"a comunicação e redirecionasse o usuário de volta ao último local."
+
+#: nextend-facebook-connect/NSL/GDPR.php:50
+msgid "Does the plugin collect telemetry data, directly or indirectly?"
+msgstr "O plugin coleta dados de telemetria, direta ou indiretamente?"
+
+#: nextend-facebook-connect/NSL/GDPR.php:51
+#: nextend-facebook-connect/NSL/GDPR.php:54
+msgid "No"
+msgstr "Não"
+
+#: nextend-facebook-connect/NSL/GDPR.php:53
+msgid ""
+"Does the plugin enqueue JavaScript, tracking pixels or embed iframes from a "
+"third party?"
+msgstr ""
+"O plugin carrega JavaScript, rastreia pixels ou incorpora iframes de "
+"terceiros?"
+
+#: nextend-facebook-connect/NSL/GDPR.php:97
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:55
+msgid "User"
+msgstr "Usuário"
+
+#: nextend-facebook-connect/admin/admin.php:200
+#, php-format
+msgid "%s needs json_decode function."
+msgstr "%s precisa da função json_decode."
+
+#: nextend-facebook-connect/admin/admin.php:200
+msgid "Please contact your server administrator and ask for solution!"
+msgstr ""
+"Entre em contato com o seu administrador do servidor e peça uma solução!"
+
+#: nextend-facebook-connect/admin/admin.php:232
+#: nextend-facebook-connect/admin/admin.php:262
+msgid "Settings saved."
+msgstr "Configurações salvas."
+
+#: nextend-facebook-connect/admin/admin.php:241
+#, fuzzy
+#| msgid "The authorization was successful"
+msgid "The activation was successful"
+msgstr "A autorização foi bem sucedida"
+
+#: nextend-facebook-connect/admin/admin.php:252
+#, fuzzy
+#| msgid "Deauthorize completed."
+msgid "Deactivate completed."
+msgstr "Desautorização concluída."
+
+#: nextend-facebook-connect/admin/admin.php:427
+#: nextend-facebook-connect/admin/templates-provider/menu.php:15
+#: nextend-facebook-connect/admin/templates/providers.php:81
+#: nextend-facebook-connect/admin/templates/providers.php:93
+#: nextend-facebook-connect/admin/templates/settings/comment.php:28
+msgid "Settings"
+msgstr "Configurações"
+
+#: nextend-facebook-connect/admin/admin.php:509
+#: nextend-facebook-connect/includes/oauth2.php:139
+#: nextend-facebook-connect/includes/oauth2.php:284
+#: nextend-facebook-connect/providers/facebook/facebook-client.php:84
+#: nextend-facebook-connect/providers/twitter/twitter-client.php:163
+#, php-format
+msgid "Unexpected response: %s"
+msgstr "Resposta inesperada: %s"
+
+#: nextend-facebook-connect/admin/admin.php:570
+#: nextend-facebook-connect/admin/templates/fix-redirect-uri.php:21
+#, php-format
+msgid ""
+"%s detected that your login url changed. You must update the Oauth redirect "
+"URIs in the related social applications."
+msgstr ""
+"%s detectou que sua url de login mudou. Você deve atualizar as URIs de "
+"redirecionamento do Oauth nas aplicações sociais relacionados."
+
+#: nextend-facebook-connect/admin/admin.php:571
+msgid "Fix Error"
+msgstr "Corrigir erro"
+
+#: nextend-facebook-connect/admin/admin.php:571
+msgid "Oauth Redirect URI"
+msgstr "URI de Redirecionamento do OAuth"
+
+#: nextend-facebook-connect/admin/admin.php:581
+#, php-format
+msgid ""
+"%1$s detected that %2$s installed on your site. You need the Pro Addon to "
+"display Social Login buttons in %2$s login form!"
+msgstr ""
+"%1$s detectado que %2$s instalou em seu site. Você precisa Addon Pro para "
+"mostrar botões de Login Social no formulário de login %2$s!"
+
+#: nextend-facebook-connect/admin/admin.php:582
+msgid "Dismiss and check Pro Addon"
+msgstr "Dispensar e verificar Addon Pro"
+
+#: nextend-facebook-connect/admin/admin.php:582
+msgid "Dismiss"
+msgstr "Dispensar"
+
+#: nextend-facebook-connect/admin/admin.php:588
+#, php-format
+msgid ""
+"%1$s detected that %2$s installed on your site. You must set \"<b>Page for "
+"register flow</b>\" and \"<b>OAuth redirect uri proxy page</b>\" in %1$s to "
+"work properly."
+msgstr ""
+"%1$s detectou que %2$s instalado em seu site. Você deve definir \"<b>uma "
+"página para fluxo de registro</b>\" e \"<b>página do proxy uri do "
+"redirecionamento OAuth</b>\" em %1$s para funcionar corretamente."
+
+#: nextend-facebook-connect/admin/admin.php:589
+msgid "Fix now"
+msgstr "Corrigir erro"
+
+#: nextend-facebook-connect/admin/admin.php:613
+#, fuzzy
+#| msgid "Activate Pro Addon"
+msgid "Activate your Pro Addon"
+msgstr "Ativar Addon Pro"
+
+#: nextend-facebook-connect/admin/admin.php:614
+#, fuzzy
+#| msgid ""
+#| "To be able to use the Pro features, you need to authorize Nextend Social "
+#| "Connect Pro Addon. You can do this by clicking on the Authorize button "
+#| "below then select the related purchase."
+msgid ""
+"To be able to use the Pro features, you need to activate Nextend Social "
+"Connect Pro Addon. You can do this by clicking on the Activate button below "
+"then select the related purchase."
+msgstr ""
+"Para ser capaz de usar os recursos do Pro, você precisa autorizar o Addon "
+"Pro do Nextend Social Connect. Você pode fazer isso clicando no botão "
+"autorizar abaixo e então selecione a compra relacionada."
+
+#: nextend-facebook-connect/admin/admin.php:619
+#: nextend-social-login-pro/nextend-social-login-pro.php:57
+msgid "Activate"
+msgstr "Ativar"
+
+#: nextend-facebook-connect/admin/admin.php:717
+msgid "License key"
+msgstr "Chave de licença"
+
+#: nextend-facebook-connect/admin/admin.php:739
+msgid "OAuth proxy page"
+msgstr "Página do proxy OAuth"
+
+#: nextend-facebook-connect/admin/admin.php:742
+msgid "Register flow page"
+msgstr "Registrar página de fluxo"
+
+#: nextend-facebook-connect/admin/interim.php:12
+#: nextend-facebook-connect/admin/interim.php:23
+msgid "You have logged in successfully."
+msgstr "Você entrou com sucesso."
+
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:81
+msgid "Login label"
+msgstr "Rótulo de Login"
+
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:86
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:97
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:108
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:137
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:167
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:53
+msgid "Reset to default"
+msgstr "Redefinir para o padrão"
+
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:91
+msgid "Link label"
+msgstr "Rótulo de Vincular"
+
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:103
+msgid "Unlink label"
+msgstr "Rótulo de Desvincular"
+
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:114
+msgid "Default button"
+msgstr "Botão padrão"
+
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:130
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:160
+msgid "Use custom button"
+msgstr "Usar botão personalizado"
+
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:137
+#, php-format
+msgid "Use the %s in your custom button's code to make the label show up."
+msgstr ""
+"Usar o %s em seu código de botão personalizado para fazer o rótulo aparecer."
+
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:145
+msgid "Icon button"
+msgstr "Ícone do botão"
+
+#: nextend-facebook-connect/admin/templates-provider/buttons.php:176
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:140
+#: nextend-facebook-connect/admin/templates-provider/sync-data.php:104
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:170
+#: nextend-facebook-connect/admin/templates/settings/comment.php:73
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:7
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:110
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:7
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:153
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:171
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:108
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:186
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:167
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:254
+#: nextend-facebook-connect/providers/facebook/admin/settings.php:55
+#: nextend-facebook-connect/providers/google/admin/settings.php:49
+#: nextend-facebook-connect/providers/twitter/admin/settings.php:48
+#: nextend-social-login-pro/providers/amazon/admin/settings.php:47
+#: nextend-social-login-pro/providers/disqus/admin/settings.php:47
+#: nextend-social-login-pro/providers/linkedin/admin/settings.php:47
+#: nextend-social-login-pro/providers/paypal/admin/settings.php:60
+#: nextend-social-login-pro/providers/vk/admin/settings.php:47
+#: nextend-social-login-pro/providers/wordpress/admin/settings.php:47
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:65
+msgid "Save Changes"
+msgstr "Salvar Alterações"
+
+#: nextend-facebook-connect/admin/templates-provider/menu.php:13
+#: nextend-facebook-connect/admin/templates/providers.php:61
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:15
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:9
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:9
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:15
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:8
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:8
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:8
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:8
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:8
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:8
+msgid "Getting Started"
+msgstr "Iniciando"
+
+#: nextend-facebook-connect/admin/templates-provider/menu.php:17
+msgid "Buttons"
+msgstr "Botões"
+
+#: nextend-facebook-connect/admin/templates-provider/menu.php:21
+msgid "Sync data"
+msgstr "Sincronizar dados"
+
+#: nextend-facebook-connect/admin/templates-provider/menu.php:24
+msgid "Usage"
+msgstr "Utilização"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-other.php:11
+msgid "Other settings"
+msgstr "Outras configurações"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-other.php:16
+msgid "Username prefix on register"
+msgstr "Prefixo do nome de usuário no registro"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-other.php:22
+msgid "Fallback username prefix on register"
+msgstr "Prefixo do nome de usuário de retorno no registro"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-other.php:25
+msgid "Used when username is invalid or not stored"
+msgstr "Usado quando o nome de usuário é inválido ou não é armazenado"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-other.php:29
+#: nextend-facebook-connect/admin/templates-provider/settings-other.php:40
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:35
+msgid "Terms and conditions"
+msgstr "Termos e Condições"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-other.php:40
+#, php-format
+msgid "Override global \"%1$s\""
+msgstr "Substituir global \"%1$s\""
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:18
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:10
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:10
+msgid "PRO settings"
+msgstr "Configurações PRO"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:28
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:32
+msgid "Ask E-mail on registration"
+msgstr "Solicitar E-mail no registro"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:35
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:69
+msgid "Never"
+msgstr "Nunca"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:38
+msgid "When email is not provided or empty"
+msgstr "Quando o email não é informado ou vazio"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:41
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:59
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:72
+msgid "Always"
+msgstr "Sempre"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:46
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:50
+msgid "Ask Username on registration"
+msgstr "Solicitar Nome de Usuário no registro"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:53
+msgid "Never, generate automatically"
+msgstr "Nunca, gerar automaticamente"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:56
+msgid "When username is empty or invalid"
+msgstr "Quando o nome de usuário estiver vazio ou é inválido"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:64
+msgid "Ask Password on registration"
+msgstr "Pedir senha no registro"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:77
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:81
+msgid "Automatically connect the existing account upon registration"
+msgstr "Conectar automaticamente a conta existente durante o registro"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:85
+#: nextend-facebook-connect/admin/templates/providers.php:39
+#: nextend-facebook-connect/admin/templates/settings/general.php:53
+#: nextend-facebook-connect/admin/templates/settings/general.php:193
+#: nextend-facebook-connect/admin/templates/settings/general.php:208
+#: nextend-facebook-connect/admin/templates/settings/general.php:226
+#: nextend-facebook-connect/includes/provider-admin.php:215
+msgid "Disabled"
+msgstr "Desativado"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:88
+msgid "Automatic, based on email address"
+msgstr "Automaticamente, baseado no endereço de email"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:93
+msgid "Disable login for the selected roles"
+msgstr "Desabilitar login para funções selecionadas"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:113
+msgid "Default roles for user who registered with this provider"
+msgstr "Funções padrão para usuário que registrou com este fornecedor"
+
+#: nextend-facebook-connect/admin/templates-provider/settings-pro.php:121
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:50
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:99
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:118
+#: nextend-facebook-connect/admin/templates/settings/comment.php:39
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:33
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:89
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:24
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:90
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:39
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:105
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:51
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:102
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:24
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:64
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:122
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:180
+#: nextend-facebook-connect/widget.php:42
+msgid "Default"
+msgstr "Padrão"
+
+#: nextend-facebook-connect/admin/templates-provider/sync-data.php:50
+#: nextend-facebook-connect/includes/userData.php:185
+msgid "Register"
+msgstr "Cadastrar"
+
+#: nextend-facebook-connect/admin/templates-provider/sync-data.php:58
+msgid "Login"
+msgstr "Log in"
+
+#: nextend-facebook-connect/admin/templates-provider/sync-data.php:66
+msgid "Link"
+msgstr "Link"
+
+#: nextend-facebook-connect/admin/templates-provider/sync-data.php:84
+msgid "Store in meta key"
+msgstr "Armazenar na chave meta"
+
+#: nextend-facebook-connect/admin/templates-provider/usage.php:9
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: nextend-facebook-connect/admin/templates-provider/usage.php:12
+#, fuzzy
+#| msgid "Import"
+msgid "Important!"
+msgstr "Importar"
+
+#: nextend-facebook-connect/admin/templates-provider/usage.php:13
+msgid "The shortcodes are only rendered for users who haven't logged in yet!"
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates-provider/usage.php:14
+msgid "See the full list of shortcode parameters."
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates-provider/usage.php:31
+msgid "Simple link"
+msgstr "Link simples"
+
+#: nextend-facebook-connect/admin/templates-provider/usage.php:34
+msgid "Click here to login or register"
+msgstr "Clique aqui para logar ou registrar"
+
+#: nextend-facebook-connect/admin/templates-provider/usage.php:39
+msgid "Image button"
+msgstr "Botão de imagem"
+
+#: nextend-facebook-connect/admin/templates-provider/usage.php:42
+msgid "Image url"
+msgstr "URL da Imagem"
+
+#: nextend-facebook-connect/admin/templates/debug.php:7
+#: nextend-facebook-connect/admin/templates/header.php:20
+msgid "Debug"
+msgstr "Depuração"
+
+#: nextend-facebook-connect/admin/templates/debug.php:41
+msgid "Test network connection with providers"
+msgstr "Teste a conexão da rede com provedores"
+
+#: nextend-facebook-connect/admin/templates/debug.php:48
+msgid "You don't have cURL support, please enable it in php.ini!"
+msgstr "Você não tem suporte a cURL, habilite-o em php.ini!"
+
+#: nextend-facebook-connect/admin/templates/debug.php:58
+#, php-format
+msgid "Test %1$s connection"
+msgstr "Teste %1$s conexão"
+
+#: nextend-facebook-connect/admin/templates/fix-redirect-uri.php:2
+msgid "Fix Oauth Redirect URIs"
+msgstr "Corrigir URIs de Redirecionamento Oauth"
+
+#: nextend-facebook-connect/admin/templates/fix-redirect-uri.php:13
+msgid "Every Oauth Redirect URI seems fine"
+msgstr "Todos URIs de Redirecionamento Oauth parecem corretos"
+
+#: nextend-facebook-connect/admin/templates/fix-redirect-uri.php:32
+msgid "Got it"
+msgstr "Entendi"
+
+#: nextend-facebook-connect/admin/templates/global-settings.php:28
+#: nextend-facebook-connect/admin/templates/menu.php:8
+msgid "Global Settings"
+msgstr "Configurações globais"
+
+#: nextend-facebook-connect/admin/templates/global-settings.php:31
+msgid "General"
+msgstr "Geral"
+
+#: nextend-facebook-connect/admin/templates/global-settings.php:33
+msgid "Privacy"
+msgstr "Privacidade"
+
+#: nextend-facebook-connect/admin/templates/global-settings.php:35
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:9
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:18
+msgid "Login Form"
+msgstr "Formulário de login"
+
+#: nextend-facebook-connect/admin/templates/global-settings.php:39
+msgid "Comment"
+msgstr "Comentário"
+
+#: nextend-facebook-connect/admin/templates/header.php:14
+msgid "Docs"
+msgstr "Docs"
+
+#: nextend-facebook-connect/admin/templates/header.php:17
+msgid "Support"
+msgstr "Suporte"
+
+#: nextend-facebook-connect/admin/templates/header.php:23
+#: nextend-facebook-connect/admin/templates/menu.php:12
+msgid "Pro Addon"
+msgstr "Complemento pro"
+
+#: nextend-facebook-connect/admin/templates/menu.php:6
+msgid "Providers"
+msgstr "Provedores"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:13
+msgid "Error"
+msgstr "Erro"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:14
+msgid ""
+"You don’t have sufficient permissions to install and activate plugins. "
+"Please contact your site’s administrator!"
+msgstr ""
+"Você não tem permissões suficientes para instalar e ativar plugins. Por "
+"favor contacte seu administrador do site!"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:22
+#: nextend-facebook-connect/admin/templates/pro-addon.php:32
+#: nextend-facebook-connect/admin/templates/pro.php:34
+msgid "Activate Pro Addon"
+msgstr "Ativar Addon Pro"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:23
+msgid ""
+"Pro Addon is installed but not activated. To be able to use the Pro "
+"features, you need to activate it."
+msgstr ""
+"Addon Pro está instalado mas não activado. Para ser capaz de usar os "
+"recursos do Pro, você precisa ativá-lo."
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:37
+#: nextend-facebook-connect/admin/templates/pro-addon.php:142
+#, fuzzy
+#| msgid "Activate Pro Addon"
+msgid "Deactivate Pro Addon"
+msgstr "Ativar Addon Pro"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:48
+#: nextend-facebook-connect/admin/templates/pro.php:43
+msgid "Pro Addon is not installed"
+msgstr "Addon pro não está instalado"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:50
+msgid ""
+"To access the Pro features, you need to install and activate the Pro Addon."
+msgstr ""
+"Para acessar os recursos Pro, você precisa instalar e ativar o Addon Pro."
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:59
+#, php-format
+msgid "Install %s now"
+msgstr "Instalar %s agora"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:60
+#: nextend-facebook-connect/admin/templates/pro.php:47
+msgid "Install Pro Addon"
+msgstr "Instale o Addon Pro"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:94
+msgid "Activating..."
+msgstr "Ativando..."
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:118
+#, fuzzy
+#| msgid "Not Available"
+msgid "Not compatible!"
+msgstr "Não Disponível"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:119
+#, fuzzy, php-format
+#| msgid "Please update %1$s to version %2$s or newer."
+msgid ""
+"%1$s and %2$s are not compatible. Please update %2$s to version %3$s or "
+"newer."
+msgstr "Por favor, atualize %1$s para versão %2$s ou mais recente."
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:123
+#, fuzzy
+#| msgid "Activate Pro Addon"
+msgid "Update Pro Addon"
+msgstr "Ativar Addon Pro"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:133
+msgid "Pro Addon is installed and activated"
+msgstr "Addon Pro está instalado e ativado"
+
+#: nextend-facebook-connect/admin/templates/pro-addon.php:135
+#, fuzzy
+#| msgid ""
+#| "You installed and activated the Pro Addon. If you don’t want to use it "
+#| "anymore, you can deauthorize using the button below."
+msgid ""
+"You installed and activated the Pro Addon. If you don’t want to use it "
+"anymore, you can deactivate using the button below."
+msgstr ""
+"Você instalou e ativou o Addon Pro. Se você não desejar usá-lo mais, você "
+"pode desautorizar usando o botão baixo."
+
+#: nextend-facebook-connect/admin/templates/pro.php:8
+msgid "Get Pro Addon to unlock more features"
+msgstr "Obter o Addon Pro para desbloquear mais recursos"
+
+#: nextend-facebook-connect/admin/templates/pro.php:9
+#, php-format
+msgid ""
+"The features below are available in %s Pro Addon. Get it today and tweak the "
+"awesome settings."
+msgstr ""
+"Os recursos abaixo estão disponíveis em %s Addon Pro. Obtenha hoje e ajuste "
+"as configurações incríveis."
+
+#: nextend-facebook-connect/admin/templates/pro.php:10
+msgid ""
+"If you already have a license, you can Authorize your Pro Addon. Otherwise "
+"you can purchase it using the button below."
+msgstr ""
+"Se você já possui uma licença, você pode autorizar seu Addon Pro. Caso "
+"contrário, você pode comprá-lo usando o botão abaixo."
+
+#: nextend-facebook-connect/admin/templates/pro.php:14
+msgid "Buy Pro Addon"
+msgstr "Comprar Addon Pro"
+
+#: nextend-facebook-connect/admin/templates/pro.php:16
+msgid "Authorize Pro Addon"
+msgstr "Autorize Addon Pro"
+
+#: nextend-facebook-connect/admin/templates/pro.php:25
+msgid "Pro Addon is not activated"
+msgstr "Addon Pro não está ativado"
+
+#: nextend-facebook-connect/admin/templates/pro.php:26
+#: nextend-facebook-connect/admin/templates/pro.php:44
+msgid ""
+"To be able to use the Pro features, you need to install and activate the "
+"Nextend Social Connect Pro Addon."
+msgstr ""
+"Para poder usar os recursos Pro, você precisa instalar e ativar o Addon Pro "
+"do Nextend Social Connect."
+
+#: nextend-facebook-connect/admin/templates/providers.php:30
+msgid "Not Available"
+msgstr "Não Disponível"
+
+#: nextend-facebook-connect/admin/templates/providers.php:33
+msgid "Not Configured"
+msgstr "Não Configurado"
+
+#: nextend-facebook-connect/admin/templates/providers.php:36
+msgid "Not Verified"
+msgstr "Não Verificado"
+
+#: nextend-facebook-connect/admin/templates/providers.php:42
+#: nextend-facebook-connect/admin/templates/settings/general.php:56
+#: nextend-facebook-connect/admin/templates/settings/general.php:196
+#: nextend-facebook-connect/admin/templates/settings/general.php:211
+#: nextend-facebook-connect/admin/templates/settings/general.php:229
+#: nextend-facebook-connect/includes/provider-admin.php:218
+#: nextend-social-login-pro/providers/paypal/admin/settings.php:51
+msgid "Enabled"
+msgstr "Ativado"
+
+#: nextend-facebook-connect/admin/templates/providers.php:54
+msgid "Upgrade Now"
+msgstr "Atualizar agora"
+
+#: nextend-facebook-connect/admin/templates/providers.php:69
+#: nextend-facebook-connect/includes/provider-admin.php:202
+msgid "Verify Settings"
+msgstr "Verificar Configurações"
+
+#: nextend-facebook-connect/admin/templates/providers.php:77
+#: nextend-facebook-connect/includes/provider-admin.php:247
+msgid "Enable"
+msgstr "Habilitar"
+
+#: nextend-facebook-connect/admin/templates/providers.php:89
+#: nextend-facebook-connect/includes/provider-admin.php:255
+msgid "Disable"
+msgstr "Desativar"
+
+#: nextend-facebook-connect/admin/templates/providers.php:114
+msgid "Stay Updated"
+msgstr "Ficar atualizado"
+
+#: nextend-facebook-connect/admin/templates/providers.php:115
+msgid ""
+"Receive info on the latest plugin updates and social provider related "
+"changes."
+msgstr ""
+"Receba informações sobre as atualizações mais recentes do plugin e as "
+"alterações relacionadas ao provedor social."
+
+#: nextend-facebook-connect/admin/templates/providers.php:116
+msgid "Enter your email address"
+msgstr "Digite seu endereço de e-mail"
+
+#: nextend-facebook-connect/admin/templates/providers.php:120
+msgid "Subscribe"
+msgstr "Assinante"
+
+#: nextend-facebook-connect/admin/templates/providers.php:136
+msgid "Saving..."
+msgstr "Salvando..."
+
+#: nextend-facebook-connect/admin/templates/providers.php:137
+msgid "Saving failed"
+msgstr "O salvamento falhou"
+
+#: nextend-facebook-connect/admin/templates/providers.php:138
+msgid "Order Saved"
+msgstr "Pedido Salvo"
+
+#: nextend-facebook-connect/admin/templates/providers.php:207
+msgid "Successfully subscribed!"
+msgstr "Inscrito com sucesso!"
+
+#: nextend-facebook-connect/admin/templates/providers.php:207
+msgid ""
+"We'll be bringing you all the latest news and updates about Social Login - "
+"right to your inbox."
+msgstr ""
+"Apresentaremos todas as últimas novidades e atualizações sobre o Login "
+"Social, diretamente na sua caixa de entrada."
+
+#: nextend-facebook-connect/admin/templates/providers.php:214
+msgid "The entered email address is invalid!"
+msgstr "O endereço de e-mail inserido é inválido!"
+
+#: nextend-facebook-connect/admin/templates/review.php:14
+msgid "Rate your experience!"
+msgstr "Avalie sua experiência!"
+
+#: nextend-facebook-connect/admin/templates/review.php:15
+msgid "Hated it"
+msgstr "Odiou"
+
+#: nextend-facebook-connect/admin/templates/review.php:16
+msgid "Disliked it"
+msgstr "Não gostou"
+
+#: nextend-facebook-connect/admin/templates/review.php:17
+msgid "It was ok"
+msgstr "Foi ok"
+
+#: nextend-facebook-connect/admin/templates/review.php:18
+msgid "Liked it"
+msgstr "Gostou"
+
+#: nextend-facebook-connect/admin/templates/review.php:19
+msgid "Loved it"
+msgstr "Adorou"
+
+#: nextend-facebook-connect/admin/templates/review.php:31
+msgid "Please Leave a Review"
+msgstr "Por favor, deixe uma revisão"
+
+#: nextend-facebook-connect/admin/templates/review.php:32
+msgid ""
+"If you are happy with <b>Nextend Social Login</b> and can take a minute "
+"please leave us a review. It will be a tremendous help for us!"
+msgstr ""
+"Se você está feliz com o <b>Nextend Social Login</b> e pode nos dar um "
+"minuto, deixe-nos um comentário. Será uma tremenda ajuda para nós!"
+
+#: nextend-facebook-connect/admin/templates/review.php:34
+msgid "Ok, you deserve it"
+msgstr "Ok"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:18
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:84
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:96
+msgid "Register form"
+msgstr "Formulário de registo"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:23
+msgid "No Connect button"
+msgstr "Nenhum botão Conectar"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:26
+msgid "Connect button before register"
+msgstr "Botão Conectar antes de registrar"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:27
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:32
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:37
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:78
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:144
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:27
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:93
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:159
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:47
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:52
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:105
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:110
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:163
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:168
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:221
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:226
+msgid "Action:"
+msgstr "Ação:"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:31
+msgid "Connect button before account details"
+msgstr "Botão Conectar antes de detalhes da conta"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:36
+msgid "Connect button after register"
+msgstr "Botão Conectar após registrar"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:44
+msgid "Register button style"
+msgstr "Estilo do botão do formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:56
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:105
+#: nextend-facebook-connect/admin/templates/settings/comment.php:45
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:39
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:95
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:30
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:96
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:45
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:111
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:57
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:108
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:30
+#: nextend-facebook-connect/widget.php:47
+msgid "Icon"
+msgstr "Ícone"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:64
+#, fuzzy
+#| msgid "Login form"
+msgid "Sidebar Login form"
+msgstr "Formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:69
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:85
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:17
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:30
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:47
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:26
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:39
+msgid "Hide login buttons"
+msgstr "Ocultar botões de login"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:72
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:88
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:14
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:27
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:44
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:23
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:36
+#: nextend-facebook-connect/widget.php:76
+msgid "Show login buttons"
+msgstr "Mostrar botões de login"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:73
+msgid ""
+"Some themes that use BuddyPress, display the social buttons twice in the "
+"same login form. This option can disable the one for: "
+"<b>bp_sidebar_login_form action</b>.  "
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:80
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:18
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:38
+msgid "Login form"
+msgstr "Formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:93
+#, fuzzy
+#| msgid "Login form button style"
+msgid "Login button style"
+msgstr "Estilo do botão do formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:112
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:46
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:37
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:52
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:64
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:58
+msgid "Login layout"
+msgstr "Layout de login"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:124
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:52
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:108
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:43
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:109
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:58
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:124
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:70
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:121
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:70
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:128
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:186
+msgid "Below"
+msgstr "Abaixo"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:130
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:58
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:114
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:49
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:115
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:64
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:130
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:76
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:127
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:76
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:134
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:192
+msgid "Below with separator"
+msgstr "Abaixo com separador"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:136
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:70
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:120
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:55
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:121
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:70
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:136
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:82
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:133
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:82
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:140
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:198
+msgid "Above"
+msgstr "Acima"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:142
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:76
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:126
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:61
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:127
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:76
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:142
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:88
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:139
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:88
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:146
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:204
+msgid "Above with separator"
+msgstr "Acima com separador"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:150
+#: nextend-facebook-connect/admin/templates/settings/comment.php:53
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:53
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:151
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:166
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:147
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:233
+#, fuzzy
+#| msgid "Button skin"
+msgid "Button alignment"
+msgstr "Skin de botão"
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:155
+#: nextend-facebook-connect/admin/templates/settings/comment.php:58
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:138
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:58
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:156
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:171
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:152
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:238
+#: nextend-facebook-connect/widget.php:57
+msgid "Left"
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:158
+#: nextend-facebook-connect/admin/templates/settings/comment.php:61
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:141
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:61
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:159
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:174
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:155
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:241
+#: nextend-facebook-connect/widget.php:62
+msgid "Center"
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates/settings/buddypress.php:162
+#: nextend-facebook-connect/admin/templates/settings/comment.php:65
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:145
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:65
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:163
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:178
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:159
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:245
+#: nextend-facebook-connect/widget.php:67
+#, fuzzy
+#| msgid "Light"
+msgid "Right"
+msgstr "Claro"
+
+#: nextend-facebook-connect/admin/templates/settings/comment.php:18
+msgid "Login button"
+msgstr "Botão de login"
+
+#: nextend-facebook-connect/admin/templates/settings/comment.php:23
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:42
+msgid "Show"
+msgstr "Mostrar"
+
+#: nextend-facebook-connect/admin/templates/settings/comment.php:26
+msgid "Hide"
+msgstr "Esconder"
+
+#: nextend-facebook-connect/admin/templates/settings/comment.php:28
+#, php-format
+msgid "You need to turn on the ' %1$s > %2$s > %3$s ' for this feature to work"
+msgstr ""
+"Você precisa ativar o ' %1$s > %2$s > %3$s ' para este recurso funcionar"
+
+#: nextend-facebook-connect/admin/templates/settings/comment.php:28
+msgid "Discussion"
+msgstr "Discussão"
+
+#: nextend-facebook-connect/admin/templates/settings/comment.php:28
+msgid "Users must be registered and logged in to comment"
+msgstr "Os utilizadores devem estar registrados e logados para comentar"
+
+#: nextend-facebook-connect/admin/templates/settings/comment.php:33
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:18
+msgid "Button style"
+msgstr "Estilo do botão:"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:27
+msgid "Target window"
+msgstr "Janela de destino"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:32
+msgid "Prefer popup"
+msgstr "Prefir pop-up"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:35
+msgid "Prefer new tab"
+msgstr "Prefir nova guia"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:38
+msgid "Prefer same window"
+msgstr "Prefir mesma janela"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:44
+msgid "Registration notification sent to"
+msgstr "Notificação de registro enviada para"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:49
+#: nextend-facebook-connect/admin/templates/settings/general.php:223
+msgid "WordPress default"
+msgstr "Por omissão do WordPress"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:52
+msgid "Nobody"
+msgstr "Ninguém"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:58
+msgid "Admin"
+msgstr "Admin"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:61
+msgid "User and Admin"
+msgstr "Usuário e Admin"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:67
+#, fuzzy
+#| msgid "Unlink label"
+msgid "Unlink"
+msgstr "Rótulo de Desvincular"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:73
+#, fuzzy
+#| msgid "Social accounts"
+msgid "Allow Social account unlink"
+msgstr "Contas redes sociais"
+
+#: nextend-facebook-connect/admin/templates/settings/general-pro.php:79
+#, fuzzy
+#| msgid "Disable login for the selected roles"
+msgid "Disable Admin bar for roles"
+msgstr "Desabilitar login para funções selecionadas"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:48
+msgid "Debug mode"
+msgstr "Modo de depuração"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:61
+msgid "Page for register flow"
+msgstr "Página para fluxo de registro"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:65
+#: nextend-facebook-connect/admin/templates/settings/general.php:78
+msgid "None"
+msgstr "Nenhum"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:68
+msgid ""
+"This setting is used when you request additional data from the users (such "
+"as email address) and to display the Terms and conditions."
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:69
+#, fuzzy, php-format
+#| msgid ""
+#| "First create a new page for register flow and insert the following "
+#| "shortcode: %1$s then select this page above"
+msgid ""
+"%2$s First create a new page and insert the following shortcode: %1$s then "
+"select this page above"
+msgstr ""
+"Primeiro crie uma nova página para o fluxo de registro e insira o seguinte "
+"shortcode: %1$s em seguida, selecione esta página acima"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:69
+#: nextend-facebook-connect/admin/templates/settings/general.php:82
+#, fuzzy
+#| msgid "Usage"
+msgid "Usage:"
+msgstr "Utilização"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:70
+#: nextend-facebook-connect/admin/templates/settings/general.php:83
+#, php-format
+msgid ""
+"%1$s You won't be able to reach the selected page unless a social login/"
+"registration happens."
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:70
+#: nextend-facebook-connect/admin/templates/settings/general.php:83
+#, fuzzy
+#| msgid "Import"
+msgid "Important:"
+msgstr "Importar"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:74
+msgid "OAuth redirect uri proxy page"
+msgstr "Página do proxy uri do redirecionamento OAuth"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:81
+#, fuzzy
+#| msgid ""
+#| "Pick a custom page when wp-login.php not available to handle the OAuth "
+#| "flow."
+msgid ""
+"You can use this setting when wp-login.php page is not available to handle "
+"the OAuth flow."
+msgstr ""
+"Escolha uma página personalizada quando o wp-login.php não estiver "
+"disponível para manipular o fluxo do OAuth."
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:82
+#, fuzzy, php-format
+#| msgid ""
+#| "First create a new page for register flow and insert the following "
+#| "shortcode: %1$s then select this page above"
+msgid "%1$s First create a new page then select this page above."
+msgstr ""
+"Primeiro crie uma nova página para o fluxo de registro e insira o seguinte "
+"shortcode: %1$s em seguida, selecione esta página acima"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:89
+msgid "Prevent external redirect overrides"
+msgstr "Evitar substituições de redirecionamento externo"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:95
+msgid "Disable external redirects"
+msgstr "Desativar redirecionamentos externos"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:102
+msgid "Default redirect url"
+msgstr "URL de redirecionamento padrão"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:115
+#: nextend-facebook-connect/admin/templates/settings/general.php:153
+msgid "for Login"
+msgstr "Login Social"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:130
+#: nextend-facebook-connect/admin/templates/settings/general.php:168
+msgid "for Register"
+msgstr "Cadastrar"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:140
+msgid "Fixed redirect url"
+msgstr "URL de redirecionamento fixo"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:177
+msgid "Blacklisted redirects"
+msgstr "Redirecionamentos de Blacklisted"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:183
+msgid "If you want to blacklist redirect url params. One pattern per line."
+msgstr ""
+"Se você deseja redirecionar os parâmetros de url da blacklist. Um padrão por "
+"linha."
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:188
+#, fuzzy
+#| msgid "Show login buttons"
+msgid "Support login restrictions"
+msgstr "Mostrar botões de login"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:198
+#, php-format
+msgid "Please visit to our %1$s to check what plugins are supported!"
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:203
+msgid "Display avatars in \"All media items\""
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:213
+msgid ""
+"Enabling this option can speed up loading images in Media Library - Grid "
+"view!"
+msgstr ""
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:218
+msgid "Membership"
+msgstr "Membros"
+
+#: nextend-facebook-connect/admin/templates/settings/general.php:231
+#, fuzzy
+#| msgid "Allow registration with Social login"
+msgid "Allow registration with Social login."
+msgstr "Permitir registro com Social login"
+
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:27
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:18
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:33
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:45
+msgid "Login form button style"
+msgstr "Estilo do botão do formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:64
+msgid "Below and floating"
+msgstr "Abaixo e flutuante"
+
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:83
+msgid "Embedded Login form button style"
+msgstr "Estilos do botão de formulário Login incorporado"
+
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:102
+msgid "Embedded Login layout"
+msgstr "Layout do Login incorporado"
+
+#: nextend-facebook-connect/admin/templates/settings/login-form-pro.php:133
+#, fuzzy
+#| msgid "Embedded Login form button style"
+msgid "Embedded login form button alignment"
+msgstr "Estilos do botão de formulário Login incorporado"
+
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:22
+#: nextend-facebook-connect/includes/userData.php:134
+msgid "Registration Form"
+msgstr "Formulário de Registo"
+
+#: nextend-facebook-connect/admin/templates/settings/login-form.php:36
+msgid "Embedded login form"
+msgstr "Formulário Login incorporado"
+
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:69
+msgid "Sign Up form"
+msgstr "Formulário de inscrição"
+
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:74
+msgid "No Connect button in Sign Up form"
+msgstr "Nenhum botão conectar no formulário de inscrição"
+
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:77
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:26
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:92
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:46
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:51
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:104
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:109
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:162
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:167
+msgid "Connect button on"
+msgstr "Conectar botão em"
+
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:84
+msgid "Sign Up form button style"
+msgstr "Estilo do botão do formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:103
+msgid "Sign Up layout"
+msgstr "Inscreva-se layout"
+
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:135
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:150
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:212
+msgid "Account details"
+msgstr "Detalhes da Conta"
+
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:140
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:155
+msgid "No link buttons"
+msgstr "Sem link nos botões"
+
+#: nextend-facebook-connect/admin/templates/settings/memberpress.php:143
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:158
+msgid "Link buttons after account details"
+msgstr "Botão Vincular após detalhes da conta"
+
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:6
+#: nextend-facebook-connect/nextend-social-login.php:140
+msgid ""
+"By clicking Register, you accept our <a href=\"#privacy_policy_url\" target="
+"\"_blank\">Privacy Policy</a>"
+msgstr ""
+"Ao clicar em registrar, você aceita nossa <a href=\"#privacy_policy_url\" "
+"target=\"_blank\">política de privacidade</a>"
+
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:59
+msgid "Store"
+msgstr "Armazenar"
+
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:65
+msgid "First and last name"
+msgstr "Primeiro e último nome"
+
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:68
+msgid "When not enabled, username will be randomly generated."
+msgstr "Quando não ativado, o nome de usuário será gerado aleatoriamente."
+
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:78
+#: nextend-social-login-pro/class-provider-extension.php:320
+msgid "Email"
+msgstr "E-mail"
+
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:81
+msgid "When not enabled, email will be empty."
+msgstr "Quando não estiver ativado, o e-mail estará vazio."
+
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:91
+#: nextend-facebook-connect/includes/avatar.php:59
+msgid "Avatar"
+msgstr "Avatar"
+
+#: nextend-facebook-connect/admin/templates/settings/privacy.php:102
+#: nextend-facebook-connect/includes/provider.php:1040
+msgid "Access token"
+msgstr "Token de acesso"
+
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:23
+msgid "No Connect button in Login form"
+msgstr "Nenhum botão conectar no formulário de Login"
+
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:89
+msgid "No Connect button in Register form"
+msgstr "Nenhum botão Conectar no formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:99
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:96
+msgid "Register form button style"
+msgstr "Estilo do botão do formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/ultimate-member.php:118
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:115
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:116
+msgid "Register layout"
+msgstr "Cadastrar layout"
+
+#: nextend-facebook-connect/admin/templates/settings/userpro.php:31
+msgid "Register Form"
+msgstr "Formulário de registo"
+
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:43
+msgid "No Connect button in login form"
+msgstr "Nenhum botão Conectar no formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:101
+msgid "No Connect button in register form"
+msgstr "Nenhum botão Conectar no formulário de login"
+
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:154
+msgid "Billing form"
+msgstr "Formulário de faturamento"
+
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:159
+msgid "No Connect button in billing form"
+msgstr "Nenhum botão Connectar no formulário de cobrança"
+
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:174
+msgid "Billing layout"
+msgstr "Layout de cobrança"
+
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:217
+#, fuzzy
+#| msgid "Connect button before account details"
+msgid "No Connect buttons in account details form"
+msgstr "Botão Conectar antes de detalhes da conta"
+
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:220
+#: nextend-facebook-connect/admin/templates/settings/woocommerce.php:225
+msgid "Link buttons on"
+msgstr "Link de botões em"
+
+#: nextend-facebook-connect/admin/templates/test-connection.php:41
+#, php-format
+msgid "Network connection successful: %1$s"
+msgstr "Conexão de rede bem sucedida: %1$s"
+
+#: nextend-facebook-connect/admin/templates/test-connection.php:47
+#, php-format
+msgid "Network connection failed: %1$s"
+msgstr "Falha na conexão de rede: %1$s"
+
+#: nextend-facebook-connect/admin/templates/test-connection.php:50
+msgid ""
+"Please contact with your hosting provider to resolve the network issue "
+"between your server and the provider."
+msgstr ""
+"Entre em contato com o seu provedor de hospedagem para resolver o problema "
+"de rede entre o seu servidor e o provedor."
+
+#: nextend-facebook-connect/includes/avatar.php:60
+msgid "Manage Avatar"
+msgstr "Gerenciar avatar"
+
+#: nextend-facebook-connect/includes/avatar.php:61
+#, php-format
+msgid "Avatar <span class=\"count\">(%s)</span>"
+msgid_plural "Avatar <span class=\"count\">(%s)</span>"
+msgstr[0] "Avatar <span class=\"count\">(%s)</span>"
+msgstr[1] "Avatar <span class=\"count\">(%s)</span>"
+
+#. translators: Login screen title. 1: Login screen name, 2: Network or site name
+#: nextend-facebook-connect/includes/compat-wp-login.php:42
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#: nextend-facebook-connect/includes/compat-wp-login.php:97
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: nextend-facebook-connect/includes/compat-wp-login.php:98
+msgid "Powered by WordPress"
+msgstr "Alimentado por WordPress"
+
+#. translators: %s: site title
+#: nextend-facebook-connect/includes/compat-wp-login.php:234
+#, php-format
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr "&larr; voltar para %s"
+
+#: nextend-facebook-connect/includes/provider-admin.php:196
+msgid "Your configuration needs to be verified"
+msgstr "Sua configuração precisa ser verificada"
+
+#: nextend-facebook-connect/includes/provider-admin.php:197
+msgid ""
+"Before you can start letting your users register with your app it needs to "
+"be tested. This test makes sure that no users will have troubles with the "
+"login and registration process. <br> If you see error message in the popup "
+"check the copied ID and secret or the app itself. Otherwise your settings "
+"are fine."
+msgstr ""
+"Antes que você possa começar a deixar seus usuários registrarem com seu app "
+"ele precisa ser testado. Este teste garante que nenhum usuário terá "
+"problemas com o processo de login e registro. <br> Se você ver mensagem de "
+"erro no popup verifique os ID e segredo ou mesmo o app. Caso contrário suas "
+"configurações estão funcionando."
+
+#: nextend-facebook-connect/includes/provider-admin.php:203
+msgid "Please save your changes to verify settings."
+msgstr "Por favor salve suas alterações para verificar suas configurações."
+
+#: nextend-facebook-connect/includes/provider-admin.php:211
+msgid "Works Fine"
+msgstr "Funcionando bem"
+
+#: nextend-facebook-connect/includes/provider-admin.php:225
+#, php-format
+msgid ""
+"This provider is currently disabled, which means that users can’t register "
+"or login via their %s account."
+msgstr ""
+"Este provedor está desativado no momento, o que significa que os usuários "
+"não podem registar-se ou iniciar sessão através de sua conta do %s."
+
+#: nextend-facebook-connect/includes/provider-admin.php:228
+#, php-format
+msgid ""
+"This provider works fine, but you can test it again. If you don’t want to "
+"let users register or login with %s anymore you can disable it."
+msgstr ""
+"Este fornecedor está funcionando bem, mas você pode testar de novo. Se você "
+"não quer deixar mais usuários se registrarem e se logarem com %s você pode "
+"desativá-lo."
+
+#: nextend-facebook-connect/includes/provider-admin.php:231
+#, php-format
+msgid ""
+"This provider is currently enabled, which means that users can register or "
+"login via their %s account."
+msgstr ""
+"Este provedor está ativado no momento, o que significa que os usuários podem "
+"registar-se ou iniciar sessão através de sua conta do %s."
+
+#: nextend-facebook-connect/includes/provider-admin.php:239
+msgid "Verify Settings Again"
+msgstr "Verificar Configurações De Novo"
+
+#: nextend-facebook-connect/includes/provider-admin.php:240
+msgid "Please save your changes before verifying settings."
+msgstr "Salve suas alterações antes de verificar as configurações."
+
+#: nextend-facebook-connect/includes/provider.php:347
+#: nextend-facebook-connect/includes/provider.php:666
+#: nextend-facebook-connect/includes/provider.php:671
+msgid "Authentication successful"
+msgstr "Autenticação bem sucedida"
+
+#: nextend-facebook-connect/includes/provider.php:608
+#: nextend-facebook-connect/includes/user.php:123
+msgid "Authentication error"
+msgstr "Erro de autenticação"
+
+#: nextend-facebook-connect/includes/provider.php:623
+msgid "Unlink successful."
+msgstr "Desvinculação bem sucedida."
+
+#: nextend-facebook-connect/includes/provider.php:625
+msgid "Unlink is not allowed!"
+msgstr ""
+
+#: nextend-facebook-connect/includes/provider.php:829
+#: nextend-facebook-connect/includes/provider.php:836
+msgid "The test was successful"
+msgstr "O teste foi bem sucedido"
+
+#: nextend-facebook-connect/includes/provider.php:882
+msgid "Authentication failed"
+msgstr "Falha na autenticação"
+
+#: nextend-facebook-connect/includes/provider.php:1032
+msgid "Identifier"
+msgstr "Identificador"
+
+#: nextend-facebook-connect/includes/provider.php:1048
+msgid "Profile picture"
+msgstr "Foto do perfil"
+
+#: nextend-facebook-connect/includes/user.php:69
+#, php-format
+msgid ""
+"Your %1$s account is successfully linked with your account. Now you can sign "
+"in with %2$s easily."
+msgstr ""
+"Sua conta %1$s foi vinculada com sucesso com sua conta. Agora você pode "
+"logar com o %2$s facilmente."
+
+#: nextend-facebook-connect/includes/user.php:72
+#, php-format
+msgid ""
+"You have already linked a(n) %s account. Please unlink the current and then "
+"you can link other %s account."
+msgstr ""
+"Você já vinculou uma conta %s. Por favor desvincule a atual e então você "
+"poderá vincular outra conta %s."
+
+#: nextend-facebook-connect/includes/user.php:77
+#, php-format
+msgid "This %s account is already linked to other user."
+msgstr "A conta %s já está vinculada a outro usuário."
+
+#: nextend-facebook-connect/includes/user.php:118
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: nextend-facebook-connect/includes/userData.php:134
+msgid "Register For This Site!"
+msgstr "Registrar Para Este Site!"
+
+#. translators: %2$s: PHP version
+#: nextend-facebook-connect/nextend-facebook-connect.php:34
+#, php-format
+msgid "%1$s requires PHP version %2$s+, plugin is currently NOT ACTIVE."
+msgstr "%1$s requer a versão do PHP %2$s+, O plugin atualmente não está ativo."
+
+#. translators: %2$s: WordPress version
+#: nextend-facebook-connect/nextend-facebook-connect.php:41
+#, php-format
+msgid ""
+"%1$s requires WordPress version %2$s+. Because you are using an earlier "
+"version, the plugin is currently NOT ACTIVE."
+msgstr ""
+"%1$s requer versão do WordPress %2$s+. Como você está usando uma versão "
+"anterior, o plugin não está ativo no momento."
+
+#: nextend-facebook-connect/nextend-social-login.php:53
+#: nextend-facebook-connect/nextend-social-login.php:60
+#, php-format
+msgid "Please update %1$s to version %2$s or newer."
+msgstr "Por favor, atualize %1$s para versão %2$s ou mais recente."
+
+#: nextend-facebook-connect/nextend-social-login.php:53
+#: nextend-facebook-connect/nextend-social-login.php:60
+msgid "Update now!"
+msgstr "Atualizar agora!"
+
+#: nextend-facebook-connect/nextend-social-login.php:715
+#: nextend-facebook-connect/nextend-social-login.php:1080
+msgid "Social Login"
+msgstr "Login Social"
+
+#: nextend-facebook-connect/nextend-social-login.php:1061
+msgid "Social Accounts"
+msgstr "Redes Sociais"
+
+#: nextend-facebook-connect/providers/facebook/admin/fix-redirect-uri.php:8
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:22
+#: nextend-facebook-connect/providers/google/admin/fix-redirect-uri.php:8
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:16
+#: nextend-facebook-connect/providers/twitter/admin/fix-redirect-uri.php:8
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:16
+#: nextend-social-login-pro/providers/amazon/admin/fix-redirect-uri.php:8
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:22
+#: nextend-social-login-pro/providers/disqus/admin/fix-redirect-uri.php:8
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:15
+#: nextend-social-login-pro/providers/linkedin/admin/fix-redirect-uri.php:8
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:15
+#: nextend-social-login-pro/providers/paypal/admin/fix-redirect-uri.php:8
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:15
+#: nextend-social-login-pro/providers/vk/admin/fix-redirect-uri.php:8
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:15
+#: nextend-social-login-pro/providers/wordpress/admin/fix-redirect-uri.php:8
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:15
+#: nextend-social-login-pro/providers/yahoo/admin/fix-redirect-uri.php:8
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:16
+#, php-format
+msgid "Navigate to %s"
+msgstr "Navegar para %s"
+
+#: nextend-facebook-connect/providers/facebook/admin/fix-redirect-uri.php:9
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:23
+#: nextend-facebook-connect/providers/google/admin/fix-redirect-uri.php:9
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:17
+#: nextend-facebook-connect/providers/twitter/admin/fix-redirect-uri.php:9
+#: nextend-social-login-pro/providers/amazon/admin/fix-redirect-uri.php:9
+#: nextend-social-login-pro/providers/linkedin/admin/fix-redirect-uri.php:9
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:16
+#: nextend-social-login-pro/providers/vk/admin/fix-redirect-uri.php:9
+#: nextend-social-login-pro/providers/yahoo/admin/fix-redirect-uri.php:9
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in"
+msgstr "Logue com suas credenciais %s se você não estiver logado"
+
+#: nextend-facebook-connect/providers/facebook/admin/fix-redirect-uri.php:10
+#, php-format
+msgid "Click on the App with App ID: %s"
+msgstr "Clique no App com ID do App:%s"
+
+#: nextend-facebook-connect/providers/facebook/admin/fix-redirect-uri.php:11
+msgid "In the left sidebar, click on \"Facebook Login/Settings\""
+msgstr "Na barra lateral esquerda, clique em \"Facebook Login/Settings\""
+
+#: nextend-facebook-connect/providers/facebook/admin/fix-redirect-uri.php:12
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:32
+#, php-format
+msgid ""
+"Add the following URL to the \"Valid OAuth redirect URIs\" field: <b>%s</b>"
+msgstr ""
+"Adicionar o seguinte URL no campo \"URIs de redirecionamento OAuth Válidos"
+"\": <b>%s</b>"
+
+#: nextend-facebook-connect/providers/facebook/admin/fix-redirect-uri.php:13
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:30
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:33
+msgid "Click on \"Save Changes\""
+msgstr "Clique em \"Salvar Alterações\""
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:11
+#: nextend-facebook-connect/providers/facebook/admin/settings.php:13
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:11
+#, php-format
+msgid ""
+"%1$s allows HTTPS OAuth Redirects only. You must move your site to HTTPS in "
+"order to allow login with %1$s."
+msgstr ""
+"%1$s permite apenas redirecionamentos OAuth de HTTPS. Você deve mover seu "
+"site para HTTPS para permitir o login com %1$s."
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:12
+#: nextend-facebook-connect/providers/facebook/admin/settings.php:14
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:12
+msgid "How to get SSL for my WordPress site?"
+msgstr "Como obter SSL para o meu site WordPress?"
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:17
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:11
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:11
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:10
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:10
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create a %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your "
+"%1$s App."
+msgstr ""
+"Para permitir que seus visitantes se loguem com sua conta %1$s, primeiro "
+"você deve criar um App do %1$s. O guia a seguir irá ajudá-lo através do "
+"processo de criação do App do %1$s. Após você ter criado seu App do %1$s, "
+"dirija-se a “Configurações” e configure o “%2$s” e “%3$s” dados de acordo "
+"com seu App do %1$s."
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:19
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:13
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:13
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:19
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:12
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:12
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:12
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:12
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:12
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:13
+#, php-format
+msgctxt "App creation"
+msgid "Create %s"
+msgstr "Criar %s"
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:24
+msgid "Click on the \"Add a New App\" button"
+msgstr "Clique no botão \"Adicionar um Novo App\""
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:25
+#, php-format
+msgid ""
+"Fill \"Display Name\" and \"Contact Email\". The specified \"Display Name\" "
+"will appear on your %s!"
+msgstr ""
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:26
+msgid "Click on blue \"Create App ID\" button"
+msgstr "Clique no botão azul \"Criar ID do App\""
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:27
+msgid ""
+"Select \"Integrate Facebook Login\" at the Select a Scenario page, then "
+"click Confirm."
+msgstr ""
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:28
+msgid "Enter your domain name to the App Domains"
+msgstr "Digite seu nome de domínio para os Domínios do App"
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:29
+msgid ""
+"Fill up the \"Privacy Policy URL\". Provide a publicly available and easily "
+"accessible privacy policy that explains what data you are collecting and how "
+"you will use that data."
+msgstr ""
+"Preencha a \"URL de Política de Privacidade\". Fornecer uma política de "
+"privacidade publicamente disponível e facilmente acessível que explique "
+"quais dados você está coletando e como você utilizará estes dados."
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:31
+#, fuzzy
+#| msgid "In the left sidebar, click on \"Facebook Login/Settings\""
+msgid ""
+"In the left sidebar under the Products section, click on \"Facebook Login\" "
+"and select Settings"
+msgstr "Na barra lateral esquerda, clique em \"Facebook Login/Settings\""
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:34
+#, fuzzy
+#| msgid "In the top of the left sidebar, click on \"Settings\""
+msgid ""
+"In the top of the left sidebar, click on \"Settings\" and select \"Basic\""
+msgstr "No topo da barra lateral esquerda, clique em \"Configurações\""
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:35
+msgid ""
+"Here you can see your \"APP ID\" and you can see your \"App secret\" if you "
+"click on the \"Show\" button. These will be needed in plugin's settings."
+msgstr ""
+"Aqui voc6e pode ver seu “ID do APP” e seu “Segredo do App” se você clicar no "
+"botão “Mostrar”. Isto será necessário nas configurações do plugin."
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:36
+#, fuzzy
+#| msgid ""
+#| "Your application is currently private, which means that only you can log "
+#| "in with it. In the left sidebar choose \"App Review\" and make your App "
+#| "public"
+msgid ""
+"Your application is currently private ( Status: In Development ), which "
+"means that only you can log in with it. In the top bar click on the \"OFF\" "
+"switcher and select a category for your App."
+msgstr ""
+"Sua aplicação está atualmente privada, o que significa que só você pode se "
+"logar com ela. No menu lateral esquerdo escolha “Revisar App” e torne seu "
+"App público"
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:37
+msgid "By clicking \"Confirm\", the Status of your App will go Live."
+msgstr ""
+
+#: nextend-facebook-connect/providers/facebook/admin/getting-started.php:41
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:36
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:32
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:37
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:30
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:28
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:34
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:31
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:30
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:39
+#, php-format
+msgid "I am done setting up my %s"
+msgstr "Terminei de configurar meu %s"
+
+#: nextend-facebook-connect/providers/facebook/admin/settings.php:33
+msgid "App ID"
+msgstr "ID do App"
+
+#: nextend-facebook-connect/providers/facebook/admin/settings.php:34
+#: nextend-facebook-connect/providers/facebook/admin/settings.php:46
+#: nextend-facebook-connect/providers/google/admin/settings.php:28
+#: nextend-facebook-connect/providers/google/admin/settings.php:41
+#: nextend-facebook-connect/providers/twitter/admin/settings.php:28
+#: nextend-social-login-pro/providers/amazon/admin/settings.php:27
+#: nextend-social-login-pro/providers/amazon/admin/settings.php:39
+#: nextend-social-login-pro/providers/disqus/admin/settings.php:27
+#: nextend-social-login-pro/providers/disqus/admin/settings.php:39
+#: nextend-social-login-pro/providers/linkedin/admin/settings.php:27
+#: nextend-social-login-pro/providers/linkedin/admin/settings.php:39
+#: nextend-social-login-pro/providers/paypal/admin/settings.php:27
+#: nextend-social-login-pro/providers/paypal/admin/settings.php:39
+#: nextend-social-login-pro/providers/vk/admin/settings.php:27
+#: nextend-social-login-pro/providers/vk/admin/settings.php:39
+#: nextend-social-login-pro/providers/wordpress/admin/settings.php:27
+#: nextend-social-login-pro/providers/wordpress/admin/settings.php:39
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:27
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:39
+msgid "Required"
+msgstr "Obrigatório"
+
+#: nextend-facebook-connect/providers/facebook/admin/settings.php:39
+#: nextend-facebook-connect/providers/google/admin/settings.php:35
+#: nextend-facebook-connect/providers/twitter/admin/settings.php:33
+#: nextend-social-login-pro/providers/amazon/admin/settings.php:33
+#: nextend-social-login-pro/providers/disqus/admin/settings.php:33
+#: nextend-social-login-pro/providers/linkedin/admin/settings.php:33
+#: nextend-social-login-pro/providers/paypal/admin/settings.php:33
+#: nextend-social-login-pro/providers/vk/admin/settings.php:33
+#: nextend-social-login-pro/providers/wordpress/admin/settings.php:33
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:33
+#, php-format
+msgid ""
+"If you are not sure what is your %1$s, please head over to <a href=\"%2$s"
+"\">Getting Started</a>"
+msgstr ""
+"Se não tiver certeza de qual é o seu %1$s, por favor dirija-se a <a href="
+"\"%2$s\">Iniciando</a>"
+
+#: nextend-facebook-connect/providers/facebook/admin/settings.php:45
+msgid "App Secret"
+msgstr "Chave Secreta do App"
+
+#: nextend-facebook-connect/providers/facebook/facebook.php:77
+msgid "Continue with <b>Facebook</b>"
+msgstr "Continuar com <b>Facebook</b>"
+
+#: nextend-facebook-connect/providers/facebook/facebook.php:78
+msgid "Link account with <b>Facebook</b>"
+msgstr "Vincular conta com <b>Facebook</b>"
+
+#: nextend-facebook-connect/providers/facebook/facebook.php:79
+msgid "Unlink account from <b>Facebook</b>"
+msgstr "Desvincular conta do <b>Facebook</b>"
+
+#: nextend-facebook-connect/providers/facebook/facebook.php:133
+#: nextend-facebook-connect/providers/google/google.php:155
+#: nextend-facebook-connect/providers/twitter/twitter.php:93
+#: nextend-social-login-pro/providers/amazon/amazon.php:63
+#: nextend-social-login-pro/providers/disqus/disqus.php:110
+#: nextend-social-login-pro/providers/linkedin/linkedin.php:62
+#: nextend-social-login-pro/providers/paypal/paypal.php:88
+#: nextend-social-login-pro/providers/vk/vk.php:60
+#: nextend-social-login-pro/providers/wordpress/wordpress.php:97
+#: nextend-social-login-pro/providers/yahoo/yahoo.php:87
+#, php-format
+msgid ""
+"The %1$s entered did not appear to be a valid. Please enter a valid %2$s."
+msgstr ""
+"O %1$s inserido não parece ser válido. Por favor insira um %2$s válido."
+
+#: nextend-facebook-connect/providers/facebook/facebook.php:246
+#: nextend-social-login-pro/providers/paypal/paypal.php:168
+#, php-format
+msgid "Required scope: %1$s"
+msgstr "Escopo requerido: %1$s"
+
+#: nextend-facebook-connect/providers/google/admin/buttons.php:2
+msgid "Button skin"
+msgstr "Skin de botão"
+
+#: nextend-facebook-connect/providers/google/admin/buttons.php:8
+msgid "Uniform"
+msgstr "Uniforme"
+
+#: nextend-facebook-connect/providers/google/admin/buttons.php:14
+msgid "Light"
+msgstr "Claro"
+
+#: nextend-facebook-connect/providers/google/admin/buttons.php:20
+msgid "Dark"
+msgstr "Escuro"
+
+#: nextend-facebook-connect/providers/google/admin/fix-redirect-uri.php:10
+msgid "Click on the \"Credentials\" in the left hand menu"
+msgstr "Clique em \"Credenciais\"no menu à esquerda"
+
+#: nextend-facebook-connect/providers/google/admin/fix-redirect-uri.php:11
+#, php-format
+msgid "Click on OAuth 2.0 client ID: %s"
+msgstr "Clique no ID de Cliente OAuth 2.0: %s"
+
+#: nextend-facebook-connect/providers/google/admin/fix-redirect-uri.php:12
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:30
+#, php-format
+msgid ""
+"Add the following URL to the \"Authorised redirect URIs\" field: <b>%s</b>"
+msgstr ""
+"Adicionar o seguinte URL no campo \"URIs de redirecionamento Autorizados\": "
+"<b>%s</b>"
+
+#: nextend-facebook-connect/providers/google/admin/fix-redirect-uri.php:13
+#: nextend-facebook-connect/providers/twitter/admin/fix-redirect-uri.php:13
+#: nextend-social-login-pro/providers/amazon/admin/fix-redirect-uri.php:14
+#: nextend-social-login-pro/providers/paypal/admin/fix-redirect-uri.php:15
+msgid "Click on \"Save\""
+msgstr "Clique em \"Salvar\""
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:18
+msgid ""
+"If you don't have a project yet, you'll need to create one. You can do this "
+"by clicking on the blue \"Create project\" button on the right side!  ( If "
+"you already have a project, click on the name of your project in the "
+"dashboard instead, which will bring up a modal and click New Project. )"
+msgstr ""
+"Se você não tem um projeto ainda, você precisará criar um. Você pode fazer "
+"isso clicando no botão azul “Criar Projeto” no lado direito"
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:19
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:24
+msgid "Click the Create button."
+msgstr "Clique no botão Criar."
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:20
+msgid "Name your project and then click on the Create button again"
+msgstr "Nomeie o projeto e, em seguida, clique no botão Criar"
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:21
+msgid "Once you have a project, you'll end up in the dashboard."
+msgstr ""
+"Uma vez que você tenha um projeto, você vai acabar no painel de controle."
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:22
+msgid ""
+"Click on the \"Credentials\" in the left hand menu to create new API "
+"credentials"
+msgstr ""
+"Clique em “Credenciais” no menu esquerdo para criar uma nova credencial API"
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:23
+msgid "Select the OAuth consent screen!"
+msgstr ""
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:24
+msgid ""
+"Enter a name for your App under the \"Application name\" field, which will "
+"appear as the name of the app asking for consent."
+msgstr ""
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:25
+#, fuzzy, php-format
+#| msgid "Fill the \"Base domain\" field with your domain, probably: <b>%s</b>"
+msgid ""
+"Fill the \"Authorized domains\" field with your domain name probably: <b>%s</"
+"b> without subdomains!"
+msgstr ""
+"Preencha o campo \"Domínio base\" com seu domínio, provavelmente: <b>%s</b>"
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:26
+msgid "Press \"Save\" and you will be redirected back to Credentials screen."
+msgstr ""
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:27
+#, fuzzy
+#| msgid "Select \"OAuth client ID\" from the dropdown."
+msgid ""
+"Click the Create credentials button and select \"OAuth client ID\" from the "
+"dropdown."
+msgstr "Selecione \"OAuth client ID\" no menu suspenso."
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:28
+msgid "Your application type should be \"Web application\""
+msgstr "Seu tipo de aplicação deve ser “Aplicação Web”"
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:29
+msgid "Name your application"
+msgstr "Nomeie seu aplicativo"
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:31
+msgid "Click on the Create button"
+msgstr "Clique no botão Criar"
+
+#: nextend-facebook-connect/providers/google/admin/getting-started.php:32
+msgid ""
+"A modal should pop up with your credentials. If that doesn't happen, go to "
+"the Credentials in the left hand menu and select your app by clicking on its "
+"name and you'll be able to copy-paste the Client ID and Client Secret from "
+"there."
+msgstr ""
+"Uma modal deverá aparecer com suas credenciais. Se isto não acontecer, vá "
+"para Credenciais no menu esquerdo e selecione seu app clicando no seu nome e "
+"você será capaz de copiar-colar o ID do Cliente e o Segredo do Cliente de lá."
+
+#: nextend-facebook-connect/providers/google/admin/settings.php:27
+#: nextend-social-login-pro/providers/amazon/admin/settings.php:26
+#: nextend-social-login-pro/providers/linkedin/admin/settings.php:26
+#: nextend-social-login-pro/providers/paypal/admin/settings.php:26
+#: nextend-social-login-pro/providers/wordpress/admin/settings.php:26
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:26
+msgid "Client ID"
+msgstr "ID do Cliente"
+
+#: nextend-facebook-connect/providers/google/admin/settings.php:40
+#: nextend-social-login-pro/providers/amazon/admin/settings.php:38
+#: nextend-social-login-pro/providers/linkedin/admin/settings.php:38
+#: nextend-social-login-pro/providers/wordpress/admin/settings.php:38
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:38
+msgid "Client Secret"
+msgstr "Chave do Cliente"
+
+#: nextend-facebook-connect/providers/google/google.php:103
+msgid "Continue with <b>Google</b>"
+msgstr "Continuar com <b>Google</b>"
+
+#: nextend-facebook-connect/providers/google/google.php:104
+msgid "Link account with <b>Google</b>"
+msgstr "Vincular conta com <b>Google</b>"
+
+#: nextend-facebook-connect/providers/google/google.php:105
+msgid "Unlink account from <b>Google</b>"
+msgstr "Desvincular conta do <b>Google</b>"
+
+#: nextend-facebook-connect/providers/google/google.php:275
+#, php-format
+msgid "Required API: %1$s"
+msgstr "API obrigatória: %1$s"
+
+#: nextend-facebook-connect/providers/twitter/admin/fix-redirect-uri.php:10
+#, fuzzy
+#| msgid "Name your project and then click on the Create button again"
+msgid "Find your App and click on the Details button"
+msgstr "Nomeie o projeto e, em seguida, clique no botão Criar"
+
+#: nextend-facebook-connect/providers/twitter/admin/fix-redirect-uri.php:11
+msgid ""
+"The Edit button can be found on the App details tab. Click on it and select "
+"Edit details"
+msgstr ""
+
+#: nextend-facebook-connect/providers/twitter/admin/fix-redirect-uri.php:12
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:22
+#, fuzzy, php-format
+#| msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+msgid "Add the following URL to the \"Callback URLs\" field: <b>%s</b>"
+msgstr "Adicione a URL seguinte no campo “URL de Retorno”: <b>%s</b>"
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:17
+#, fuzzy, php-format
+#| msgid "Log in with your %s credentials if you are not logged in"
+msgid "Log in with your %s credentials if you are not logged in yet"
+msgstr "Logue com suas credenciais %s se você não estiver logado"
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:18
+msgid ""
+"If you don't have a developer account yet, please apply one by filling all "
+"the required details! This is required for the next steps!"
+msgstr ""
+"Se você ainda não possui uma conta de desenvolvedor, aplique uma preenchendo "
+"todos os detalhes necessários! Isso é necessário para as próximas etapas!"
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:19
+#, fuzzy, php-format
+#| msgid ""
+#| "Once your developer account is complete. Navigate back to %s if you "
+#| "aren't already there!"
+msgid ""
+"Once your developer account is complete, navigate back to %s if you aren't "
+"already there!"
+msgstr ""
+"Quando sua conta de desenvolvedor estiver completa. Navegue de volta para %s "
+"se você ainda não estiver lá!"
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:20
+#, fuzzy, php-format
+#| msgid ""
+#| "Fill the App name, Application description fields. Then enter your site's "
+#| "URL to the Website field: <b>%s</b>"
+msgid ""
+"Fill the App name, Application description fields. Then enter your site's "
+"URL to the Website URL field: <b>%s</b>"
+msgstr ""
+"Preencha os campos de nome e descrição. Então entre com a URL de seu site no "
+"campo Website: <b>%s</b>"
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:21
+msgid "Tick the checkbox next to Enable Sign in with Twitter!"
+msgstr "Marque a caixa de seleção ao lado para ativar Entrada com o Twitter!"
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:23
+#, fuzzy
+#| msgid "Full the \"Tell us how this app will be used\" field! "
+msgid ""
+"Fill the “Terms of Service URL\", \"Privacy policy URL\" and \"Tell us how "
+"this app will be used” fields!"
+msgstr "Preencha o campo \"Diga-nos como este aplicativo será usado\"!\"."
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:25
+msgid "Read the Developer Terms and click the Create button again!"
+msgstr "Leia os termos do desenvolvedor e clique no botão criar novamente!"
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:26
+msgid "Select the Permissions tab and click Edit."
+msgstr ""
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:27
+msgid ""
+"Tick the Request email address from users under the Additional permissions "
+"section and click Save."
+msgstr ""
+
+#: nextend-facebook-connect/providers/twitter/admin/getting-started.php:28
+msgid "Go to the Keys and tokens tab and find the API key and API secret key"
+msgstr ""
+"Vá para a aba chaves e tokens e encontre a chave da API e a chave secreta da "
+"API"
+
+#: nextend-facebook-connect/providers/twitter/admin/settings.php:27
+#: nextend-social-login-pro/providers/disqus/admin/settings.php:26
+msgid "API Key"
+msgstr "Chave API"
+
+#: nextend-facebook-connect/providers/twitter/admin/settings.php:38
+msgid "API secret key"
+msgstr "Chave secreta da API"
+
+#: nextend-facebook-connect/providers/twitter/admin/settings.php:57
+msgid "Profile image size"
+msgstr "Tamanho da imagem do perfil"
+
+#: nextend-facebook-connect/providers/twitter/admin/settings.php:71
+msgid "Original"
+msgstr "Original"
+
+#: nextend-facebook-connect/providers/twitter/twitter.php:67
+msgid "Continue with <b>Twitter</b>"
+msgstr "Continuar com <b>Twitter</b>"
+
+#: nextend-facebook-connect/providers/twitter/twitter.php:68
+msgid "Link account with <b>Twitter</b>"
+msgstr "Vincular conta com <b>Twitter</b>"
+
+#: nextend-facebook-connect/providers/twitter/twitter.php:69
+msgid "Unlink account from <b>Twitter</b>"
+msgstr "Desvincular conta do <b>Twitter</b>"
+
+#: nextend-facebook-connect/widget.php:10
+#, php-format
+msgid "%s Buttons"
+msgstr "Botões %s"
+
+#: nextend-facebook-connect/widget.php:30
+msgid "Title:"
+msgstr "Título:"
+
+#: nextend-facebook-connect/widget.php:38
+msgid "Button style:"
+msgstr "Estilo do botão:"
+
+#: nextend-facebook-connect/widget.php:53
+#, fuzzy
+#| msgid "Button skin"
+msgid "Button align:"
+msgstr "Skin de botão"
+
+#: nextend-facebook-connect/widget.php:85
+msgid "Show link buttons"
+msgstr "Mostrar link de botões"
+
+#: nextend-facebook-connect/widget.php:94
+msgid "Show unlink buttons"
+msgstr "Mostrar link de botões desvinculado"
+
+#: nextend-social-login-pro/class-provider-extension.php:115
+msgid "Social login is not allowed with this role!"
+msgstr "O login Social não é permitido com esta função!"
+
+#: nextend-social-login-pro/class-provider-extension.php:211
+#: nextend-social-login-pro/class-provider-extension.php:214
+#: nextend-social-login-pro/class-provider-extension.php:220
+#: nextend-social-login-pro/class-provider-extension.php:227
+#: nextend-social-login-pro/class-provider-extension.php:298
+#: nextend-social-login-pro/class-provider-extension.php:301
+#: nextend-social-login-pro/class-provider-extension.php:305
+msgid "ERROR"
+msgstr "ERRO"
+
+#: nextend-social-login-pro/class-provider-extension.php:211
+msgid "Please enter a username."
+msgstr "Por favor coloque um nome de usuário."
+
+#: nextend-social-login-pro/class-provider-extension.php:214
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+"Esse usuário é inválido porque usa caracteres inválidos. Por favor, insira "
+"um usuário válido."
+
+#: nextend-social-login-pro/class-provider-extension.php:220
+msgid "This username is already registered. Please choose another one."
+msgstr "Este nome de usuário já está registrado. Por favor escolha outro."
+
+#: nextend-social-login-pro/class-provider-extension.php:227
+msgid "Sorry, that username is not allowed."
+msgstr "Desculpe, esse nome de utilizador não é permitido."
+
+#: nextend-social-login-pro/class-provider-extension.php:245
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: nextend-social-login-pro/class-provider-extension.php:298
+msgid "Please enter an email address."
+msgstr "Por favor, digite um endereço de e-mail."
+
+#: nextend-social-login-pro/class-provider-extension.php:301
+msgid "The email address isn&#8217;t correct."
+msgstr "O endereço de email não está correto."
+
+#: nextend-social-login-pro/class-provider-extension.php:305
+msgid "This email is already registered, please choose another one."
+msgstr "Este e-mail já está registrado, por favor, escolha outro."
+
+#: nextend-social-login-pro/class-provider-extension.php:325
+msgid "Registration confirmation will be emailed to you."
+msgstr "Uma confirmação do registro será enviado por email para você."
+
+#: nextend-social-login-pro/class-provider-extension.php:376
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr "<strong>ERRO</strong>:digite uma senha."
+
+#: nextend-social-login-pro/class-provider-extension.php:382
+msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+msgstr "<strong>ERRO</strong>: Senhas não podem conter o caractere\"\\\"."
+
+#: nextend-social-login-pro/class-provider-extension.php:388
+msgid ""
+"<strong>ERROR</strong>: Please enter the same password in both password "
+"fields."
+msgstr "<strong>ERRO</strong>: Digite a mesma senha nos dois campos de senha."
+
+#: nextend-social-login-pro/class-provider-extension.php:405
+msgid "Password"
+msgstr "Senha"
+
+#: nextend-social-login-pro/class-provider-extension.php:415
+msgid "Strength indicator"
+msgstr "Indicador de força"
+
+#: nextend-social-login-pro/class-provider-extension.php:420
+msgid "Confirm use of weak password"
+msgstr "Confirme o uso de senha fraca"
+
+#: nextend-social-login-pro/class-provider-extension.php:426
+msgid "Confirm password"
+msgstr "Confirme a senha"
+
+#: nextend-social-login-pro/class-provider-extension.php:438
+#, php-format
+msgid ""
+"This email is already registered, please login in to your account to link "
+"with %1$s."
+msgstr ""
+"Este e-mail já está registrado, faça o login na sua conta para fazer um link "
+"com %1$s."
+
+#: nextend-social-login-pro/nextend-social-login-pro.php:51
+#, php-format
+msgid "Please install and activate %1$s to use the %2$s"
+msgstr "Instale e ative %1$s para usar o %2$s"
+
+#: nextend-social-login-pro/nextend-social-login-pro.php:65
+msgid "Network Activate"
+msgstr "Ativar rede"
+
+#: nextend-social-login-pro/nextend-social-login-pro.php:77
+msgid "Install now!"
+msgstr "Instalar agora!"
+
+#: nextend-social-login-pro/provider-extensions/facebook.php:74
+#, php-format
+msgid ""
+"The Facebook Sync data needs an approved %1$s and your App must use the "
+"latest %2$s version!"
+msgstr ""
+
+#: nextend-social-login-pro/provider-extensions/google.php:176
+#, php-format
+msgid ""
+"Most of these information can only be retrieved, when the field is marked as "
+"Public on the user's %s page!"
+msgstr ""
+
+#: nextend-social-login-pro/providers/amazon/admin/fix-redirect-uri.php:10
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:24
+#, php-format
+msgid "Visit %s"
+msgstr "Visita %s"
+
+#: nextend-social-login-pro/providers/amazon/admin/fix-redirect-uri.php:11
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:28
+msgid ""
+"On the right side, under \"Manage\", hover over the gear icon and select "
+"\"Web Settings\" option."
+msgstr ""
+"No lado direito, em \"Gerenciar\", passe o mouse sobre o ícone de engrenagem "
+"e selecione a opção \"Configurações da Web\"."
+
+#: nextend-social-login-pro/providers/amazon/admin/fix-redirect-uri.php:12
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:29
+msgid "Click \"Edit\"."
+msgstr "Clique \"editar\"."
+
+#: nextend-social-login-pro/providers/amazon/admin/fix-redirect-uri.php:13
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:31
+#, php-format
+msgid "Add the following URL to the \"Allowed Return URLs\" field <b>%s</b> "
+msgstr ""
+"Adicione o seguinte URL ao campo \"URLs de retorno permitidos\" <b>%s</b>."
+
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:17
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:10
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:10
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:10
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:10
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create an %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your "
+"%1$s App."
+msgstr ""
+"Para permitir que seus visitantes façam login com a conta %1$s, primeiro "
+"você deve criar um aplicativo %1$s. O guia a seguir o ajudará no processo de "
+"criação do aplicativo %1$s. Depois de criar seu aplicativo %1$s, vá até "
+"\"Configurações\" e configure os \"%2$s\" e \"%3$s\" de acordo com seu "
+"aplicativo %1$s."
+
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:23
+#: nextend-social-login-pro/providers/disqus/admin/fix-redirect-uri.php:9
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:16
+#: nextend-social-login-pro/providers/paypal/admin/fix-redirect-uri.php:9
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:16
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:16
+#: nextend-social-login-pro/providers/wordpress/admin/fix-redirect-uri.php:9
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:16
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:17
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in."
+msgstr "Faça o login com o seu %s credenciais se você não estiver logado."
+
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:25
+msgid ""
+"If you don't have a Security Profile yet, you'll need to create one. You can "
+"do this by clicking on the orange \"Create a New Security Profile\" button "
+"on the left side."
+msgstr ""
+"Se você ainda não tem um perfil de segurança, será necessário criar um. Você "
+"pode fazer isso clicando no botão laranja \"Criar um novo perfil de segurança"
+"\" no lado esquerdo."
+
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:26
+msgid ""
+"Fill \"Security Profile Name\", \"Security Profile Description\" and "
+"\"Consent Privacy Notice URL\"."
+msgstr ""
+"Preencha \"nome do perfil de segurança\", \"descrição do perfil de segurança"
+"\" e \"URL de aviso de privacidade de consentimento\"."
+
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:27
+msgid "Once you filled all the required fields, click \"Save\"."
+msgstr ""
+"Depois de preencher todos os campos obrigatórios, clique em \"Salvar\"."
+
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:30
+#, php-format
+msgid ""
+"Fill \"Allowed Origins\" with the url of your homepage, probably: <b>%s</b>"
+msgstr ""
+"Preencha “URL do Site” com a url de sua página, provavelmente: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:32
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:29
+msgid "When all fields are filled, click \"Save\"."
+msgstr "Quando todos os campos estiverem preenchidos, clique em \"Salvar\"."
+
+#: nextend-social-login-pro/providers/amazon/admin/getting-started.php:33
+#, fuzzy
+#| msgid ""
+#| "Find the necessary \"Client ID\" and \"Client Secret\" at the middle of "
+#| "the page."
+msgid ""
+"Find the necessary \"Client ID\" and \"Client Secret\" at the middle of the "
+"page, under the \"Web Settings\" tab."
+msgstr ""
+"Encontre o \"Client ID\" e \"Client Secret\" necessários no meio da página."
+
+#: nextend-social-login-pro/providers/amazon/amazon.php:37
+msgid "Continue with <b>Amazon</b>"
+msgstr "Continuar com <b>Amazon</b>"
+
+#: nextend-social-login-pro/providers/amazon/amazon.php:38
+msgid "Link account with <b>Amazon</b>"
+msgstr "Vincular conta com <b>Amazon</b>"
+
+#: nextend-social-login-pro/providers/amazon/amazon.php:39
+msgid "Unlink account from <b>Amazon</b>"
+msgstr "Desvincular conta do <b>Amazon</b>"
+
+#: nextend-social-login-pro/providers/disqus/admin/fix-redirect-uri.php:10
+#: nextend-social-login-pro/providers/paypal/admin/fix-redirect-uri.php:11
+#: nextend-social-login-pro/providers/wordpress/admin/fix-redirect-uri.php:10
+#, php-format
+msgid "Click on the name of your %s App."
+msgstr "Clique no nome do seu %s aplicativo."
+
+#: nextend-social-login-pro/providers/disqus/admin/fix-redirect-uri.php:12
+msgid ""
+"Select the \"Settings\" tab and scroll down to the Authentication section!"
+msgstr ""
+
+#: nextend-social-login-pro/providers/disqus/admin/fix-redirect-uri.php:13
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:23
+#, fuzzy, php-format
+#| msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+msgid "Add the following URL to the \"Callback URL\" field <b>%s</b> "
+msgstr "Adicione a URL seguinte no campo “URL de Retorno”: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/disqus/admin/fix-redirect-uri.php:14
+#, fuzzy
+#| msgid "Click on \"Save Changes\""
+msgid "Click on the \"Save Changes\" button."
+msgstr "Clique em \"Salvar Alterações\""
+
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:17
+#, fuzzy
+#| msgid "Click on the \"Create New Application\" button."
+msgid ""
+"Click on the link \"registering an application\" under the Applications tab."
+msgstr "Clique no botão \"Criar novo aplicativo\"."
+
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:18
+#, fuzzy
+#| msgid "Enter a \"Name\" and \"Description\" for your App."
+msgid "Enter a \"Label\" and \"Description\" for your App."
+msgstr "Digite um \"Nome\" e \"Descrição\" para seu aplicativo."
+
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:19
+#, fuzzy, php-format
+#| msgid ""
+#| "Fill \"Website URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid "Fill \"Website\" with the url of your homepage, probably: <b>%s</b>"
+msgstr ""
+"Preencha “URL Website” com a url de sua página, provavelmente: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:20
+#, fuzzy
+#| msgid "Click on the \"Create New Application\" button."
+msgid ""
+"Complete the Human test and click the \"Register my application\" button."
+msgstr "Clique no botão \"Criar novo aplicativo\"."
+
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:21
+#, fuzzy, php-format
+#| msgid "Fill the \"Base domain\" field with your domain, probably: <b>%s</b>"
+msgid "Fill the \"Domains\" field with your domain name like: <b>%s</b>"
+msgstr ""
+"Preencha o campo \"Domínio base\" com seu domínio, provavelmente: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:22
+#, fuzzy
+#| msgid "Find the necessary Authentication Keys under the Authentication menu"
+msgid ""
+"Select \"Read only\" at Default Access under the Authentication section."
+msgstr ""
+"Encontre a Chave de Autenticação necessária abaixo do menu Autenticação"
+
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:24
+#, fuzzy
+#| msgid "Click the \"Create\" button!"
+msgid "Click the \"Save Changes\" button!"
+msgstr "Clique no botão \"Criar\"!"
+
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:25
+msgid "Navigate to the \"Details\" tab of your Application!"
+msgstr ""
+
+#: nextend-social-login-pro/providers/disqus/admin/getting-started.php:26
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"Client ID\" and \"Client Secret\". These will be "
+#| "needed in the plugin's settings."
+msgid ""
+"Here you can see your \"API Key\" and \"API Secret:\". These will be needed "
+"in the plugin's settings."
+msgstr ""
+"Aqui você pode ver o seu \"ID do Cliente\" e \"Segredo do cliente\". Estes "
+"serão necessários nas configurações do plugin."
+
+#: nextend-social-login-pro/providers/disqus/admin/settings.php:38
+#, fuzzy
+#| msgid "App Secret"
+msgid "API Secret"
+msgstr "Chave Secreta do App"
+
+#: nextend-social-login-pro/providers/disqus/disqus.php:84
+msgid "Continue with <b>Disqus</b>"
+msgstr "Continuar com <b>Disqus</b>"
+
+#: nextend-social-login-pro/providers/disqus/disqus.php:85
+msgid "Link account with <b>Disqus</b>"
+msgstr "Vincular conta com <b>Disqus</b>"
+
+#: nextend-social-login-pro/providers/disqus/disqus.php:86
+msgid "Unlink account from <b>Disqus</b>"
+msgstr "Desvincular conta do <b>Disqus</b>"
+
+#: nextend-social-login-pro/providers/linkedin/admin/fix-redirect-uri.php:10
+msgid "Click on the App"
+msgstr "Clicar no App"
+
+#: nextend-social-login-pro/providers/linkedin/admin/fix-redirect-uri.php:11
+#, php-format
+msgid ""
+"Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</b>"
+msgstr ""
+"Adicionar o seguinte URL no campo “URLs de Redirecionamento Autorizados”: <b>"
+"%s</b>"
+
+#: nextend-social-login-pro/providers/linkedin/admin/fix-redirect-uri.php:12
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:23
+#: nextend-social-login-pro/providers/vk/admin/fix-redirect-uri.php:13
+msgid "Hit update to save the changes"
+msgstr "Clique atualizar para salvar as alterações"
+
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:17
+#, fuzzy
+#| msgid "Locate the blue \"Create application\" button and click on it."
+msgid "Locate the \"Create app\" button and click on it."
+msgstr "Localize o botão azul “Criar Aplicação” e clique nele."
+
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:18
+#, fuzzy
+#| msgid "Enter the title of your app and select \"Websie\"."
+msgid "Enter the name of your App to the \"App name\" field."
+msgstr "Digite o título do seu aplicativo e selecione \"Website\"."
+
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:19
+msgid "Fill all the \"App information\" related fields!"
+msgstr ""
+
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:20
+#, fuzzy
+#| msgid "Read the Developer Terms and click the Create button again!"
+msgid ""
+"Read and agree the \"API Terms of Use\" then click the \"Create App\" button!"
+msgstr "Leia os termos do desenvolvedor e clique no botão criar novamente!"
+
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:21
+msgid "You will end up in the App setting area. Click on the Auth tab."
+msgstr ""
+
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:22
+#, fuzzy, php-format
+#| msgid "Add the following URL to the \"Redirect URLs\" field <b>%s</b> "
+msgid ""
+"Find \"OAuth 2.0 settings\" section and add the following URL to the "
+"\"Redirect URLs:\" field: <b>%s</b>"
+msgstr "Adicione a seguinte URL ao campo \"Redirecionar URLs\"<b>%s</b> "
+
+#: nextend-social-login-pro/providers/linkedin/admin/getting-started.php:24
+#, fuzzy
+#| msgid ""
+#| "Find the necessary \"Client ID\" and \"Client Secret\" at the middle of "
+#| "the page."
+msgid ""
+"Find the necessary \"Client ID\" and \"Client Secret\" under the Application "
+"credentials section, on the Auth tab."
+msgstr ""
+"Encontre o \"Client ID\" e \"Client Secret\" necessários no meio da página."
+
+#: nextend-social-login-pro/providers/linkedin/linkedin.php:36
+msgid "Continue with <b>LinkedIn</b>"
+msgstr "Continuar com <b>LinkedIn</b>"
+
+#: nextend-social-login-pro/providers/linkedin/linkedin.php:37
+msgid "Link account with <b>LinkedIn</b>"
+msgstr "Vincular conta com <b>LinkedIn</b>"
+
+#: nextend-social-login-pro/providers/linkedin/linkedin.php:38
+msgid "Unlink account from <b>LinkedIn</b>"
+msgstr "Desvincular conta do <b>LinkedIn</b>"
+
+#: nextend-social-login-pro/providers/paypal/admin/fix-redirect-uri.php:10
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:17
+msgid "Scroll down to  \"REST API apps\"."
+msgstr "Role para baixo até \"apps de API REST\"."
+
+#: nextend-social-login-pro/providers/paypal/admin/fix-redirect-uri.php:12
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:20
+msgid "Select the \"Live\" option on the top-right side. "
+msgstr "Selecione a opção \"ao vivo\" no lado superior direito."
+
+#: nextend-social-login-pro/providers/paypal/admin/fix-redirect-uri.php:13
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:21
+msgid ""
+"Scroll down to \"LIVE APP SETTINGS\", search the \"Live Return URL\" heading "
+"and click \"Show\"."
+msgstr ""
+"Role para baixo até \"LIVE APP SETTINGS\", procure o título \"Live Return URL"
+"\" e clique em \"Show\"."
+
+#: nextend-social-login-pro/providers/paypal/admin/fix-redirect-uri.php:14
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:22
+#, php-format
+msgid "Add the following URL to the \"Live Return URL\" field <b>%s</b> "
+msgstr "Adicione a seguinte URL ao campo \"URL de retorno ao vivo\" <b>%s</b>"
+
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:18
+msgid "Click the \"Create App\" button."
+msgstr "Clique no botão \"Criar Novo App\"."
+
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:19
+msgid "Fill the \"App Name\" field and click \"Create App\" button."
+msgstr ""
+"Preencha o campo \"nome do aplicativo\" e clique no botão \"criar aplicativo"
+"\"."
+
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:23
+msgid ""
+"Scroll down to \"App feature options\" section and tick \"Log In with PayPal"
+"\"."
+msgstr ""
+"Role para baixo até a seção \"Opções do recurso do aplicativo\" e marque "
+"\"fazer login com o PayPal\"."
+
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:24
+#, fuzzy
+#| msgid ""
+#| "Click \"Advanced Options\" which can be found at the end of text \"Log In "
+#| "with PayPal\"."
+msgid ""
+"Click \"Advanced Options\" which can be found at the end of text after "
+"\"Connect with PayPal (formerly Log In with PayPal)\"."
+msgstr ""
+"Clique em \"Opções avançadas\", que pode ser encontrado no final do texto "
+"\"Login com o PayPal\"."
+
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:25
+#, fuzzy
+#| msgid "Tick \"Full name\" and \"Email address\"."
+msgid "Tick \"Full name\"."
+msgstr "Marque \"Nome completo\" e \"Endereço de e-mail\"."
+
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:26
+msgid ""
+"\"Email address\" now requires an App Review by PayPal. To get the email "
+"address as well, please submit your App for a review after your App "
+"configuration is finished. Once the App review is succesfull, you need to "
+"pick \"Email address\" here to retrieve the email of the user. Until then "
+"make sure the Email scope is not \"Enabled\" in our PayPal Settings tab."
+msgstr ""
+
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:28
+msgid "Fill \"Privacy policy URL\" and  \"User agreement URL\"."
+msgstr ""
+"Preencha \"URL da política de privacidade\" e \"URL do contrato do usuário\"."
+
+#: nextend-social-login-pro/providers/paypal/admin/getting-started.php:30
+#, fuzzy
+#| msgid ""
+#| "Scroll up to \"LIVE API CREDENTIALS\" section and find the necessary "
+#| "\"Client ID\" and \"Secret\"! ( Make sure you are in \"Live\" mode and "
+#| "not \"Sandbox\" )."
+msgid ""
+"Scroll up to \"LIVE API CREDENTIALS\" section and find the necessary "
+"\"Client ID\" and \"Secret\"! ( Make sure you are in \"Live\" mode and not "
+"\"Sandbox\". )"
+msgstr ""
+"Role até a seção \"CREDENCIAIS DA API AO VIVO\" e encontre os \"ID do cliente"
+"\" e \"Secreto\" necessários! (Certifique-se de estar no modo \"Live\" e não "
+"\"Sandbox\")."
+
+#: nextend-social-login-pro/providers/paypal/admin/settings.php:38
+msgid "Secret"
+msgstr "Secreto"
+
+#: nextend-social-login-pro/providers/paypal/admin/settings.php:45
+#, fuzzy
+#| msgid "Email"
+msgid "Email scope"
+msgstr "E-mail"
+
+#: nextend-social-login-pro/providers/paypal/admin/settings.php:54
+msgid "Disable, when you have no rights for email address."
+msgstr ""
+
+#: nextend-social-login-pro/providers/paypal/paypal.php:62
+msgid "Continue with <b>PayPal</b>"
+msgstr "Continuar com <b>PayPal</b>"
+
+#: nextend-social-login-pro/providers/paypal/paypal.php:63
+msgid "Link account with <b>PayPal</b>"
+msgstr "Vincular conta com <b>PayPal</b>"
+
+#: nextend-social-login-pro/providers/paypal/paypal.php:64
+msgid "Unlink account from <b>PayPal</b>"
+msgstr "Desvincular conta do <b>PayPal</b>"
+
+#: nextend-social-login-pro/providers/vk/admin/fix-redirect-uri.php:10
+msgid "Click on the Manage button at the App"
+msgstr "Clique no botão Gerenciar no aplicativo"
+
+#: nextend-social-login-pro/providers/vk/admin/fix-redirect-uri.php:11
+msgid "Go to the Settings menu"
+msgstr "Vá para o menu configurações"
+
+#: nextend-social-login-pro/providers/vk/admin/fix-redirect-uri.php:12
+#, php-format
+msgid ""
+"Add the following URL to the \"Authorized redirect URI:\" field: <b>%s</b>"
+msgstr ""
+"Adicione o seguinte URL ao \"Redirecionado autorizada URI:\" campo: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:17
+msgid "Locate the blue \"Create application\" button and click on it."
+msgstr "Localize o botão azul “Criar Aplicação” e clique nele."
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:18
+#, fuzzy
+#| msgid "Enter the title of your app and select \"Websie\"."
+msgid "Enter the title of your app and select \"Website\"."
+msgstr "Digite o título do seu aplicativo e selecione \"Website\"."
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:19
+#, php-format
+msgid ""
+"Fill \"Site address\" with the url of your homepage, probably: <b>%s</b>"
+msgstr ""
+"Preencha \"Endereço do site\" com a URL da sua página inicial, "
+"provavelmente: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:20
+#, php-format
+msgid "Fill the \"Base domain\" field with your domain, probably: <b>%s</b>"
+msgstr ""
+"Preencha o campo \"Domínio base\" com seu domínio, provavelmente: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:21
+msgid "When all fields are filled, create you app."
+msgstr "Quando todos os campos estiverem preenchidos, crie seu aplicativo."
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:22
+msgid ""
+"You'll be sent a confirmation code via SMS which you need to type to be able "
+"to create the app."
+msgstr ""
+"Você receberá um código de confirmação por SMS que precisa ser digitado para "
+"poder criar o aplicativo."
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:23
+msgid "Fill the form for your app and upload an app icon then hit Save."
+msgstr ""
+"Preencha o formulário do seu aplicativo, envie um ícone do aplicativo e "
+"pressione Salvar."
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:24
+msgid "Pick Settings at the left-hand menu "
+msgstr "Escolha Configurações no menu à esquerda"
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:25
+#, php-format
+msgid ""
+"Add the following URL to the \"Authorized redirect URI\" field <b>%s</b> "
+msgstr ""
+"Adicione a seguinte URL ao campo \"URI de redirecionamento autorizado\"<b>"
+"%s</b> "
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:26
+msgid "Save your app"
+msgstr "Salve seu aplicativo"
+
+#: nextend-social-login-pro/providers/vk/admin/getting-started.php:27
+msgid ""
+"Find the necessary Application ID and Secure key at the top of the Settings "
+"page where you just hit the save button."
+msgstr ""
+"Encontre o ID do aplicativo e a chave segura necessários na parte superior "
+"da página Configurações, onde você acabou de pressionar o botão Salvar."
+
+#: nextend-social-login-pro/providers/vk/admin/settings.php:26
+msgid "Application ID"
+msgstr "ID do aplicativo"
+
+#: nextend-social-login-pro/providers/vk/admin/settings.php:38
+msgid "Secure key"
+msgstr "Chave segura"
+
+#: nextend-social-login-pro/providers/vk/vk.php:34
+msgid "Continue with <b>VK</b>"
+msgstr "Continuar com <b>VK</b>"
+
+#: nextend-social-login-pro/providers/vk/vk.php:35
+msgid "Link account with <b>VK</b>"
+msgstr "Vincular conta com <b>VK</b>"
+
+#: nextend-social-login-pro/providers/vk/vk.php:36
+msgid "Unlink account from <b>VK</b>"
+msgstr "Desvincular conta do <b>VK</b>"
+
+#: nextend-social-login-pro/providers/wordpress/admin/fix-redirect-uri.php:12
+msgid "Click \"Manage Settings\" under the Tools section!"
+msgstr "Clique em \"gerenciar configurações\" na seção ferramentas!"
+
+#: nextend-social-login-pro/providers/wordpress/admin/fix-redirect-uri.php:13
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:20
+#, php-format
+msgid "Add the following URL to the \"Redirect URLs\" field <b>%s</b> "
+msgstr "Adicione a seguinte URL ao campo \"Redirecionar URLs\"<b>%s</b> "
+
+#: nextend-social-login-pro/providers/wordpress/admin/fix-redirect-uri.php:14
+msgid "Click on \"Update\""
+msgstr "Clique em \"Atualizar\""
+
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:17
+msgid "Click on the \"Create New Application\" button."
+msgstr "Clique no botão \"Criar novo aplicativo\"."
+
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:18
+msgid "Enter a \"Name\" and \"Description\" for your App."
+msgstr "Digite um \"Nome\" e \"Descrição\" para seu aplicativo."
+
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:19
+#, php-format
+msgid "Fill \"Website URL\" with the url of your homepage, probably: <b>%s</b>"
+msgstr ""
+"Preencha “URL Website” com a url de sua página, provavelmente: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:21
+msgid "You can leave the \"Javascript Origins\" field blank!"
+msgstr "Você pode deixar o campo \"Javascript Origins\" em branco!"
+
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:22
+msgid "Complete the human verification test."
+msgstr "Complete o teste de verificação humano."
+
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:23
+msgid "At the \"Type\" make sure \"Web\" is selected!"
+msgstr "No \"Tipo\", verifique se \"Web\" está selecionado!"
+
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:24
+msgid "Click the \"Create\" button!"
+msgstr "Clique no botão \"Criar\"!"
+
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:25
+msgid ""
+"Click the name of your App either in the Breadcrumb navigation or next to "
+"Editing!"
+msgstr ""
+"Clique no nome do seu aplicativo na navegação do Breadcrumb ou ao lado de "
+"Editando!"
+
+#: nextend-social-login-pro/providers/wordpress/admin/getting-started.php:26
+msgid ""
+"Here you can see your \"Client ID\" and \"Client Secret\". These will be "
+"needed in the plugin's settings."
+msgstr ""
+"Aqui você pode ver o seu \"ID do Cliente\" e \"Segredo do cliente\". Estes "
+"serão necessários nas configurações do plugin."
+
+#: nextend-social-login-pro/providers/wordpress/wordpress.php:71
+msgid "Continue with <b>WordPress.com</b>"
+msgstr "Continuar com <b>WordPress.com</b>"
+
+#: nextend-social-login-pro/providers/wordpress/wordpress.php:72
+msgid "Link account with <b>WordPress.com</b>"
+msgstr "Vincular conta com <b>WordPress.com</b>"
+
+#: nextend-social-login-pro/providers/wordpress/wordpress.php:73
+msgid "Unlink account from <b>WordPress.com</b>"
+msgstr "Desvincular conta do <b>WordPress.com</b>"
+
+#: nextend-social-login-pro/providers/yahoo/admin/fix-redirect-uri.php:10
+msgid "Click on the App which has its credentials associated with the plugin."
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/fix-redirect-uri.php:11
+#, fuzzy, php-format
+#| msgid "Fill the \"Base domain\" field with your domain, probably: <b>%s</b>"
+msgid ""
+"Check if the saved \"Callback Domain\" matches with your domain: <b>%s</b>"
+msgstr ""
+"Preencha o campo \"Domínio base\" com seu domínio, provavelmente: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/yahoo/admin/fix-redirect-uri.php:12
+#, php-format
+msgid ""
+"If the Callback Domain matches with your domain, then your don't have "
+"anything else to do with this %s app."
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/fix-redirect-uri.php:13
+#, php-format
+msgid ""
+"The Callback Domain of %1$s apps can not be modified. So if the Callback "
+"Domain differs from your domain, you need to create a new app as you see in "
+"the Getting Started section of the %1$s provider."
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/fix-redirect-uri.php:14
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"Client ID\" and \"Client Secret\". These will be "
+#| "needed in the plugin's settings."
+msgid ""
+"Replace your old \"Client ID\" and \"Client Secret\" with the one of the new "
+"app!"
+msgstr ""
+"Aqui você pode ver o seu \"ID do Cliente\" e \"Segredo do cliente\". Estes "
+"serão necessários nas configurações do plugin."
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:18
+#, fuzzy
+#| msgid "Click the \"Create App\" button."
+msgid "Click on the \"Create an App\" button on the top right corner."
+msgstr "Clique no botão \"Criar Novo App\"."
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:19
+msgid ""
+"Fill the \"Application Name\" and select \"Web Application\" at "
+"\"Application Type\"."
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:20
+#, fuzzy
+#| msgid "Enter a \"Name\" and \"Description\" for your App."
+msgid "Enter a \"Description\" for your app!"
+msgstr "Digite um \"Nome\" e \"Descrição\" para seu aplicativo."
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:21
+#, fuzzy, php-format
+#| msgid "Add the following URL to the \"Live Return URL\" field <b>%s</b> "
+msgid "Enter the URL of your site to the \"Home Page URL\" field: <b>%s</b>"
+msgstr "Adicione a seguinte URL ao campo \"URL de retorno ao vivo\" <b>%s</b>"
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:22
+#, fuzzy, php-format
+#| msgid "Fill the \"Base domain\" field with your domain, probably: <b>%s</b>"
+msgid ""
+"Fill the \"Callback Domain\" field with your domain name probably: <b>%s</b> "
+msgstr ""
+"Preencha o campo \"Domínio base\" com seu domínio, provavelmente: <b>%s</b>"
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:24
+msgid ""
+"<i>The value of the \"Callback Domain\" field can not be modified. If it "
+"would be necessary, you must create a new App!</i>"
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:27
+msgid ""
+"Under the \"API Permissions you should select \"Profiles (Social "
+"Directory)\" with either \"Read Public\" or \"Read/Write Public and Private"
+"\"."
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:29
+msgid ""
+"<u>Read Public:</u> retrieves only the basic fields, email address is not "
+"included!"
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:30
+msgid ""
+"<u>Read/Write Public and Private:</u> retrieves some extra fields, email "
+"address included!"
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:31
+msgid ""
+"<i>To modify these values in the future, you must create a new App! Also you "
+"will need to select the \"API Permission\" on our Setting tab according to "
+"the selected value!</i>"
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:34
+#, fuzzy
+#| msgid "Click the \"Create App\" button."
+msgid "Click \"Create App\"."
+msgstr "Clique no botão \"Criar Novo App\"."
+
+#: nextend-social-login-pro/providers/yahoo/admin/getting-started.php:35
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"Client ID\" and \"Client Secret\". These will be "
+#| "needed in the plugin's settings."
+msgid ""
+"On the top of the page, you will find the necessary \"Client ID\" and "
+"\"Client Secret\"! These will be needed in the plugin's settings."
+msgstr ""
+"Aqui você pode ver o seu \"ID do Cliente\" e \"Segredo do cliente\". Estes "
+"serão necessários nas configurações do plugin."
+
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:47
+msgid "API Permission"
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:52
+msgid "Read Public"
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:55
+msgid "Read/Write Public and Private"
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/admin/settings.php:56
+msgid ""
+"Email address is private, so you need \"Read/Write Public and Private\" "
+"permission if you want to access it.<br><b>Important note:</b> During the "
+"APP configuration, you will also need to select the API Permissions for "
+"Profiles (Social Directory) according to the chosen value."
+msgstr ""
+
+#: nextend-social-login-pro/providers/yahoo/yahoo.php:61
+#, fuzzy
+#| msgid "Continue with <b>Facebook</b>"
+msgid "Continue with <b>Yahoo</b>"
+msgstr "Continuar com <b>Facebook</b>"
+
+#: nextend-social-login-pro/providers/yahoo/yahoo.php:62
+#, fuzzy
+#| msgid "Link account with <b>Facebook</b>"
+msgid "Link account with <b>Yahoo</b>"
+msgstr "Vincular conta com <b>Facebook</b>"
+
+#: nextend-social-login-pro/providers/yahoo/yahoo.php:63
+#, fuzzy
+#| msgid "Unlink account from <b>Facebook</b>"
+msgid "Unlink account from <b>Yahoo</b>"
+msgstr "Desvincular conta do <b>Facebook</b>"
+
+#: nextend-social-login-pro/providers/yahoo/yahoo.php:239
+#, fuzzy, php-format
+#| msgid "Required scope: %1$s"
+msgid "Required permission: %1$s"
+msgstr "Escopo requerido: %1$s"
+
+#: nextend-social-login-pro/template-parts/buddypress/login/above-separator.php:10
+#: nextend-social-login-pro/template-parts/buddypress/login/below-separator.php:10
+#: nextend-social-login-pro/template-parts/embedded-login/above-separator.php:10
+#: nextend-social-login-pro/template-parts/embedded-login/below-separator.php:10
+#: nextend-social-login-pro/template-parts/login/above-separator.php:11
+#: nextend-social-login-pro/template-parts/login/below-separator.php:8
+#: nextend-social-login-pro/template-parts/memberpress/login/above-separator.php:10
+#: nextend-social-login-pro/template-parts/memberpress/login/below-separator.php:10
+#: nextend-social-login-pro/template-parts/memberpress/sign-up/above-separator.php:10
+#: nextend-social-login-pro/template-parts/memberpress/sign-up/below-separator.php:10
+#: nextend-social-login-pro/template-parts/ultimate-member/login/above-separator.php:10
+#: nextend-social-login-pro/template-parts/ultimate-member/login/below-separator.php:10
+#: nextend-social-login-pro/template-parts/ultimate-member/register/above-separator.php:10
+#: nextend-social-login-pro/template-parts/ultimate-member/register/below-separator.php:10
+#: nextend-social-login-pro/template-parts/userpro/login/above-separator.php:10
+#: nextend-social-login-pro/template-parts/userpro/login/below-separator.php:10
+#: nextend-social-login-pro/template-parts/userpro/register/above-separator.php:10
+#: nextend-social-login-pro/template-parts/userpro/register/below-separator.php:10
+#: nextend-social-login-pro/template-parts/woocommerce/billing/above-separator.php:11
+#: nextend-social-login-pro/template-parts/woocommerce/billing/below-separator.php:11
+#: nextend-social-login-pro/template-parts/woocommerce/login/above-separator.php:10
+#: nextend-social-login-pro/template-parts/woocommerce/login/below-separator.php:10
+#: nextend-social-login-pro/template-parts/woocommerce/register/above-separator.php:10
+#: nextend-social-login-pro/template-parts/woocommerce/register/below-separator.php:10
+msgid "OR"
+msgstr "OU"
+
+#: nextend-social-login-pro/template-parts/memberpress/account-home.php:1
+#: nextend-social-login-pro/template-parts/ultimate-member/account-home.php:1
+#: nextend-social-login-pro/template-parts/woocommerce/edit-account-after.php:1
+#: nextend-social-login-pro/template-parts/woocommerce/edit-account-before.php:1
+msgid "Social accounts"
+msgstr "Contas redes sociais"
+
+#~ msgid "Fill \"Display Name\" and \"Contact Email\""
+#~ msgstr "Preencha \"Nome de Exibição\" e \"Email de Contato\""
+
+#~ msgid "Locate the yellow \"Create application\" button and click on it."
+#~ msgstr "Localize o botão amarelo “Criar Aplicação” e clique nele."
+
+#~ msgid "Fill the fields marked with *"
+#~ msgstr "Preencha os campos marcados com *"
+
+#~ msgid "Accept the Terms of use and hit Submit"
+#~ msgstr "Aceite os Termos de uso e clique Enviar"
+
+#~ msgid "Find the necessary Authentication Keys under the Authentication menu"
+#~ msgstr ""
+#~ "Encontre a Chave de Autenticação necessária abaixo do menu Autenticação"
+
+#~ msgid ""
+#~ "You probably want to enable the \"r_emailaddress\" under the Default "
+#~ "Application Permissions"
+#~ msgstr ""
+#~ "Você provavelmente quer habilitar o “r_emailaddress” abaixo das "
+#~ "Permissões de Aplicação Padrão"
+
+#~ msgid "Pro Addon - Authorized domain has been changed"
+#~ msgstr "Complemento pro - O domínio autorizado foi alterado"
+
+#~ msgid ""
+#~ "<b>You must authorize your new domain</b> to receive <b>updates and "
+#~ "support</b> in the future."
+#~ msgstr ""
+#~ "<b>Você deve autorizar seu novo domínio</b>para receber <b>atualizações e "
+#~ "suporte</b> no futuro."
+
+#~ msgid "You can authorize your new domain by completing the following steps:"
+#~ msgstr ""
+#~ "Você pode autorizar seu novo domínio concluindo as seguintes etapas:"
+
+#~ msgid "Log in with your credentials if you are not logged in"
+#~ msgstr "Faça o login com suas credenciais se você não estiver logado"
+
+#~ msgid "Find your old domain name: <b>%s</b>"
+#~ msgstr "Encontre o seu nome de domínio antigo: <b>%s</b>"
+
+#~ msgid "Click on the %1$s next to your domain name."
+#~ msgstr "Clique no %1$s ao lado do seu nome de domínio."
+
+#~ msgid "Authorize your %1$s by clicking on the following button."
+#~ msgstr "Autorize seu %1$s clicando no seguinte botão."
+
+#~ msgid "The authorized domain name of your site is fine!"
+#~ msgstr "O nome de domínio autorizado do seu site é bom!"
+
+#~ msgid "Your domain name changed so you must authorize %1$s again."
+#~ msgstr ""
+#~ "Seu nome de domínio foi alterado, então você deve autorizar %1$s "
+#~ "novamente."
+
+#~ msgid ""
+#~ "Move your mouse over Facebook Login and click on the appearing \"Set Up\" "
+#~ "button"
+#~ msgstr ""
+#~ "Mova seu mouse sobre Facebook Login e clique no botão “Configurar” que "
+#~ "aparecerá"
+
+#~ msgid "Choose Web"
+#~ msgstr "Escolher Web"
+
+#~ msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+#~ msgstr ""
+#~ "Preencha “URL do Site” com a url de sua página, provavelmente: <b>%s</b>"
+
+#~ msgid "In the left sidebar, click on \"Facebook Login\""
+#~ msgstr "Na barra lateral esquerda, clique em \"Facebook Login\""
+
+#~ msgid "Save your changes."
+#~ msgstr "Salve suas alterações."
+
+#~ msgid "Pick \"General\" tab, which is next to the \"Web Settings\" tab."
+#~ msgstr ""
+#~ "Escolha a aba \"Geral\", que fica ao lado da aba \"Configurações da Web\"."
+
+#~ msgid "Legacy"
+#~ msgstr "Legado"
+
+#~ msgid ""
+#~ "%s took the place of Nextend Google Connect. You can delete Nextend "
+#~ "Google Connect as it is not needed anymore."
+#~ msgstr ""
+#~ "%s tomou o lugar do Nextend Google Connect. Você pode apagar o Nextend "
+#~ "Google Connect como ele não é mais necessário."
+
+#~ msgid ""
+#~ "%s took the place of Nextend Twitter Connect. You can delete Nextend "
+#~ "Twitter Connect as it is not needed anymore."
+#~ msgstr ""
+#~ "%s tomou o lugar do Nextend Twitter Connect. Você pode apagar o Nextend "
+#~ "Twitter Connect como ele não é mais necessário."
+
+#~ msgid "Import Facebook configuration"
+#~ msgstr "Importar Configuração do Facebook"
+
+#~ msgid "Be sure to read the following notices before you proceed."
+#~ msgstr "Certifique-se de ler as seguintes notificações antes de prosseguir."
+
+#~ msgid "Important steps before the import"
+#~ msgstr "Passos importantes antes de importar"
+
+#~ msgid ""
+#~ "Make sure that the redirect URI for your app is correct before proceeding."
+#~ msgstr ""
+#~ "Certifique-se de que a URI de redirecionamento para seu app está correta "
+#~ "antes de prosseguir."
+
+#~ msgid "Visit %s."
+#~ msgstr "Visita %s."
+
+#~ msgid "Select your app."
+#~ msgstr "Selecione seu app."
+
+#~ msgid ""
+#~ "Go to the Settings menu which you can find below the Facebook Login in "
+#~ "the left menu."
+#~ msgstr ""
+#~ "Vá para o menu Configurações que você pode encontrar abaixo de Facebook "
+#~ "Login no menu esquerdo."
+
+#~ msgid "Make sure that the \"%1$s\" field contains %2$s"
+#~ msgstr "Certifique-se de que o campo \"%1$s\" contém %2$s"
+
+#~ msgid "The following settings will be imported:"
+#~ msgstr "As configurações seguintes serão importadas:"
+
+#~ msgid "Your old API configurations"
+#~ msgstr "Suas configurações de API antigas"
+
+#~ msgid "The user prefix you set"
+#~ msgstr "O prefixo de usuário que você definiu"
+
+#~ msgid "Create a backup of the old settings"
+#~ msgstr "Criar um backup das configurações antigas"
+
+#~ msgid "Other changes"
+#~ msgstr "Outras variações"
+
+#~ msgid ""
+#~ "The custom redirect URI is now handled globally for all providers, so it "
+#~ "won't be imported from the previous version. Visit \"Nextend Social Login "
+#~ "> Global settings\" to set the new redirect URIs."
+#~ msgstr ""
+#~ "O URI de redirecionamento personalizado é agora tratado globalmente para "
+#~ "todos os provedores, então não será importado das versões anteriores. "
+#~ "Visite “Nextend Social Login > Configurações Globais” para ajustar os "
+#~ "novos URIs de redirecionamento."
+
+#~ msgid ""
+#~ "The login button's layout will be changed to a new, more modern look. If "
+#~ "you used any custom buttons that won't be imported."
+#~ msgstr ""
+#~ "O layout do botão de login será alterado para uma nova, mais moderna "
+#~ "aparência. Se você usou qualquer botão personalizado que não será "
+#~ "importado."
+
+#~ msgid ""
+#~ "The old version's PHP functions are not available anymore. This means if "
+#~ "you used any custom codes where you used these old functions, you need to "
+#~ "remove them."
+#~ msgstr ""
+#~ "As funções do PHP de versões antigas não estão mais disponíveis. Isto "
+#~ "significa que se você usou qualquer código personalizado onde você tenha "
+#~ "usado estas funções antigas você precisa removê-las."
+
+#~ msgid ""
+#~ "After the importing process finishes, you will need to <b>test</b> your "
+#~ "app and <b>enable</b> the provider. You can do both in the next screen."
+#~ msgstr ""
+#~ "Após o processo de importação terminar, você precisará <b>testar</b> seu "
+#~ "app e <b>ativar</b> o fornecedor. Você pode fazer ambos na próxima tela."
+
+#~ msgid "Import Configuration"
+#~ msgstr "Importar a Configuração"
+
+#~ msgid "Import Google configuration"
+#~ msgstr "Importar Configuração do Google"
+
+#~ msgid "If you have more projects, select the one where your app is."
+#~ msgstr "Se você tiver mais projetos, selecione um onde seu app esteja."
+
+#~ msgid "Click on Credentials at the left-hand menu then select your app."
+#~ msgstr "Clique em Credenciais no menu a esquerda, então selecione seu app."
+
+#~ msgid "Import Twitter configuration"
+#~ msgstr "Impotar configuração do Twitter"
+
+#~ msgid "Go to the Settings tab."
+#~ msgstr "Vá para a aba Configurações."
+
+#~ msgid ""
+#~ "If you're prompted to set a product name, do so. Provide the Privacy "
+#~ "Policy URL as well then click on the save button"
+#~ msgstr ""
+#~ "Vá para a aba de tela de consentimento OAuth e insira um nome de produto "
+#~ "e forneça uma URL de Política de Privacidade, então clique no botão salvar"
+
+#~ msgid "Authorize your Pro Addon"
+#~ msgstr "Autorize seu Addon Pro"
+
+#~ msgid "Authorize"
+#~ msgstr "Autorizar"
+
+#~ msgid "Deauthorize Pro Addon"
+#~ msgstr "Desautorizar o Addon Pro"
+
+#~ msgid "Click on the \"Settings\" tab"
+#~ msgstr "Clique na aba \"Configurações\""
+
+#~ msgid "Click on \"Update Settings\""
+#~ msgstr "Clicar em \"Atualizar Configurações\""
+
+#~ msgid ""
+#~ "Go back to the Credentials tab and locate the small box at the middle. "
+#~ "Click on the blue \"Create credentials\" button. Chose the \"OAuth client "
+#~ "ID\" from the dropdown list."
+#~ msgstr ""
+#~ "Volte para o guia de Credenciais e localize a pequena caixa no meio. "
+#~ "Clique no botão azul ”Criar credenciais\". Escolha o \"ID de cliente OAuth"
+#~ "\" da lista suspensa."
+
+#~ msgid "Accept the Twitter Developer Agreement"
+#~ msgstr "Aceitar o Acordo de Desenvolvedor do Twitter"
+
+#~ msgid ""
+#~ "Create your application by clicking on the Create your Twitter "
+#~ "application button"
+#~ msgstr "Crie sua aplicação clicando no botão Criar sua aplicação Twitter"
+
+#~ msgid "Consumer Key"
+#~ msgstr "Chave do consumidor"
+
+#~ msgid "Consumer Secret"
+#~ msgstr "Senha Consumidor"
+
+#~ msgid "BuddyPress register form"
+#~ msgstr "Formulário de registo BuddyPress"
+
+#~ msgid "BuddyPress register button style"
+#~ msgstr "Estilo de botão de registro BuddyPress"
+
+#~ msgid "Comment login button"
+#~ msgstr "Botão de login de comentário"
+
+#~ msgid "Comment button style"
+#~ msgstr "Estilo do botão de comentário"
+
+#~ msgid "WooCommerce login form"
+#~ msgstr "Formulário de login do WooCommerce"
+
+#~ msgid "Connect button before login form"
+#~ msgstr "Botão Conectar antes de formulário de login"
+
+#~ msgid "Connect button after login form"
+#~ msgstr "Botão Conectar após o formulário de login"
+
+#~ msgid "WooCommerce register form"
+#~ msgstr "Formulário de registo do WooCommerce"
+
+#~ msgid "Connect button before register form"
+#~ msgstr "Botão Conectar antes de formulário de registro"
+
+#~ msgid "Connect button after register form"
+#~ msgstr "Botão Conectar após o formulário de registro"
+
+#~ msgid "WooCommerce billing form"
+#~ msgstr "Formulário de Cobrança do WooCommerce"
+
+#~ msgid "Connect button before billing form"
+#~ msgstr "Botão Conectar antes do formulário de cobrança"
+
+#~ msgid "Connect button after billing form"
+#~ msgstr "Botão Conectar após o formulário de cobrança"
+
+#~ msgid "Link buttons before account details"
+#~ msgstr "Botão Vincular antes de detalhes da conta"
+
+#~ msgid "WooCommerce button style"
+#~ msgstr "Estilo do botão WooCommerce"
+
+#~ msgid "Use custom"
+#~ msgstr "Usar personalizado"
+
+#~ msgid "Fixed redirect url for register"
+#~ msgstr "Url de redirecionamento corrigido para registo"
+
+#~ msgid "Registration form"
+#~ msgstr "Formulário de registro"
+
+#~ msgid "Please save your changes before testing."
+#~ msgstr "Por favor, salve suas alterações antes de testar."

@@ -206,11 +206,9 @@ function thb_newsletter() {
 					<?php if ( $newsletter_text ) { ?>
 						<?php echo wp_kses_post( wpautop( $newsletter_text ) ); ?>
 					<?php } ?>
-
-                    <?php echo do_shortcode('[mc4wp_form id="819"]'); ?>
-
+		            <?php echo do_shortcode('[mc4wp_form id="813"]'); ?>
 					<?php do_action('thb_after_newsletter_form'); ?>
-	            </div>
+	      </div>
 			</div>
 		</aside>
 		<?php

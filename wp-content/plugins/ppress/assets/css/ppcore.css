@@ -1,0 +1,72 @@
+.pp-reset-password-form {
+    padding: 40px;
+    max-width: 500px;
+    margin: 5px auto;
+}
+
+.pp-reset-password-form h3 {
+    text-align: center;
+    color: #444;
+    font-weight: 300;
+    margin: 0 auto 40px;
+}
+
+.pp-reset-password-form label {
+    color: #444;
+    font-size: 15px;
+}
+
+.pp-reset-password-form label .req {
+    margin: 2px;
+    color: #1ab188;
+}
+
+.pp-reset-password-form label.active .req {
+    opacity: 0;
+}
+
+.pp-reset-password-form input {
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    margin-bottom: 40px;
+    border: 1px solid #a0b3b0;
+    border-radius: 0;
+    -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+.pp-reset-password-form input:focus {
+    outline: 0;
+    border-color: #1ab188;
+}
+
+.pp-reset-password-form .pp-reset-button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #1ab188;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+
+.pp-reset-password-form .pp-reset-button:hover,
+.pp-reset-password-form .pp-reset-button:focus {
+    background: #179b77;
+}
+
+.pp-reset-password-form .pp-reset-button-block {
+    display: block;
+    width: 100%;
+}

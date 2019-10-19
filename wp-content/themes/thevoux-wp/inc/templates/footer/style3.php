@@ -20,7 +20,6 @@
 		    	<?php if ($footer_menu = ot_get_option( 'footer_menu')) { ?>
 		    		<?php wp_nav_menu( array( 'menu' => $footer_menu, 'depth' => 1, 'container' => false  ) ); ?>
 		    	<?php } ?>
-                <p class="text-center footer-copyright">Copyright © 2019 The Publicist East Africa , All rights Reserved.</p>
 		    </div>
 		    <div class="small-12 medium-3 columns social-section">
 		    	<?php do_action( 'thb_social' ); ?>

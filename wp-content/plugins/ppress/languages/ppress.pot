@@ -1,0 +1,941 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: ProfilePress Lite\n"
+"POT-Creation-Date: 2018-02-11 18:31+0100\n"
+"PO-Revision-Date: 2017-11-07 15:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: profilepress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/action-links.php:9
+msgid "Buy Themes"
+msgstr ""
+
+#: classes/action-links.php:10
+msgid "Go Premium"
+msgstr ""
+
+#: classes/admin-notices.php:18
+#, php-format
+msgid ""
+"User registration currently disabled. To enable, Go to <a href=\"%1$s"
+"\">Settings -> General</a>, and under Membership, check \"Anyone can register"
+"\""
+msgstr ""
+
+#: classes/class-registration-form-auth.php:106
+msgid "Email address is not valid"
+msgstr ""
+
+#: classes/class-registration-form-auth.php:114
+#, php-format
+msgid "%s field is required"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:333 classes/tgm-dependencies.php:30
+msgid "Install Required Plugins"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:334 classes/tgm-dependencies.php:31
+msgid "Install Plugins"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:335 classes/tgm-dependencies.php:32
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:336 classes/tgm-dependencies.php:33
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:399 classes/class-tgm-plugin.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:400 classes/class-tgm-plugin.php:2832
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:521
+msgid "Update Required"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:828 classes/class-tgm-plugin.php:3438
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:935 classes/class-tgm-plugin.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:1116 classes/class-tgm-plugin.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:1881
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2167
+msgid "Required"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2189
+msgid "External Source"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2215
+msgid "Active"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2235
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2280
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:2283
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:2286
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:2289
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tgm-plugin.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2437
+msgid "Source"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2438
+msgid "Type"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2442
+msgid "Version"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2443
+msgid "Status"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2491
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2495
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2603
+msgid "Install"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2609
+msgid "Update"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2612
+msgid "Activate"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3370 classes/class-tgm-plugin.php:3376
+msgid "Show Details"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3370 classes/class-tgm-plugin.php:3376
+msgid "Hide Details"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: classes/class-tgm-plugin.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: classes/class.password-reset.php:48
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: classes/class.password-reset.php:53
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: classes/class.password-reset.php:73
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: classes/class.password-reset.php:112
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: classes/class.password-reset.php:147
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: classes/class.password-reset.php:149
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: classes/class.password-reset.php:150
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: classes/class.password-reset.php:151
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: classes/class.password-reset.php:164
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: classes/class.password-reset.php:225
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: classes/class.password-reset.php:225
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: classes/class.password-reset.php:285
+msgid "Check your e-mail for further instruction"
+msgstr ""
+
+#: classes/class.password-reset.php:378 classes/class.password-reset.php:393
+#: classes/class.password-reset.php:396
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: classes/class.password-reset.php:387
+msgid "Passwords do not match."
+msgstr ""
+
+#: classes/class.password-reset.php:390
+msgid "Please enter your password."
+msgstr ""
+
+#: classes/class.password-reset.php:402
+msgid "Your password has been reset."
+msgstr ""
+
+#: classes/class.password-reset.php:402
+msgid "Log in"
+msgstr ""
+
+#: classes/tgm-dependencies.php:34
+#, php-format
+msgid "ProfilePress requires the following plugin: %1$s."
+msgid_plural "ProfilePress requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/tgm-dependencies.php:35
+#, php-format
+msgid "ProfilePress recommends the following plugin: %1$s."
+msgid_plural "ProfilePress recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/tgm-dependencies.php:36
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with ProfilePress: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with ProfilePress: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/admin-footer.php:18
+#, php-format
+msgid ""
+"Thank you for using <a href=\"%1$s\" target=\"_blank\">ProfilePress</a>! "
+"Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href=\"%2$s\" "
+"target=\"_blank\">WordPress.org</a> | Upgrade to <a href=\"%3$s\" target="
+"\"_blank\">Premium</a>."
+msgstr ""
+
+#: views/general-settings.php:18
+msgid "ProfilePress Lite - Account Form Builder"
+msgstr ""
+
+#: views/general-settings.php:32
+msgid "General Settings - ProfilePress"
+msgstr ""
+
+#: views/general-settings.php:33
+msgid "Settings"
+msgstr ""
+
+#: views/general-settings.php:44
+msgid "General Settings - ProfilePress Lite"
+msgstr ""
+
+#: views/general-settings.php:46
+msgid "Settings saved"
+msgstr ""
+
+#: views/general-settings.php:66 views/general-settings.php:153
+#: views/include.plugin-settings-sidebar.php:6
+#: views/include.plugin-settings-sidebar.php:36
+#: views/include.plugin-settings-sidebar.php:68
+#: views/login-form-builder/include.add-login-builder.php:54
+#: views/login-form-builder/include.add-login-builder.php:101
+#: views/login-form-builder/include.edit-login-builder.php:24
+#: views/login-form-builder/include.edit-login-builder.php:73
+#: views/password-reset-builder/include.add-password-reset-builder.php:54
+#: views/password-reset-builder/include.add-password-reset-builder.php:102
+#: views/password-reset-builder/include.add-password-reset-builder.php:150
+#: views/password-reset-builder/include.edit-password-reset-builder.php:24
+#: views/password-reset-builder/include.edit-password-reset-builder.php:71
+#: views/password-reset-builder/include.edit-password-reset-builder.php:118
+#: views/registration-form-builder/include.add-registration-builder.php:79
+#: views/registration-form-builder/include.add-registration-builder.php:127
+#: views/registration-form-builder/include.edit-registration-builder.php:21
+#: views/registration-form-builder/include.edit-registration-builder.php:67
+msgid "Toggle panel"
+msgstr ""
+
+#: views/general-settings.php:70
+msgid "Global Settings"
+msgstr ""
+
+#: views/general-settings.php:75
+msgid "Password-reset Page"
+msgstr ""
+
+#: views/general-settings.php:86
+#, php-format
+msgid ""
+"Select the page you wish to make WordPress default \"Lost Password page\". "
+"%s This should be the page that contains the %s"
+msgstr ""
+
+#: views/general-settings.php:87 views/general-settings.php:106
+#: views/general-settings.php:125
+msgid "Note:"
+msgstr ""
+
+#: views/general-settings.php:88
+msgid "password reset  shortcode"
+msgstr ""
+
+#: views/general-settings.php:105
+#, php-format
+msgid ""
+"Select the page you wish to make WordPress default Login page. %s This "
+"should be the page that contains the %s"
+msgstr ""
+
+#: views/general-settings.php:107
+msgid "login form  shortcode"
+msgstr ""
+
+#: views/general-settings.php:124
+#, php-format
+msgid ""
+"Select the page you wish to make WordPress default Registration page. %s "
+"This should be the page that contains the %s"
+msgstr ""
+
+#: views/general-settings.php:126
+msgid "registration form  shortcode"
+msgstr ""
+
+#: views/general-settings.php:138
+msgid ""
+"Check this box if you would like ProfilePress to completely remove all of "
+"its data when the plugin is deleted."
+msgstr ""
+
+#: views/include.plugin-settings-sidebar.php:40
+msgid "Help & Support"
+msgstr ""
+
+#: views/login-form-builder/include.add-login-builder.php:93
+#: views/login-form-builder/include.add-login-builder.php:149
+#: views/login-form-builder/include.edit-login-builder.php:65
+#: views/login-form-builder/include.edit-login-builder.php:118
+#: views/password-reset-builder/include.add-password-reset-builder.php:94
+#: views/password-reset-builder/include.add-password-reset-builder.php:142
+#: views/password-reset-builder/include.add-password-reset-builder.php:205
+#: views/password-reset-builder/include.edit-password-reset-builder.php:63
+#: views/password-reset-builder/include.edit-password-reset-builder.php:110
+#: views/password-reset-builder/include.edit-password-reset-builder.php:174
+#: views/registration-form-builder/include.add-registration-builder.php:119
+#: views/registration-form-builder/include.add-registration-builder.php:185
+#: views/registration-form-builder/include.edit-registration-builder.php:59
+#: views/registration-form-builder/include.edit-registration-builder.php:126
+msgid "Save Changes"
+msgstr ""
+
+#: views/login-form-builder/login-builder-wp-list-table.php:18
+msgid "login"
+msgstr ""
+
+#: views/login-form-builder/login-builder-wp-list-table.php:19
+msgid "logins"
+msgstr ""
+
+#: views/login-form-builder/login-builder-wp-list-table.php:28
+msgid "No Login Form Available."
+msgstr ""
+
+#: views/login-form-builder/login-builder-wp-list-table.php:57
+#: views/password-reset-builder/password-reset-builder-wp-list-table.php:69
+#: views/registration-form-builder/registration-builder-wp-list-table.php:68
+msgid "Title"
+msgstr ""
+
+#: views/login-form-builder/login-builder-wp-list-table.php:58
+#: views/password-reset-builder/password-reset-builder-wp-list-table.php:70
+#: views/registration-form-builder/registration-builder-wp-list-table.php:69
+msgid "Shortcode"
+msgstr ""
+
+#: views/login-form-builder/login-builder-wp-list-table.php:59
+#: views/password-reset-builder/password-reset-builder-wp-list-table.php:71
+#: views/registration-form-builder/registration-builder-wp-list-table.php:70
+msgid "Date"
+msgstr ""
+
+#: views/login-form-builder/login-builder-wp-list-table.php:88
+#: views/password-reset-builder/password-reset-builder-wp-list-table.php:100
+msgid "Edit"
+msgstr ""
+
+#: views/login-form-builder/login-builder-wp-list-table.php:89
+#: views/password-reset-builder/password-reset-builder-wp-list-table.php:101
+#: views/registration-form-builder/registration-builder-wp-list-table.php:100
+msgid "Clone"
+msgstr ""
+
+#: views/login-form-builder/login-form-builder-settings-page.php:85
+#: views/login-form-builder/login-form-builder-settings-page.php:129
+#: views/login-form-builder/login-form-builder-settings-page.php:138
+msgid "Login Form Builder"
+msgstr ""
+
+#: views/login-form-builder/login-form-builder-settings-page.php:86
+#: views/login-form-builder/login-form-builder-settings-page.php:139
+#: views/password-reset-builder/password-reset-builder-settings-page.php:88
+#: views/password-reset-builder/password-reset-builder-settings-page.php:146
+#: views/registration-form-builder/registration-form-builder-settings-page.php:140
+msgid "Add New"
+msgstr ""
+
+#: views/login-form-builder/login-form-builder-settings-page.php:113
+msgid "Click to install starter login themes"
+msgstr ""
+
+#: views/login-form-builder/login-form-builder-settings-page.php:114
+#: views/password-reset-builder/password-reset-builder-settings-page.php:116
+#: views/registration-form-builder/registration-form-builder-settings-page.php:110
+msgid "Install Starter Themes"
+msgstr ""
+
+#: views/password-reset-builder/include.add-password-reset-builder.php:45
+msgid "Back to Catalog"
+msgstr ""
+
+#: views/password-reset-builder/include.add-password-reset-builder.php:62
+#: views/password-reset-builder/include.edit-password-reset-builder.php:32
+msgid "Theme Name"
+msgstr ""
+
+#: views/password-reset-builder/include.add-password-reset-builder.php:73
+msgid "Password Reset Form"
+msgstr ""
+
+#: views/password-reset-builder/include.add-password-reset-builder.php:87
+msgid "Password Reset Form Design & Structure"
+msgstr ""
+
+#: views/password-reset-builder/include.add-password-reset-builder.php:106
+msgid "Password Reset Form Preview"
+msgstr ""
+
+#: views/password-reset-builder/include.add-password-reset-builder.php:111
+#: views/password-reset-builder/include.add-password-reset-builder.php:159
+#: views/password-reset-builder/include.edit-password-reset-builder.php:80
+#: views/password-reset-builder/include.edit-password-reset-builder.php:127
+msgid "Preview Design"
+msgstr ""
+
+#: views/password-reset-builder/include.add-password-reset-builder.php:121
+#: views/password-reset-builder/include.edit-password-reset-builder.php:89
+msgid "Password Reset Handler Form"
+msgstr ""
+
+#: views/password-reset-builder/include.add-password-reset-builder.php:135
+#: views/password-reset-builder/include.edit-password-reset-builder.php:103
+msgid "Form Design & Structure of Password Reset Handler."
+msgstr ""
+
+#: views/password-reset-builder/include.add-password-reset-builder.php:154
+#: views/password-reset-builder/include.edit-password-reset-builder.php:122
+msgid "Password Reset Handler Form Preview"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-settings-page.php:87
+#: views/password-reset-builder/password-reset-builder-settings-page.php:131
+#: views/password-reset-builder/password-reset-builder-settings-page.php:145
+msgid "Password Reset Builder"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-settings-page.php:115
+msgid "Click to install starter password reset themes"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-settings-page.php:188
+msgid "Title is empty"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-settings-page.php:191
+msgid "Password Reset Form Design is missing"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-settings-page.php:194
+msgid "Password Reset Handler Form is missing"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-settings-page.php:230
+msgid "Password Reset forms"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-shortcode-parser.php:55
+msgid "Enter a new password below."
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-shortcode-parser.php:58
+msgid "New password"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-shortcode-parser.php:62
+msgid "Re-enter new password"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-wp-list-table.php:20
+msgid "password_reset"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-wp-list-table.php:21
+msgid "password_resets"
+msgstr ""
+
+#: views/password-reset-builder/password-reset-builder-wp-list-table.php:40
+msgid "No Password_Reset Form Available."
+msgstr ""
+
+#: views/registration-form-builder/parent-registration-shortcode-parser.php:54
+msgid "Registration is disabled in this site."
+msgstr ""
+
+#: views/registration-form-builder/registration-builder-shortcode-parser.php:199
+msgid "Website"
+msgstr ""
+
+#: views/registration-form-builder/registration-builder-shortcode-parser.php:241
+msgid "Nickname"
+msgstr ""
+
+#: views/registration-form-builder/registration-builder-shortcode-parser.php:282
+msgid "Display name"
+msgstr ""
+
+#: views/registration-form-builder/registration-builder-shortcode-parser.php:325
+msgid "First name"
+msgstr ""
+
+#: views/registration-form-builder/registration-builder-shortcode-parser.php:367
+msgid "Last name"
+msgstr ""
+
+#: views/registration-form-builder/registration-builder-shortcode-parser.php:409
+msgid "Bio description"
+msgstr ""
+
+#: views/registration-form-builder/registration-builder-wp-list-table.php:19
+msgid "registration"
+msgstr ""
+
+#: views/registration-form-builder/registration-builder-wp-list-table.php:20
+msgid "registrations"
+msgstr ""
+
+#: views/registration-form-builder/registration-builder-wp-list-table.php:39
+msgid "No Registration Form Available."
+msgstr ""
+
+#: views/registration-form-builder/registration-form-builder-settings-page.php:109
+msgid "Click to install starter registration themes"
+msgstr ""
+
+#: views/registration-form-builder/registration-form-builder-settings-page.php:125
+#: views/registration-form-builder/registration-form-builder-settings-page.php:139
+msgid "Registration Form Builder"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ProfilePress Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://profilepress.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Ultimate Custom Registration, Login, Profile and User Account Management "
+"WordPress Plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ProfilePress Team"
+msgstr ""

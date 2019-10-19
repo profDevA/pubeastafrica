@@ -412,7 +412,7 @@ var skroller;
 						}
 					} );
 
-					$( '<a class="thb-pin-it" href="https://pinterest.com/pin/create/bookmarklet/?url=' + encodeURIComponent( postURL ) + '&amp;media=' + encodeURIComponent( pinURL ) + encoded_desc + '&is_video=false" target="_blank"><i class="thb-icon-pinterest"></i>'+ themeajax.l10n.pinit +'</a>' )
+					$( '<a class="thb-pin-it" href="https://pinterest.com/pin/create/bookmarklet/?url=' + encodeURIComponent( postURL ) + '&amp;media=' + encodeURIComponent( pinURL ) + encoded_desc + '&is_video=false" target="_blank"><i class="fa fa-pinterest"></i></a>' )
 						.appendTo( container )
 					  .addClass( 'thb-pin-it-ready' )
 						.on( 'click', function() {

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "compass": "^0.1.1",
-    "npm-check-updates": "^3.1.22"
+    "npm-check-updates": "^3.1.23"
   },
   "devDependencies": {
     "grunt": "^1.0.4",

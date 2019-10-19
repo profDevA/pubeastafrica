@@ -620,7 +620,9 @@ function thb_post_author() {
 	?>
 	<aside class="post-author">
 		<em><?php esc_html_e( 'by', 'thevoux' ); ?></em> <?php the_author_posts_link(); ?>
-	</aside>
+        <em class="post-view-count"><i class="fa fa-eye">&nbsp;</i><?= gt_get_post_view();?></em>
+    </aside>
+
 	<?php
 }
 add_action( 'thb_post_author', 'thb_post_author', 10);

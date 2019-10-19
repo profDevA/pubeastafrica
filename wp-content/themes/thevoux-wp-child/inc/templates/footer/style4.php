@@ -13,6 +13,7 @@
 	<div class="row">
 		<div class="small-12 columns">
     	<a href="<?php echo esc_url(home_url('/')); ?>" class="logolink" title="<?php bloginfo('name'); ?>"><img src="<?php echo esc_url($logo); ?>" class="logo" alt="<?php bloginfo('name'); ?>"/></a>
+            <a class="footer-mail-link" href="mailto:info@publicisteastafrica.com">info@publicisteastafrica.com</a>
     	<?php if ($footer_menu = ot_get_option( 'footer_menu')) { ?>
     		<?php wp_nav_menu( array( 'menu' => $footer_menu, 'depth' => 1, 'container' => false  ) ); ?>
     	<?php } ?>

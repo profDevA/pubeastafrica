@@ -58,6 +58,8 @@
 			</div>
 			<div class="small-3 medium-2 columns social-holder <?php echo esc_attr($social_style = ot_get_option( 'header_socialstyle', 'style1')); ?>">
 					<?php do_action( 'thb_secondary_area', false); ?>
+                <a class="site-login" href="/log-in">Log in</a>
+                <a class="site-sign-up" href="/sign-up">Sign Up</a>
 			</div>
 		</div>
 	</div>
